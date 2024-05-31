@@ -1,0 +1,63 @@
+  C R Y S O L    Version 2.8.3  -- 04/10/12
+ 
+ 
+ -- Program  started  at   24-Feb-2020   14:25:46--
+ 
+ --------  Real space resolution and grid  -------- 
+ 
+  Maximum order of harmonics ............................ : 15
+  Order of Fibonacci grid ............................... : 17
+  Total number of directions ............................ : 2585
+ 
+ ------------  Reciprocal space grid  -------------
+ 
+   in s = 4*pi*sin(theta)/lambda [1/angstrom] 
+  Maximum scattering angle .............................. : 0.5000
+  Number of angular points .............................. : 51
+ 
+ --- Structural parameters (sizes in angstroms) --- 
+ 
+ PDB file name .......................................... : model_1_crysol_v2.pdb
+  Number of atoms read .................................. : 1136
+  Number of discarded hydrogens ......................... : 576
+ Geometric Center:   44.212   47.304   43.756
+  Number of C ........................................... : 507
+  Number of N ........................................... : 212
+  Number of O ........................................... : 365
+  Number of P ........................................... : 52
+ Center of the excess electron density: -0.031 -0.112 -0.011
+ Electron   Rg   :  18.28       Envelope   Rg      :  17.79    
+ Shape      Rg   :  18.21       Envelope  volume   : 0.2212E+05
+ Shell    volume : 0.1158E+05   Envelope  surface  :  3271.    
+ Shell      Rg   :  22.40       Envelope  radius   :  31.69    
+ Shell    width  :  3.000       Envelope  diameter :  58.78    
+ Molecular Weight: 0.1709E+05   Dry volume         : 0.2071E+05
+ Displaced volume: 0.1549E+05   Average atomic rad.:  1.482    
+ Number of bases :     53
+ 
+ ------  Experimental Curve and fitting ----------- 
+ 
+ Data file name ......................................... : 1KH6_crysol.dat
+  Maximum angle in the data file ........................ : 0.9950
+  Number of experimental points ......................... : 200
+  Angular units multiplied by ........................... : 1.000
+  Number of experimental points used .................... : 101
+ No regridding. Number of exp points kept
+ Electron density of the solvent, e/A**3 ................ : 0.3340
+  Number of experimental points used .................... : 100
+ 
+ -------  Search limits ---------------   ---  Fitting parameters -------
+  DroMin/Max   Ra(Mn/Mx)  ExVol(Min/max) Semax| Dro   Ra     Vol    Chi^2 Hydra
+ 0.000 0.075   1.40 1.80  14326.  16650. 0.495|0.048 1.400  14326.  4.401 0.465
+  
+ --------  Radii of gyration  [angstroms] ----------
+  
+ Rg ( Atoms - Excluded volume + Shell ) ................. : 18.94
+ Rg from the slope of net intensity ..................... : 19.03
+ Average electron density ............................... : 0.6143
+  
+ ----------------  Output files  ------------------
+  
+ Data fit       saved to file model_1_crysol_v200.fit
+ 
+  C R Y S O L    Version 2.8.3  -- 04/10/12 ----  terminated at   24-Feb-2020   14:25:46--

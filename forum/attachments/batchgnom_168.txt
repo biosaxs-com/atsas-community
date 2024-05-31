@@ -1,0 +1,33 @@
+#! /bin/bash
+#
+# Author:   Daniel Franke <franke@embl-hamburg.de>
+# License:  Public Domain
+# Date:     2011/08/11
+#
+# Synopsis: Run GNOM with different input/output files, 
+#           but otherwise an identical set of parameters
+#
+# Usage:    `batchgnmom.sh <MASTER> <DATFILE(S)>`
+#           In MASTER, the strings INPUTFILE and OUTPUTFILE are
+#           replaced by their respective values.
+#
+
+[[ -f $1 ]] || exit 1
+
+MASTER=$1
+shift
+
+TMP=`mktemp`
+
+for dat in $@ ; do
+  infile=$dat
+  outfile=$(basename $dat .dat).out
+
+  sed -e s/INPUTFILE/${infile}/           \
+      -e s/OUTPUTFILE/${outfile}/ $MASTER > $TMP
+
+  gnom < $TMP
+done
+
+rm -f $TMP kern.bin
+

@@ -1,0 +1,70 @@
+import argparse
+import os
+import glob
+
+parser = argparse.ArgumentParser(description='Fix residue numbering in EOM/RANCH generated PDBs')
+parser.add_argument('target', help='The target file or directory for processing')
+parser.add_argument('--output-dir', metavar='DIR', dest='output_dir', help='The output directory for the renumbered files (default: target directory)')
+parser.add_argument('--postfix' , metavar='PF', dest='postfix', help='The postfix to append to the filename to indicate the renumbering has been done (default: fix)', default='fix')
+
+args = parser.parse_args()
+
+target = os.path.abspath(args.target)
+
+if os.path.isdir(target):
+    target_dir = target
+    target_file = None
+else:
+    target_dir, t = os.path.split(target)
+    target_file = target
+
+if args.output_dir is not None:
+    output_dir = os.path.abspath(args.output_dir)
+else:
+    output_dir = target_dir
+
+postfix = args.postfix
+
+if target_file is None:
+    file_list = glob.glob(os.path.join(target_dir, '*.pdb'))
+else:
+    file_list = [target_file,]
+
+if len(file_list) == 0:
+    print("Can't find PDB files in directory {}!".format(target_dir))
+else:
+    if not os.path.exists(output_dir):
+        os.makedirs(output_dir)
+    print('Processing files')
+
+for tf in file_list:
+    residue_num = 0
+    previous_residue_num = 0
+
+    tdir, tfname = os.path.split(tf)
+
+    fname, ext  = os.path.splitext(tfname)
+
+    ofname = '{}_{}{}'.format(fname, postfix, ext)
+
+    of = os.path.join(output_dir, ofname)
+
+    print(tf)
+
+    with open(tf, 'r') as eom_file:
+        with open(of, 'w') as out_file:
+            for line in eom_file:
+                if line.startswith('ATOM'):
+                    current_residue_num = line.split()[5]
+
+                    if current_residue_num != previous_residue_num:
+                        residue_num = residue_num + 1
+
+                    new_line = line.replace('{:>3}   '.format(current_residue_num), '{:>3}   '.format(residue_num))
+
+                    previous_residue_num = current_residue_num
+
+                else:
+                    new_line = line
+
+                out_file.write(new_line)

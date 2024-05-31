@@ -1,0 +1,56 @@
+   C R Y S O N    Version 2.7  -- 28/01/15 
+ 
+ 
+ -- Program  started  at   21-Feb-2018   15:38:14--
+ 
+ --------  Real space resolution and grid  -------- 
+ 
+  Maximum order of harmonics ............................ : 15
+  Order of Fibonacci grid ............................... : 17
+  Total number of directions ............................ : 2585
+ 
+ ------------  Reciprocal space grid  -------------
+ 
+   in s = 4*pi*sin(theta)/lambda [1/angstrom] 
+  Maximum scattering angle .............................. : 0.5000
+  Number of angular points .............................. : 51
+Explicit hydrogen/deuterium used
+ Perdeuteration, chain [A] (0<y<1) ...................... : 0.0
+ D2O fraction in solvent ................................ : 1.000
+ 
+ --- Structural parameters (sizes in angstroms) --- 
+ 
+ PDB file name .......................................... : 2vb1.pdb
+  Number of atoms read .................................. : 2030
+  Number of skipped rotamers ............................ : 700
+  Number of discarded waters ............................ : 170
+ Geometric Center:   -1.759   14.680   24.191
+ Atomic     Rg   :  14.11       Envelope   Rg      :  14.87    
+ Shape      Rg   :  16.32       Envelope  volume   : 0.2387E+05
+ Shell    volume : 0.1375E+05   Envelope  surface  :  3891.    
+ Shell      Rg   :  20.16       Envelope  radius   :  27.83    
+ Shell    width  :  3.000       Envelope  diameter :  51.63    
+ Molecular Weight: 0.1319E+06   Dry volume         : 0.1598E+06
+ Displaced volume: 0.6724E+05   Average atomic rad.:  1.992    
+ Solvent density :  6.404       Particle contrast  : -3.417    
+ Number of residuals :               129
+ 
+ -- No data fitting, parameters entered manually --
+ 
+ Contrast of the solvation shell ........................ : 0.6404
+ Average atomic radius .................................. : 1.992
+ Excluded Volume ........................................ : 6.724e+4
+ Solvent density ........................................ : 6.404
+ Average atomic volume .................................. : 33.12
+ Radius of gyration from atomic structure
+ Rg ( Atoms - Excluded Volume + Shell ) ................. : 17.92
+ Rg from the slope of net intensity ..................... : 13.71
+  
+ ----------------  Output files  ------------------
+  
+ Coefficients   saved to file 2vb100.flm
+ CRYSON data    saved to file 2vb100.sav
+Intensities    saved to file 2vb100.int
+Net amplitudes saved to file 2vb100.alm
+ 
+   C R Y S O N    Version 2.7  -- 28/01/15  ----  terminated at   21-Feb-2018   15:38:49--

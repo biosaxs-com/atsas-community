@@ -1,0 +1,64 @@
+  C R Y S O L    Version 2.8.3  -- 04/10/12
+ 
+ 
+ -- Program  started  at   18-Mar-2016   12:28:34--
+ 
+ --------  Real space resolution and grid  -------- 
+ 
+  Maximum order of harmonics ............................ : 15
+  Order of Fibonacci grid ............................... : 17
+  Total number of directions ............................ : 2585
+ 
+ ------------  Reciprocal space grid  -------------
+ 
+   in s = 4*pi*sin(theta)/lambda [1/angstrom] 
+  Maximum scattering angle .............................. : 0.5000
+  Number of angular points .............................. : 51
+ 
+ --- Structural parameters (sizes in angstroms) --- 
+ 
+ PDB file name .......................................... : 5fcd-A.pdb
+  Number of atoms read .................................. : 1839
+  Number of skipped rotamers ............................ : 20
+  Number of discarded hydrogens ......................... : 1741
+ Geometric Center:   27.792   -5.805   -0.233
+  Number of carbons read ................................ : 1172
+  Number of nitrogens read .............................. : 314
+  Number of oxygens read ................................ : 342
+  Number of sulfur atoms read ........................... : 7
+  Number of selenium atoms read ......................... : 4
+ Center of the excess electron density: -0.478  0.170  0.131
+ Electron   Rg   :  18.77       Envelope   Rg      :  18.61    
+ Shape      Rg   :  18.76       Envelope  volume   : 0.3720E+05
+ Shell    volume : 0.1718E+05   Envelope  surface  :  4979.    
+ Shell      Rg   :  24.34       Envelope  radius   :  34.23    
+ Shell    width  :  3.000       Envelope  diameter :  61.87    
+ Molecular Weight: 0.2626E+05   Dry volume         : 0.3183E+05
+ Displaced volume: 0.3250E+05   Average atomic rad.:  1.616    
+ Number of residuals :     224
+ 
+ ------  Experimental Curve and fitting ----------- 
+ 
+ Data file name ......................................... : speg.dat
+  Maximum angle in the data file ........................ : 0.3896
+  Number of experimental points ......................... : 1268
+  Angular units multiplied by ........................... : 1.000
+  Number of points after regriding ...................... : 201
+ Electron density of the solvent, e/A**3 ................ : 0.3340
+ 
+ -------  Search limits ---------------   ---  Fitting parameters -------
+  DroMin/Max   Ra(Mn/Mx)  ExVol(Min/max) Semax| Dro   Ra     Vol    Chi^2 Hydra
+ 0.000 0.075   1.40 1.80  30065.  34941. 0.390|0.050 1.400  34291.******* 0.452
+  
+ --------  Radii of gyration  [angstroms] ----------
+  
+ Radius of Gyration from atomic structure
+ Rg ( Atoms - Excluded volume + Shell ) ................. : 20.45
+ Rg from the slope of net intensity ..................... : 20.75
+ Average electron density ............................... : 0.4075
+  
+ ----------------  Output files  ------------------
+  
+ Data fit       saved to file 5fcd-A00.fit
+ 
+  C R Y S O L    Version 2.8.3  -- 04/10/12 ----  terminated at   18-Mar-2016   12:28:35--

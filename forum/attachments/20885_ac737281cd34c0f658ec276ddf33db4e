@@ -1,0 +1,29 @@
+             GAJOE  Version 1.3
+            Ensemble optimization
+ Experimental data file name ............................ : 088_2.dat
+ Intensities file name .................................. : web00.int
+ Master file was used for this construct
+ --Advanced mode--
+ Number of generations .................................. : 1000
+ Number of ensembles .................................... : 50
+ Number of curves per ensemble .......................... : 20
+ Maximum number of mutations per ensemble ............... : 10
+ Number of crossings per generation ..................... : 20
+ Number of cycles ....................................... : 50
+ Repetitions allowed
+ Constant subtraction allowed
+ Convergence file is created
+ Analysis files will be created
+                       Number of theoretical curves :   203
+ Start:  Thu Sep  6 16:21:26 2012
+ End:    Thu Sep  6 16:28:30 2012
+ Files created:                                                                           
+ Log file ............................................... :                      GA001.log
+ File containing the selection frequency of each model... :              best_curve001.txt
+ Fit to the experimental data ........................... :           profiles088_2001.fit
+ Radius of gyration distribution ........................ :           Rg_distr088_2001.dat
+ Maximum Size distribution .............................. :         Size_distr088_2001.dat
+ Chi convergence ........................................ :             convergence001.txt
+ File showing the best ten ensembles of each cycle ...... :          selected_ensem001.txt
+ Files in the pdb folder:                                                                 
+ Filename                 Rg   Max.Size                                                   

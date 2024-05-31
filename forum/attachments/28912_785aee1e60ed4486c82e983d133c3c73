@@ -1,0 +1,133 @@
+
+   ===  MONSA145 started on    Sun Nov 20 06:06:45 2016  ===
+
+ Project identificator .................................. : 3_14
+ Description ............................................ : Monsa-online run
+ Random sequence initialized from ....................... : 1822140697
+ Master file name ....................................... : monsa.mst
+
+  Control file .......................................... : APOMERGE.con
+  Setup            1  :         1000   data points
+  Resolution file  Point collimation                                                               ,  setting            0
+ Setting title:    SAS curve                                                
+ Reading file ........................................... : APOMERGE.dat
+ WARNING: read only          220  points
+
+  Control file .......................................... : 210TMERGE.con
+  Setup            2  :         1000   data points
+  Resolution file  Point collimation                                                               ,  setting            0
+ Setting title:    SAS curve                                                
+ Reading file ........................................... : 210TMERGE.dat
+ WARNING: read only          220  points
+ S-limits for the master curve:   0.000000  0.340005
+ Number of knots in the master curve .................... : 256
+ Maximum order of harmonics ............................. : 14
+  DAM coordinates file name ............................. : 3_14.pdb
+ Number of atoms read ................................... : 3884
+ Point symmetry of the particle ......................... : P1
+ Number of equivalent positions ......................... : 1
+ Number of core (fixed) atoms ........................... : 0
+ Center of the molecule   :     0.0000   0.0000  -0.0000
+ Maximum radius ......................................... : 198.5
+ Number of DAM phases ................................... : 2
+ Number of basic functions .............................. : 3
+ Atomic radius .......................................... : 11.50
+ Atomic volume .......................................... : 8609.
+
+  Desired :  Volume       Vfract     Rg    
+ Phase  1  0.1100E+06  0.9283       34.33    
+ Phase  2   8500.      0.7173E-01  -1.000    
+ Radius of 1st coordination sphere ...................... : 32.43
+ Minimum number of contacts ............................. : 6
+ Maximum number of contacts ............................. : 12
+ Preference for non-solvent contacts .................... : 0.3000
+ Looseness penalty weight ............................... : 100.0
+ No of non-solvent atoms ................................ : 3884
+ Initial DAM looseness .................................. : 5.571e-3
+ Discontiguity   penalty weight ......................... : 50.00
+ Total discontiguity .................................... : 0.0
+ Overall DAM volume ..................................... : 3.344e+7
+ Total phase volume ..................................... : 3.344e+7
+ iPh  nAtom   Vfr   Volume           Center          Rg   nGrap   DisCog
+  1   3884  1.000 0.334E+08   0.00   0.00  -0.00   154.79   1     0.00000
+  2      0  0.000 0.000E+00   0.00   0.00   0.00     0.00   0     0.00000
+ Randomized phase volume ................................ : 2.250e+7
+ No of non-solvent atoms ................................ : 2614
+ Randomized DAM looseness ............................... : 0.1252
+ Randomized discontiguity ............................... : 0.1041
+ iPh  nAtom   Vfr   Volume           Center          Rg   nGrap   DisCog
+  1   1265  0.484 0.109E+08   2.56   1.76  -1.48   152.96  47     0.06364
+  2   1349  0.516 0.116E+08  -1.23  -0.80   2.64   155.52  35     0.04008
+ Number of core (fixed) atoms ........................... : 0
+ Volume fraction penalty weight ......................... : 50.00
+ Rg penalty weight ...................................... : 50.00
+ Center penalty weight .................................. : 0.0
+ Peripheral penalty weight .............................. : 50.00
+  Initial annealing temperature ......................... : 10.00
+  Annealing schedule factor ............................. : 0.9000
+ Max # of iterations at each T .......................... : 271880
+ Max # of successes at each T ........................... : 27188
+ Min # of successes to continue ......................... : 100
+ Number of annealing steps .............................. : 100
+
+      ---------------------------------------- 
+       Starting simulated annealing procedure  
+      ---------------------------------------- 
+
+
+  CPU for full evaluation   0.73999999999999999     
+
+     ---  Starting values  ---   
+  Total scale factor      :    35861132285555.539     
+  Function value          :   3.06225969300700067E+035
+  Overall discrepancy     :   3.06225969300700067E+035
+  SQRT(Overall discr.)    :   5.53376878176799232E+017
+  DAM looseness           :   0.12522152357688646     
+  DAM discontiguity       :   0.10410661451104311     
+  Overall penalty         :    2544.8975270082728     
+
+ jAnn:   1  T: 0.100E+02  iSuc:     0  nEva:   271880  CPU:  0.3549E+03
+  SqfVal:********  Rf:*********  Los: 0.1253 Dis: 0.1042  Sca: 0.359E+14
+  Switching to the fixed scale mode
+ jAnn:   2  T: 0.900E+01  iSuc:     0  nEva:   543760  CPU:  0.7091E+03
+  SqfVal:********  Rf:*********  Los: 0.1254 Dis: 0.1042  Sca: 0.359E+14
+
+ MONSA   report on   Sun Nov 20 06:18:34 2016 fVal   =  0.450E+18
+  - - - - - - - - - - - - - - - - - - - - - - 
+
+ Project:   Monsa-online run                                                 
+  Master file        :  monsa.mst                                                                       
+
+ Done:          543760 function calls,     1 temperatures
+
+   ----  Final MONSA solution --- 
+  Total scale factor      :    35910353533337.156     
+  Function value          :   3.02504287794495349E+035
+  Overall discrepancy     :   3.02504287794495349E+035
+  SQRT(Overall discr.)    :   5.50003897981182784E+017
+  DAM looseness           :   0.12537205995864070     
+  DAM discontiguity       :   0.10421096977398811     
+  Overall penalty         :    2549.5256926915540     
+  Dispersion of CurSca    :   0.86302717109471949     
+
+ Total phase volume ..................................... : 2.249e+7
+ Non-solvent DisCogAll .................................. : 3.829e-4
+ iPh  nAtom   Vfr   Volume           Center          Rg   nGrap   DisCog
+  1   1263  0.484 0.109E+08   2.59   1.78  -1.46   153.08  47     0.06375
+  2   1349  0.516 0.116E+08  -1.23  -0.80   2.64   155.52  35     0.04008
+
+  Desired :  Volume       Vfract     Rg    
+ Phase  1  0.1100E+06  0.9283       34.33    
+ Phase  2   8500.      0.7173E-01  -1.000    
+
+  DAM looseness penalty      :    12.537205995864070     
+  Volume fraction penalty    :    1933.5356061399928     
+  Radius of gyration penalty :    598.23028060667411     
+  Center penalty             :   1.20514603238342892E-002
+
+  --- Final fit to the experimental data --- 
+
+    File       RgExp       RgMod    Chi^2  RelChi^2  Weight  RelSca
+ APOMERGE.dat   0.00       0.00      0.398E+36  0.474E+33   1.00      0.137    
+    File       RgExp       RgMod    Chi^2  RelChi^2  Weight  RelSca
+ 210TMERGE.da   0.00       0.00      0.207E+36  0.501E+33   1.00       1.86    

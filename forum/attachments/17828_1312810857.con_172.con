@@ -1,0 +1,40 @@
+'Point collimation'   1
+'0.out'
+SANS data in 0 D2O
+94
+'0.dat'           2.50	2.50    0.00    0.00    1.00    0.00    1.00
+
+!!------------------------------------------------------------
+!! Control file and the setting information
+!!------------------------------------------------------------
+!!- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+!! Structure of the control file:
+!!
+!! Line 1    Resolution file name, resolution setting number (free format)
+!! Line 2    Output file name for the fits                   (free format)
+!! Line 3    Title                                           (character*80)
+!! Line 4    Number of points in the setting                 (free format)
+!! Line 5    Data file name, contrasts and constants         (free format)
+!!  etc      Erroneous lines skipped; read to the end
+!!- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+he information about the data sets is given in the format:
+
+Filename    Dro1        Dro2       Dro3       Dro4      Mult  Const   Weight
+
+Here, the data sets '?r1.dat' correspond to the scattering patterns from the
+test body in solvents with density 0.0, 2.0, 4.0, 6.0. The set 'infr1.dat'
+corresponds to "shape scattering" (infinite contrast). Note that the test
+would have worked also without the 'infinite contrast' data.
+
+Note that - filename should be given in quotes
+          - Put zeroes as contrasts for phases, which are not present
+          - All files in the setting MUST have the same number of points
+            and the same angular axis. If you have data set(s) on another
+            angular grid(s), put them as another setting(s)
+          - From each data set, a constant "Const" will be subtracted and the
+            result will be multiplied by "Mult"
+          - The data sets will be weighted with the relative weight
+            "Weight" in the total discrepancy. Reducing the weight is
+            equivalent to increasing errors in the data fail
+          - number of points must not exceed 500!

@@ -1,0 +1,43 @@
+dammif ........................................... : 1.0.1
+Log opened ....................................... : 2009-03-24, 11:33:30
+Run as:
+Full command line ................................ : C:\Atsas\dammif.EXE -u nanometer -m slow -p csf1l_015 -s p2 csf1l_015.out
+Configuration mode ............................... : slow
+Angular units .................................... : nanometer
+Prefix ........................................... : csf1l_015
+Threads .......................................... : 1
+GNOM input file .................................. : csf1l_015.out
+Expected particle anisometry ..................... : unknown
+Enforced particle symmetry ....................... : P2
+Pseudo-chains in PDB output ...................... : no
+GNOM file:
+Title ............................................ : 13-Mar-2009       (1.000 *savvides_01 - 1.000 *Avrag15.dat) /  2
+Angular units .................................... : nanometer
+Maximum particle diameter [Angstrom] ............. : 98.0
+Radius of gyration [Angstrom] .................... : 28.5
+Minimum s [1/Angstrom] ........................... : 0.00
+Maximum s [1/Angstrom] ........................... : 0.357
+Configured as:
+Output filename prefix ........................... : csf1l_015
+Dummy atom radius ................................ : 2.10
+Expected particle anisometry ..................... : unknown
+Number of spherical harmonics .................... : 20
+Proportion of the curve to be fitted ............. : 1.00
+Maximum s [1/Angstrom] ........................... : 0.357
+Number of shannon channels ....................... : 12
+Number of supporting points ...................... : 24
+Weighting function ............................... : emphasised porod
+Initial random seed .............................. : 969028873
+Maximum number of steps .......................... : 400
+Maximum number of iterations ..................... : 100000
+Minumum number of successes ...................... : 50
+Maximum number of successes ...................... : 10000
+Temperature scheduling factor .................... : 0.950
+Center penalty weight ............................ : 0.100E-04
+Rg penalty weight ................................ : 0.100E-02
+Looseness penalty weight ......................... : 0.100E-01
+Disconnectivity penalty weight ................... : 0.00
+Anisometry penalty weight ........................ : 0.00
+Constant subtraction ............................. : 0.769E-01
+Atom radius ...................................... : 2.10
+Annealing procedure status ....................... : warming up

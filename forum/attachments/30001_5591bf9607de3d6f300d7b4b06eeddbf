@@ -1,0 +1,191 @@
+validate_profile iq.dat > v.out
+validate_profile iq.dat 
+Input profile size is 938
+rrt_sample input.pdb hinges.dat -i 1000 -n 100 -s 0.3
+rrt_sample input.pdb hinges.dat -i 1000 -n 100 -s 0.3 
+radii_scaling parameter outside allowed range 0.3
+Starting reading pdb file input.pdb
+13 residues 0 bonds were read from file hinges.dat
+# atoms 2372 # bonds 2430 # angles 3289 # dihedrals 4329
+WARNING: protein atoms too close 1 "N" and 7 "CD" dist 1.02647
+WARNING: protein atoms too close 1 "CD" and 7 "CD" dist 1.26078
+WARNING: protein atoms too close 7 "CA" and 8 "OD1" dist 0.95562
+WARNING: protein atoms too close 7 "CB" and 8 "OD1" dist 1.22072
+WARNING: protein atoms too close 7 "CG" and 8 "CG" dist 1.62746
+WARNING: protein atoms too close 182 "C" and 186 "CE2" dist 0.648999
+WARNING: protein atoms too close 182 "C" and 186 "CZ" dist 1.49143
+WARNING: protein atoms too close 182 "O" and 186 "CE1" dist 1.62579
+WARNING: protein atoms too close 182 "O" and 186 "CE2" dist 1.45701
+WARNING: protein atoms too close 182 "O" and 186 "CZ" dist 0.72876
+WARNING: protein atoms too close 182 "O" and 186 "OH" dist 1.62003
+WARNING: protein atoms too close 183 "N" and 186 "CD2" dist 1.11009
+WARNING: protein atoms too close 183 "N" and 186 "CE2" dist 0.802322
+WARNING: protein atoms too close 183 "C" and 186 "CG" dist 1.07992
+WARNING: protein atoms too close 183 "C" and 186 "CD1" dist 1.22746
+WARNING: protein atoms too close 183 "O" and 186 "CB" dist 1.23963
+WARNING: protein atoms too close 183 "O" and 186 "CG" dist 0.403497
+WARNING: protein atoms too close 183 "O" and 186 "CD1" dist 1.42421
+WARNING: protein atoms too close 206 "CA" and 304 "NH1" dist 1.54334
+WARNING: protein atoms too close 206 "CB" and 304 "CZ" dist 1.6018
+WARNING: protein atoms too close 206 "CB" and 304 "NH1" dist 0.964113
+WARNING: protein atoms too close 206 "CG1" and 304 "NE" dist 0.967351
+WARNING: protein atoms too close 206 "CG1" and 304 "CZ" dist 0.679361
+WARNING: protein atoms too close 206 "CG1" and 304 "NH1" dist 1.56485
+WARNING: protein atoms too close 206 "CG2" and 304 "NH1" dist 1.53061
+WARNING: protein atoms too close 302 "O" and 303 "N" dist 0.75599
+0 bonds were added
+# atoms 2372 # bonds 2430 # angles 3289 # dihedrals 4329
+Rb 0 created with 715 atoms
+Rb 1 created with 5 atoms
+Rb 2 created with 3 atoms
+Rb 3 created with 5 atoms
+Rb 4 created with 3 atoms
+Rb 5 created with 3 atoms
+Rb 6 created with 3 atoms
+Rb 7 created with 6 atoms
+Rb 8 created with 3 atoms
+Rb 9 created with 5 atoms
+Rb 10 created with 3 atoms
+Rb 11 created with 6 atoms
+Rb 12 created with 659 atoms
+Rb 13 created with 5 atoms
+Rb 14 created with 7 atoms
+Rb 15 created with 3 atoms
+Rb 16 created with 4 atoms
+Rb 17 created with 3 atoms
+Rb 18 created with 9 atoms
+Rb 19 created with 7 atoms
+Rb 20 created with 3 atoms
+Rb 21 created with 5 atoms
+Rb 22 created with 3 atoms
+Rb 23 created with 1 atoms
+Rb 24 created with 903 atoms
+25 rigid bodies were created 
+connecting 0 1
+connecting 2 3
+connecting 4 5
+connecting 6 7
+connecting 8 9
+connecting 10 11
+connecting 12 13
+connecting 15 16
+connecting 17 18
+connecting 20 21
+connecting 22 23
+connecting 1 2
+connecting 3 4
+connecting 5 6
+connecting 7 8
+connecting 9 10
+connecting 11 12
+connecting 13 14
+connecting 14 15
+connecting 16 17
+connecting 18 19
+connecting 19 20
+connecting 21 22
+connecting 23 24
+tree_edge 24 -- 23 dfs_order 0 -- 0
+tree_edge 23 -- 22 dfs_order 1 -- 0
+tree_edge 22 -- 21 dfs_order 2 -- 0
+tree_edge 21 -- 20 dfs_order 3 -- 0
+tree_edge 20 -- 19 dfs_order 4 -- 0
+tree_edge 19 -- 18 dfs_order 5 -- 0
+tree_edge 18 -- 17 dfs_order 6 -- 0
+tree_edge 17 -- 16 dfs_order 7 -- 0
+tree_edge 16 -- 15 dfs_order 8 -- 0
+tree_edge 15 -- 14 dfs_order 9 -- 0
+tree_edge 14 -- 13 dfs_order 10 -- 0
+tree_edge 13 -- 12 dfs_order 11 -- 0
+tree_edge 12 -- 11 dfs_order 12 -- 0
+tree_edge 11 -- 10 dfs_order 13 -- 0
+tree_edge 10 -- 9 dfs_order 14 -- 0
+tree_edge 9 -- 8 dfs_order 15 -- 0
+tree_edge 8 -- 7 dfs_order 16 -- 0
+tree_edge 7 -- 6 dfs_order 17 -- 0
+tree_edge 6 -- 5 dfs_order 18 -- 0
+tree_edge 5 -- 4 dfs_order 19 -- 0
+tree_edge 4 -- 3 dfs_order 20 -- 0
+tree_edge 3 -- 2 dfs_order 21 -- 0
+tree_edge 2 -- 1 dfs_order 22 -- 0
+tree_edge 1 -- 0 dfs_order 23 -- 0
+rb order 0 --> 24 parent 0
+rb order 1 --> 23 parent 24
+rb order 2 --> 22 parent 23
+rb order 3 --> 21 parent 22
+rb order 4 --> 20 parent 21
+rb order 5 --> 19 parent 20
+rb order 6 --> 18 parent 19
+rb order 7 --> 17 parent 18
+rb order 8 --> 16 parent 17
+rb order 9 --> 15 parent 16
+rb order 10 --> 14 parent 15
+rb order 11 --> 13 parent 14
+rb order 12 --> 12 parent 13
+rb order 13 --> 11 parent 12
+rb order 14 --> 10 parent 11
+rb order 15 --> 9 parent 10
+rb order 16 --> 8 parent 9
+rb order 17 --> 7 parent 8
+rb order 18 --> 6 parent 7
+rb order 19 --> 5 parent 6
+rb order 20 --> 4 parent 5
+rb order 21 --> 3 parent 4
+rb order 22 --> 2 parent 3
+rb order 23 --> 1 parent 2
+rb order 24 --> 0 parent 1
+24 joints were constructed 
+ProteinKinematics done
+Angle = -0.0163731 -0.93811
+setting range 3.14159 res_index 1659
+Angle = -2.08033 -119.194
+setting range 3.14159 res_index 1659
+Angle = 2.64698 151.661
+setting range 3.14159 res_index 1650
+Angle = -1.65343 -94.7345
+setting range 3.14159 res_index 1650
+Angle = 2.65484 152.111
+setting range 3.14159 res_index 1642
+Angle = 1.22655 70.2763
+setting range 3.14159 res_index 1629
+Angle = -2.19278 -125.637
+setting range 3.14159 res_index 1629
+Angle = 2.40147 137.594
+setting range 3.14159 res_index 1621
+Angle = -3.14065 -179.946
+setting range 3.14159 res_index 1621
+Angle = -3.14143 -179.991
+setting range 3.14159 res_index 1613
+Angle = -3.14153 -179.996
+setting range 3.14159 res_index 1604
+Angle = -1.1029 -63.1913
+setting range 3.14159 res_index 1604
+Angle = 2.87359 164.645
+setting range 3.14159 res_index 854
+Angle = -1.5793 -90.4875
+setting range 3.14159 res_index 854
+Angle = 2.76944 158.677
+setting range 3.14159 res_index 845
+Angle = -2.47755 -141.953
+setting range 3.14159 res_index 845
+Angle = -0.846358 -48.4928
+setting range 3.14159 res_index 835
+Angle = -1.06472 -61.0039
+setting range 3.14159 res_index 835
+Angle = -1.02365 -58.6506
+setting range 3.14159 res_index 828
+Angle = -1.21021 -69.3402
+setting range 3.14159 res_index 828
+Angle = 2.48435 142.343
+setting range 3.14159 res_index 819
+Angle = -3.01528 -172.763
+setting range 3.14159 res_index 819
+Angle = -0.374103 -21.4345
+setting range 3.14159 res_index 810
+Angle = -1.0559 -60.4983
+setting range 3.14159 res_index 810
+Init  RRT
+Start RRT run
+Initial configuration in the forbidden space!!!
+Try to decrease radii scaling parameter
+ERROR: RRT generated no conformations

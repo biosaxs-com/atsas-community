@@ -1,0 +1,58 @@
+ls -l
+total 1064
+-rw-r--r--  1 xx  staff     345 20 Sep 11:48 1.log
+-rw-r--r--  1 xx  staff     275 20 Sep 15:55 2.log
+-rw-r--r--  1 xx  staff  336074 20 Sep 08:23 dam.pdb
+-rw-r--r--@ 1 xx  staff    3724 19 Sep 17:27 koraoa_0.dat
+-rw-r--r--  1 xx  staff     114 20 Sep 15:55 koraoa_0_ed.con
+-rw-r--r--  1 xx  staff    3161 20 Sep 08:15 koraoa_0_ed.dat
+-rw-r--r--  1 xx  staff    3640 20 Sep 08:17 koraoa_100.dat
+-rw-r--r--  1 xx  staff     122 20 Sep 15:55 koraoa_100_ed.con
+-rw-r--r--  1 xx  staff    3328 20 Sep 08:18 koraoa_100_ed.dat
+-rw-r--r--@ 1 xx  staff    3251 19 Sep 17:27 koraoa_65.dat
+-rw-r--r--  1 xx  staff     119 20 Sep 15:55 koraoa_65_ed.con
+-rw-r--r--  1 xx  staff    2691 20 Sep 08:16 koraoa_65_ed.dat
+-rw-r--r--  1 xx  staff     117 20 Sep 15:55 merge02_ed.con
+-rw-r--r--@ 1 xx  staff   87872 19 Sep 17:27 merge02_kora_oa_tp.dat
+-rw-r--r--  1 xx  staff   60999 20 Sep 08:21 merge02_tp_ed.dat
+-rw-r--r--  1 xx  staff     156 20 Sep 15:50 monsa.mst
+
+cat monsa.mst
+MONSA file for KorA_Oa
+20e3.0 20e3.0 0.0 0.0	
+0.0 0.0 0.0 0.0
+0 0 0 0
+'merge02_ed.con' -1
+'koraoa_0_ed.con' -1
+'koraoa_65_ed.con' -1
+'koraoa_100_ed.con' -1
+
+cat merge02_ed.con
+  'Point collimation' 0
+  'xxxxxxx.fit'
+   SAS curve
+   1200
+'merge02_tp_ed.dat'  1.0 2.0 0.0 0.0   1.00   0.0  1.00
+
+cat koraoa_0_ed.con
+  'Point collimation' 0
+  'xxxxxxx.fit'
+   SAS curve
+   200
+'koraoa_0_ed.dat'  2.5 4.5 0.0 0.0   1.00   0.0  1.00
+
+cat koraoa_65_ed.con
+  'Point collimation' 0
+  'xxxxxxx.fit'
+   SAS curve
+   200
+'koraoa_65_ed.dat'  -355 -385.5 0.0 0.0   1.00   0.0  1.00
+
+cat koraoa_100_ed.con
+  'Point collimation' 0
+  'xxxxxxx.fit'
+   SAS curve
+   200
+'koraoa_100_ed.dat'  -547.5 -595.5 0.0 0.0   1.00   0.0  1.00
+
+

@@ -1,0 +1,57 @@
+   C R Y S O L    Version 2.8  -- 01/02/12 
+ 
+ 
+ -- Program  started  at   10-Oct-2012   14:00:38--
+ 
+ --------  Real space resolution and grid  -------- 
+ 
+  Maximum order of harmonics ............................ : 15
+  Order of Fibonacci grid ............................... : 17
+  Total number of directions ............................ : 2585
+ 
+ ------------  Reciprocal space grid  -------------
+ 
+   in s = 4*pi*sin(theta)/lambda [1/angstrom] 
+  Maximum scattering angle .............................. : 0.5000
+  Number of angular points .............................. : 51
+ 
+ --- Structural parameters (sizes in angstroms) --- 
+ 
+ PDB file name .......................................... : 6LYZ.PDB
+  Number of atoms read .................................. : 1001
+  Number of discarded waters ............................ : 101
+ Geometric Center:   -0.569   20.578   19.252
+  Number of carbons read ................................ : 613
+  Number of nitrogens read .............................. : 193
+  Number of oxigens read ................................ : 185
+  Number of sulfur atoms read ........................... : 10
+ Center of the excess electron density:  0.446 -0.004  0.272
+ Electron   Rg   :  13.99       Envelope   Rg      :  14.01    
+ Shape      Rg   :  13.97       Envelope  volume   : 0.1842E+05
+ Shell    volume : 0.1158E+05   Envelope  surface  :  3232.    
+ Shell      Rg   :  18.89       Envelope  radius   :  25.49    
+ Shell    width  :  3.000       Envelope  diameter :  49.04    
+ Molecular Weight: 0.1432E+05   Dry volume         : 0.1735E+05
+ Displaced volume: 0.1741E+05   Average atomic rad.:  1.607    
+ Number of residuals :     129
+ 
+ -- No data fitting, parameters entered manually --
+ 
+ Solvent density ........................................ : 0.3340
+ Contrast of the solvation shell ........................ : 3.000e-2
+ Average atomic radius .................................. : 1.607
+ Excluded Volume ........................................ : 1.741e+4
+ Average atomic volume .................................. : 17.39
+ Radius of gyration from atomic structure
+ Rg ( Atoms - Excluded volume + Shell ) ................. : 15.02
+ Rg from the slope of net intensity ..................... : 15.39
+ Average electron density ............................... : 0.4384
+  
+ ----------------  Output files  ------------------
+  
+ Coefficients   saved to file 6LYZ00.flm
+ CRYSOL data    saved to file 6LYZ00.sav
+ Intensities    saved to file 6LYZ00.int
+ Net amplitudes saved to file 6LYZ00.alm
+ 
+   C R Y S O L    Version 2.8  -- 01/02/12  ----  terminated at   10-Oct-2012   14:00:57--

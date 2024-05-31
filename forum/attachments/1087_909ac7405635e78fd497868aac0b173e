@@ -1,0 +1,60 @@
+*******  ------------------------------------------------------  *******
+*******     Advanced Ensemble Optimization Method                *******
+*******     EOM - version 2.1 - (r4556)                    *******
+*******     Copyright (c) ATSAS Team                             *******
+*******     EMBL, Hamburg Outstation, 2007 - 2014                *******
+*******                                                          *******
+*******     For doubts/questions please visit SAXIER forum:      *******
+*******     http://www.saxier.org/forum/viewforum.php?f=10       *******
+*******                                                          *******
+*******     In case of bugs please refer to:                     *******
+*******     G. Tria, D.I. Svergun, EMBL BioSAXS group            *******
+*******     atsas@embl-hamburg.de                                *******
+*******  ------------------------------------------------------  *******
+Core symmetry? Select one of: (1) p1, (2) p2, (3) p3, (4) p4, (5) p5,
+(6) p6, (7) p7, (8) p8, (9) p9, (10) p10, (11) p11, (12) p12, (13)
+p13, (14) p14, (15) p15, (16) p16, (17) p17, (18) p18, (19) p19, (20)
+p22, (21) p32, (22) p42, (23) p52, (24) p62, (25) p72, (26) p82, (27)
+p92, (28) p102, (29) p112, (30) p122, (31) p222 (default: p1) ........ :
+Chain type to generate? Select one of: (c) compact-chain, (n)
+native-like, (r) random-coil (default: random-coil) .................. : n
+Sequence file name? .................................................. : ash-eom
+.seq
+Number of domains? (max. 50) (default: 0) ............................ : 4
+------ Domain  1 ------
+PDB file name for the domain ......................................... : phda.pd
+b
+Keep the subunit in the original PDB coordinates? (default: no) ...... :
+PDB file for D/RNA bound to the subunit (CR for none) ................ :
+------ Domain  2 ------
+PDB file name for the domain ......................................... : sprya1.
+pdb
+Keep the subunit in the original PDB coordinates? (default: no) ...... : y
+PDB file for D/RNA bound to the subunit (CR for none) ................ :
+------ Domain  3 ------
+PDB file name for the domain ......................................... : sprya2.
+pdb
+Keep the subunit in the original PDB coordinates? (default: no) ...... : y
+PDB file for D/RNA bound to the subunit (CR for none) ................ :
+------ Domain  4 ------
+PDB file name for the domain ......................................... : sdia1.p
+db
+Keep the subunit in the original PDB coordinates? (default: no) ...... :
+PDB file for D/RNA bound to the subunit (CR for none) ................ : dpya1.p
+db
+Total number of models to generate (default: 10000) .................. :
+File enumeration starting from? (default: 1) ......................... :
+Save the generated PDB files? (default: no) .......................... :
+Suffix of generated pdb files? (default: eom) ........................ :
+Calculate Intensity? (default: yes) .................................. :
+Number of harmonics (min. 10, max. 50)? (default: 15) ................ :
+Maximum s value (min. 0.1, max. 0.5)? (default: 0.500) ............... :
+Number of points (min. 10, max. 201)? (default: 51) .................. :
+Run the Genetic Algorithm? (default: yes) ............................ :
+How many times (min. 1)? (default: 1) ................................ :
+Number of experimental curves to fit? (default: 1) ................... :
+Experimental data file name  1? (*.dat) .............................. : ashdpyc
+ut.dat
+ Loading values and configuration ...
+ Number of residues per chain:          530
+ Alignment Problems: check the sequence and the domains

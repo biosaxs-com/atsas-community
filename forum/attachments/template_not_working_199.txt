@@ -1,0 +1,31 @@
+Expert!choose the mode
+templatetest!logname
+1mm160!gnom output file
+testing expert mode without penalties yet 20110209!project description
+1!momentum units
+1!portion of the curve to fit
+!
+adpbef1!model or CR for random
+P1
+!
+!
+!
+!
+!
+1.0
+!
+!
+!something
+!penalty1
+!
+!
+!
+!
+!
+0.00001!initial annealing temp
+
+
+
+
+
+

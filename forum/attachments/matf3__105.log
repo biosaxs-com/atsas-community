@@ -1,0 +1,182 @@
+   === CREDO06 started at           07-Jul-2008   10:22:50
+ Computation mode ....................................... : Expert
+ Project identificator .................................. : matf3_
+ Project decsription .................................... : modl gly 37aa mASISTF3
+ Random sequence initialized from ....................... : 102341
+ GNOM file name ......................................... : mASISTF3.out
+  ** Information read from the GNOM file **
+ Data set title ......................................... :   Merge of: TF11.dat TF12.dat
+ Raw data file name ..................................... : TF_merge.dat
+ Maximum diameter of the particle ....................... : 16.50
+  Solution at Alpha =  0.282E+02   Rg :  0.395E+01   I(0) :   0.584E+01
+ Radius of gyration ..................................... : 3.950
+ Number of GNOM data points ............................. : 466
+ Angular units multiplied by ............................ : 0.1000
+ Maximum diameter divided by ............................ : 0.1000
+ Maximum s value [1/angstrom] ........................... : 0.2480
+ Number of Shannon channels ............................. : 13.03
+ Number of knots in the curve to fit .................... : 65
+ DRM coordinates file ................................... : 6reca.pdb
+ Number of DRs read ..................................... : 627
+ Center of DRs read:    1.274  -0.835   0.421
+Center of the initial structure was shifted to the origin
+ Point symmetry of the particle ......................... : P1
+ Number of equivalent positions ......................... : 1
+ Total number of residues ............................... : 664
+ Packing radius of dummy atoms .......................... : 1.900
+  Number of dummy waters ................................ : 611
+ Excluded volume per residue ............................ : 28.73
+ Radius of the search volume ............................ : 82.50
+ Distances histogram penalty weight ..................... : 1.000e-3
+ Bond length penalty weight ............................. : 1.000e-2
+ Discontiguity penalty weight ........................... : 1.000e-2
+ Local discontiguity penalty weight ..................... : 1.000e-2
+ Peripheral penalty (PGyr) weight ....................... : 1.000e-3
+ Contrast of the hydration layer ........................ : 3.000e-2
+ Histogram penalty value ................................ : 9.173
+ Bond length penalty value .............................. : 1.059e-2
+ Initial DRM # of graphs ................................ : 37
+ Discontiguity   value .................................. : 0.3541
+ Local penalty value .................................... : 3.611
+ Peripheral penalty value ............................... : 20.04
+ Weight: 0=s^2,1=const at s<MaxPor,2=aver ............... : 2
+ Initial scale factor ................................... : 6.131e-8
+ Scale factor fixed (Y=Yes, N=No) ....................... : N
+ Initial R^2 factor ..................................... : 2.601e-3
+ Initial R   factor ..................................... : 5.100e-2
+ Initial penalty ........................................ : 6.897e-2
+ Initial fVal ........................................... : 7.157e-2
+ R-factor fixing threshold .............................. : 0.0
+ Fixing threshold for PenCha ............................ : 0.0
+ Fixing threshold for PenLen ............................ : 0.0
+ Fixing thresholds PenLoc ............................... : 0.0
+ Initial annealing temperature .......................... : 1.000e-3
+ Annealing schedule factor .............................. : 0.9000
+ # of independent atoms to modify ....................... : 1
+ Max # of iterations at each T .......................... : 30000
+ Max # of successes at each T ........................... : 3000
+ Min # of successes to continue ......................... : 30
+ Max # of annealing steps ............................... : 100
+  ====  Simulated annealing procedure started  ====
+ j:   1 T: 0.100E-02 Suc:  3000 Eva:     4001 CPU:  0.341E+02 SqF: 0.1174
+  Rf: 0.03571 Dst:  7.91 Bnd: 0.018 Dis:0.3584 Gyr :0.0000 Loc : 0.0846
+ j:   2 T: 0.900E-03 Suc:  3000 Eva:     8032 CPU:  0.640E+02 SqF: 0.1159
+  Rf: 0.02589 Dst:  8.02 Bnd: 0.060 Dis:0.3584 Gyr :0.0147 Loc : 0.0556
+ j:   3 T: 0.810E-03 Suc:  3000 Eva:    12296 CPU:  0.950E+02 SqF: 0.1159
+  Rf: 0.02589 Dst:  8.02 Bnd: 0.060 Dis:0.3584 Gyr :0.0147 Loc : 0.0556
+ j:   4 T: 0.729E-03 Suc:  3000 Eva:    16621 CPU:  0.125E+03 SqF: 0.1141
+  Rf: 0.02877 Dst:  7.93 Bnd: 0.042 Dis:0.3584 Gyr :0.0003 Loc : 0.0274
+ j:   5 T: 0.656E-03 Suc:  3000 Eva:    20907 CPU:  0.156E+03 SqF: 0.1141
+  Rf: 0.02877 Dst:  7.93 Bnd: 0.042 Dis:0.3584 Gyr :0.0003 Loc : 0.0274
+ j:   6 T: 0.590E-03 Suc:  3000 Eva:    25551 CPU:  0.189E+03 SqF: 0.1113
+  Rf: 0.02619 Dst:  7.80 Bnd: 0.032 Dis:0.3584 Gyr :0.0001 Loc : 0.0000
+ j:   7 T: 0.531E-03 Suc:  3000 Eva:    30205 CPU:  0.221E+03 SqF: 0.1113
+  Rf: 0.02619 Dst:  7.80 Bnd: 0.032 Dis:0.3584 Gyr :0.0001 Loc : 0.0000
+ j:   8 T: 0.478E-03 Suc:  3000 Eva:    35254 CPU:  0.256E+03 SqF: 0.1113
+  Rf: 0.02619 Dst:  7.80 Bnd: 0.032 Dis:0.3584 Gyr :0.0001 Loc : 0.0000
+ j:   9 T: 0.430E-03 Suc:  3000 Eva:    40535 CPU:  0.292E+03 SqF: 0.1096
+  Rf: 0.02002 Dst:  7.70 Bnd: 0.032 Dis:0.3584 Gyr :0.0050 Loc : 0.0000
+ j:  10 T: 0.387E-03 Suc:  3000 Eva:    45871 CPU:  0.327E+03 SqF: 0.1096
+  Rf: 0.02002 Dst:  7.70 Bnd: 0.032 Dis:0.3584 Gyr :0.0050 Loc : 0.0000
+ j:  11 T: 0.349E-03 Suc:  3000 Eva:    51477 CPU:  0.365E+03 SqF: 0.1096
+  Rf: 0.02002 Dst:  7.70 Bnd: 0.032 Dis:0.3584 Gyr :0.0050 Loc : 0.0000
+ j:  12 T: 0.314E-03 Suc:  3000 Eva:    57502 CPU:  0.405E+03 SqF: 0.1096
+  Rf: 0.02002 Dst:  7.70 Bnd: 0.032 Dis:0.3584 Gyr :0.0050 Loc : 0.0000
+ j:  13 T: 0.282E-03 Suc:  3000 Eva:    63908 CPU:  0.448E+03 SqF: 0.1093
+  Rf: 0.02093 Dst:  7.80 Bnd: 0.013 Dis:0.3584 Gyr :0.0002 Loc : 0.0000
+ j:  14 T: 0.254E-03 Suc:  3000 Eva:    70427 CPU:  0.491E+03 SqF: 0.1093
+  Rf: 0.02093 Dst:  7.80 Bnd: 0.013 Dis:0.3584 Gyr :0.0002 Loc : 0.0000
+ j:  15 T: 0.229E-03 Suc:  3000 Eva:    77423 CPU:  0.538E+03 SqF: 0.1093
+  Rf: 0.02093 Dst:  7.80 Bnd: 0.013 Dis:0.3584 Gyr :0.0002 Loc : 0.0000
+ j:  16 T: 0.206E-03 Suc:  3000 Eva:    84623 CPU:  0.586E+03 SqF: 0.1093
+  Rf: 0.02093 Dst:  7.80 Bnd: 0.013 Dis:0.3584 Gyr :0.0002 Loc : 0.0000
+ j:  17 T: 0.185E-03 Suc:  3000 Eva:    92597 CPU:  0.637E+03 SqF: 0.1093
+  Rf: 0.02093 Dst:  7.80 Bnd: 0.013 Dis:0.3584 Gyr :0.0002 Loc : 0.0000
+ j:  18 T: 0.167E-03 Suc:  3000 Eva:   100741 CPU:  0.692E+03 SqF: 0.1093
+  Rf: 0.01864 Dst:  7.75 Bnd: 0.020 Dis:0.3584 Gyr :0.0607 Loc : 0.0000
+ j:  19 T: 0.150E-03 Suc:  3000 Eva:   109640 CPU:  0.754E+03 SqF: 0.1093
+  Rf: 0.01864 Dst:  7.75 Bnd: 0.020 Dis:0.3584 Gyr :0.0607 Loc : 0.0000
+ j:  20 T: 0.135E-03 Suc:  3000 Eva:   119344 CPU:  0.821E+03 SqF: 0.1093
+  Rf: 0.01864 Dst:  7.75 Bnd: 0.020 Dis:0.3584 Gyr :0.0607 Loc : 0.0000
+ j:  21 T: 0.122E-03 Suc:  3000 Eva:   129083 CPU:  0.887E+03 SqF: 0.1088
+  Rf: 0.01937 Dst:  7.72 Bnd: 0.014 Dis:0.3584 Gyr :0.0039 Loc : 0.0000
+ j:  22 T: 0.109E-03 Suc:  3000 Eva:   139691 CPU:  0.961E+03 SqF: 0.1088
+  Rf: 0.01937 Dst:  7.72 Bnd: 0.014 Dis:0.3584 Gyr :0.0039 Loc : 0.0000
+ j:  23 T: 0.985E-04 Suc:  3000 Eva:   150698 CPU:  0.104E+04 SqF: 0.1088
+  Rf: 0.01937 Dst:  7.72 Bnd: 0.014 Dis:0.3584 Gyr :0.0039 Loc : 0.0000
+ j:  24 T: 0.886E-04 Suc:  3000 Eva:   162026 CPU:  0.111E+04 SqF: 0.1085
+  Rf: 0.01967 Dst:  7.67 Bnd: 0.012 Dis:0.3584 Gyr :0.0025 Loc : 0.0000
+ j:  25 T: 0.798E-04 Suc:  3000 Eva:   174155 CPU:  0.121E+04 SqF: 0.1085
+  Rf: 0.01967 Dst:  7.67 Bnd: 0.012 Dis:0.3584 Gyr :0.0025 Loc : 0.0000
+ j:  26 T: 0.718E-04 Suc:  3000 Eva:   187244 CPU:  0.130E+04 SqF: 0.1083
+  Rf: 0.01651 Dst:  7.72 Bnd: 0.013 Dis:0.3584 Gyr :0.0234 Loc : 0.0000
+ j:  27 T: 0.646E-04 Suc:  3000 Eva:   201105 CPU:  0.142E+04 SqF: 0.1079
+  Rf: 0.01708 Dst:  7.64 Bnd: 0.009 Dis:0.3584 Gyr :0.0373 Loc : 0.0000
+ j:  28 T: 0.581E-04 Suc:  3000 Eva:   215963 CPU:  0.152E+04 SqF: 0.1078
+  Rf: 0.01863 Dst:  7.60 Bnd: 0.009 Dis:0.3584 Gyr :0.0009 Loc : 0.0000
+ j:  29 T: 0.523E-04 Suc:  3000 Eva:   231261 CPU:  0.163E+04 SqF: 0.1075
+  Rf: 0.01647 Dst:  7.57 Bnd: 0.012 Dis:0.3584 Gyr :0.0038 Loc : 0.0000
+ j:  30 T: 0.471E-04 Suc:  3000 Eva:   247775 CPU:  0.174E+04 SqF: 0.1075
+  Rf: 0.01647 Dst:  7.57 Bnd: 0.012 Dis:0.3584 Gyr :0.0038 Loc : 0.0000
+ j:  31 T: 0.424E-04 Suc:  3000 Eva:   264611 CPU:  0.187E+04 SqF: 0.1075
+  Rf: 0.01647 Dst:  7.57 Bnd: 0.012 Dis:0.3584 Gyr :0.0038 Loc : 0.0000
+ j:  32 T: 0.382E-04 Suc:  3000 Eva:   283357 CPU:  0.202E+04 SqF: 0.1074
+  Rf: 0.01635 Dst:  7.59 Bnd: 0.010 Dis:0.3584 Gyr :0.0016 Loc : 0.0000
+ j:  33 T: 0.343E-04 Suc:  3000 Eva:   303647 CPU:  0.217E+04 SqF: 0.1074
+  Rf: 0.01635 Dst:  7.59 Bnd: 0.010 Dis:0.3584 Gyr :0.0016 Loc : 0.0000
+ j:  34 T: 0.309E-04 Suc:  3000 Eva:   324543 CPU:  0.233E+04 SqF: 0.1074
+  Rf: 0.01644 Dst:  7.60 Bnd: 0.009 Dis:0.3584 Gyr :0.0054 Loc : 0.0000
+ j:  35 T: 0.278E-04 Suc:  3000 Eva:   346629 CPU:  0.249E+04 SqF: 0.1071
+  Rf: 0.01512 Dst:  7.59 Bnd: 0.007 Dis:0.3584 Gyr :0.0009 Loc : 0.0000
+ j:  36 T: 0.250E-04 Suc:  3000 Eva:   370395 CPU:  0.265E+04 SqF: 0.1071
+  Rf: 0.01512 Dst:  7.59 Bnd: 0.007 Dis:0.3584 Gyr :0.0009 Loc : 0.0000
+ j:  37 T: 0.225E-04 Suc:  3000 Eva:   395913 CPU:  0.283E+04 SqF: 0.1071
+  Rf: 0.01512 Dst:  7.59 Bnd: 0.007 Dis:0.3584 Gyr :0.0009 Loc : 0.0000
+ j:  38 T: 0.203E-04 Suc:  3000 Eva:   423411 CPU:  0.302E+04 SqF: 0.1070
+  Rf: 0.01630 Dst:  7.53 Bnd: 0.008 Dis:0.3584 Gyr :0.0000 Loc : 0.0000
+ j:  39 T: 0.182E-04 Suc:  2896 Eva:   453411 CPU:  0.323E+04 SqF: 0.1070
+  Rf: 0.01630 Dst:  7.53 Bnd: 0.008 Dis:0.3584 Gyr :0.0000 Loc : 0.0000
+ j:  40 T: 0.164E-04 Suc:  2745 Eva:   483411 CPU:  0.344E+04 SqF: 0.1070
+  Rf: 0.01630 Dst:  7.53 Bnd: 0.008 Dis:0.3584 Gyr :0.0000 Loc : 0.0000
+ j:  41 T: 0.148E-04 Suc:  2427 Eva:   513411 CPU:  0.364E+04 SqF: 0.1070
+  Rf: 0.01630 Dst:  7.53 Bnd: 0.008 Dis:0.3584 Gyr :0.0000 Loc : 0.0000
+ j:  42 T: 0.133E-04 Suc:  2223 Eva:   543411 CPU:  0.386E+04 SqF: 0.1070
+  Rf: 0.01630 Dst:  7.53 Bnd: 0.008 Dis:0.3584 Gyr :0.0000 Loc : 0.0000
+ j:  43 T: 0.120E-04 Suc:  1995 Eva:   573411 CPU:  0.409E+04 SqF: 0.1070
+  Rf: 0.01630 Dst:  7.53 Bnd: 0.008 Dis:0.3584 Gyr :0.0000 Loc : 0.0000
+ j:  44 T: 0.108E-04 Suc:  1724 Eva:   603411 CPU:  0.432E+04 SqF: 0.1070
+  Rf: 0.01709 Dst:  7.48 Bnd: 0.008 Dis:0.3584 Gyr :0.0006 Loc : 0.0000
+ j:  45 T: 0.970E-05 Suc:  1545 Eva:   633411 CPU:  0.455E+04 SqF: 0.1069
+  Rf: 0.01601 Dst:  7.49 Bnd: 0.010 Dis:0.3584 Gyr :0.0013 Loc : 0.0000
+ j:  46 T: 0.873E-05 Suc:  1310 Eva:   663411 CPU:  0.476E+04 SqF: 0.1067
+  Rf: 0.01484 Dst:  7.48 Bnd: 0.010 Dis:0.3584 Gyr :0.0001 Loc : 0.0000
+ j:  47 T: 0.786E-05 Suc:   977 Eva:   693411 CPU:  0.498E+04 SqF: 0.1066
+  Rf: 0.01602 Dst:  7.46 Bnd: 0.007 Dis:0.3584 Gyr :0.0038 Loc : 0.0000
+ j:  48 T: 0.707E-05 Suc:   810 Eva:   723411 CPU:  0.519E+04 SqF: 0.1064
+  Rf: 0.01479 Dst:  7.42 Bnd: 0.009 Dis:0.3584 Gyr :0.0006 Loc : 0.0000
+ j:  49 T: 0.636E-05 Suc:   590 Eva:   753411 CPU:  0.539E+04 SqF: 0.1062
+  Rf: 0.01478 Dst:  7.41 Bnd: 0.008 Dis:0.3584 Gyr :0.0006 Loc : 0.0000
+ j:  50 T: 0.573E-05 Suc:   552 Eva:   783411 CPU:  0.560E+04 SqF: 0.1062
+  Rf: 0.01478 Dst:  7.41 Bnd: 0.008 Dis:0.3584 Gyr :0.0006 Loc : 0.0000
+ j:  51 T: 0.515E-05 Suc:   338 Eva:   813411 CPU:  0.580E+04 SqF: 0.1062
+  Rf: 0.01528 Dst:  7.39 Bnd: 0.008 Dis:0.3584 Gyr :0.0000 Loc : 0.0000
+ j:  52 T: 0.464E-05 Suc:   328 Eva:   843411 CPU:  0.600E+04 SqF: 0.1062
+  Rf: 0.01528 Dst:  7.39 Bnd: 0.008 Dis:0.3584 Gyr :0.0000 Loc : 0.0000
+ j:  53 T: 0.417E-05 Suc:   142 Eva:   873411 CPU:  0.620E+04 SqF: 0.1061
+  Rf: 0.01573 Dst:  7.34 Bnd: 0.008 Dis:0.3584 Gyr :0.0002 Loc : 0.0000
+ j:  54 T: 0.376E-05 Suc:    56 Eva:   903411 CPU:  0.640E+04 SqF: 0.1061
+  Rf: 0.01573 Dst:  7.34 Bnd: 0.008 Dis:0.3584 Gyr :0.0002 Loc : 0.0000
+ j:  55 T: 0.338E-05 Suc:    91 Eva:   933411 CPU:  0.660E+04 SqF: 0.1061
+  Rf: 0.01573 Dst:  7.34 Bnd: 0.008 Dis:0.3584 Gyr :0.0002 Loc : 0.0000
+ j:  56 T: 0.304E-05 Suc:    37 Eva:   963411 CPU:  0.681E+04 SqF: 0.1061
+  Rf: 0.01573 Dst:  7.34 Bnd: 0.008 Dis:0.3584 Gyr :0.0002 Loc : 0.0000
+ j:  57 T: 0.274E-05 Suc:    35 Eva:   993411 CPU:  0.701E+04 SqF: 0.1060
+  Rf: 0.01556 Dst:  7.33 Bnd: 0.007 Dis:0.3584 Gyr :0.0002 Loc : 0.0000
+ j:  58 T: 0.247E-05 Suc:    45 Eva:  1023411 CPU:  0.721E+04 SqF: 0.1059
+  Rf: 0.01555 Dst:  7.31 Bnd: 0.009 Dis:0.3584 Gyr :0.0003 Loc : 0.0000
+ j:  59 T: 0.222E-05 Suc:     8 Eva:  1053411 CPU:  0.741E+04 SqF: 0.1059
+  Rf: 0.01547 Dst:  7.30 Bnd: 0.009 Dis:0.3584 Gyr :0.0000 Loc : 0.0000
+
+ Final Chi against raw data ............................. : 1.783
+
+     ===== CREDO06 finished at   07-Jul-2008   12:30:16

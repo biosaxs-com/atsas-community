@@ -1,0 +1,190 @@
+   === CORAL05  started at           13-Jan-2022   13:38:05
+ Computation mode ....................................... : User
+ Project identifier ..................................... : try3_4
+ Project description .................................... : try3
+ Initialized random seed as ..................... : 8681904037378389631
+ File name with objects info ............................ : coral.con
+ Coordinates of the 1-st subunit evaluated from ......... : DimerA.pdb
+  4773 atoms read, center at     7.06  -13.60   84.71
+ Coordinates of the 2-nd subunit evaluated from ......... : ProteinB1.pdb
+  2578 atoms read, center at    13.42   36.91   67.95
+ Coordinates of the 3-rd subunit evaluated from ......... : ProteinB2.pdb
+  2578 atoms read, center at    11.00  -62.42   51.93
+ Number of backbone atoms generated ..................... : 1393
+Averaged formfactors of DRs used
+ DR formfactor multiplier ............................... : 1.000
+ Point symmetry of the particle ......................... : P1
+ Number of equivalent positions ......................... : 1
+ Cross penalty .......................................... : 3.751E-02
+ Cross penalty weight ................................... : 100.0
+ Shift penalty .......................................... : 2.300
+ Shift penalty weight ................................... : 10.00
+ Total number of scattering curves ...................... : 1
+ *** Accounting for constant background ***
+ 1-st construct, the first and the last residues: 1   and   1393
+ File name, 1-st experimental data ...................... : Melissa14.dat
+ Number of experimental points found .................... : 2048
+ Angular units multiplied by ............................ : 0.100
+ Experimental radius of gyration ........................ : 46.30
+ Number of points in the Guinier Plot ................... : 0
+ Maximum s-vector in master grid ........................ : 0.5736
+ Number of points in partial amplitudes ................. : 101
+ Maximum order of harmonics ............................. : 14
+ Total penalty .......................................... : 26.76
+ 1-st curve:
+ NEXP reduced to ........................................ : 2047
+ Theoretical  points from            2  to          101  used
+ The best Chi^2 values: 1.8537    
+ Initial fVal ........................................... : 28.61
+ Spatial step in angstroems ............................. : 5.000
+ Angular step in degrees ................................ : 20.00
+ Initial annealing temperature .......................... : 10.00
+ Annealing schedule factor .............................. : 0.9000
+ Max # of iterations at each T .......................... : 20000
+ Max # of successes at each T ........................... : 2000
+ Min # of successes to continue ......................... : 100
+ Max # of annealing steps ............................... : 100
+  ====  Simulated annealing procedure started  ====
+ j:   1 T:  10.0     Suc:  2000 Eva:     2278 CPU:   24.9     F:18.3966 Pen: 16.4140
+ The best Chi^2 values: 1.9826    
+ j:   2 T:  9.00     Suc:  2000 Eva:     4586 CPU:   50.1     F:18.3966 Pen: 16.4140
+ The best Chi^2 values: 1.9826    
+ j:   3 T:  8.10     Suc:  2000 Eva:     6890 CPU:   75.0     F:18.3966 Pen: 16.4140
+ The best Chi^2 values: 1.9826    
+ j:   4 T:  7.29     Suc:  2000 Eva:     9201 CPU:   99.8     F:18.3966 Pen: 16.4140
+ The best Chi^2 values: 1.9826    
+ j:   5 T:  6.56     Suc:  2000 Eva:    11576 CPU:   126.     F:18.3966 Pen: 16.4140
+ The best Chi^2 values: 1.9826    
+ j:   6 T:  5.90     Suc:  2000 Eva:    14057 CPU:   152.     F:18.3966 Pen: 16.4140
+ The best Chi^2 values: 1.9826    
+ j:   7 T:  5.31     Suc:  2000 Eva:    16510 CPU:   179.     F:18.3966 Pen: 16.4140
+ The best Chi^2 values: 1.9826    
+ j:   8 T:  4.78     Suc:  2000 Eva:    19002 CPU:   205.     F:18.3966 Pen: 16.4140
+ The best Chi^2 values: 1.9826    
+ j:   9 T:  4.30     Suc:  2000 Eva:    21590 CPU:   233.     F:18.3966 Pen: 16.4140
+ The best Chi^2 values: 1.9826    
+ j:  10 T:  3.87     Suc:  2000 Eva:    24204 CPU:   261.     F:18.3966 Pen: 16.4140
+ The best Chi^2 values: 1.9826    
+ j:  11 T:  3.49     Suc:  2000 Eva:    26965 CPU:   291.     F:18.3966 Pen: 16.4140
+ The best Chi^2 values: 1.9826    
+ j:  12 T:  3.14     Suc:  2000 Eva:    29685 CPU:   320.     F:18.3966 Pen: 16.4140
+ The best Chi^2 values: 1.9826    
+ j:  13 T:  2.82     Suc:  2000 Eva:    32510 CPU:   350.     F:18.3966 Pen: 16.4140
+ The best Chi^2 values: 1.9826    
+ j:  14 T:  2.54     Suc:  2000 Eva:    35297 CPU:   380.     F:18.3966 Pen: 16.4140
+ The best Chi^2 values: 1.9826    
+ j:  15 T:  2.29     Suc:  2000 Eva:    38154 CPU:   411.     F:18.3966 Pen: 16.4140
+ The best Chi^2 values: 1.9826    
+ j:  16 T:  2.06     Suc:  2000 Eva:    41006 CPU:   441.     F:18.3966 Pen: 16.4140
+ The best Chi^2 values: 1.9826    
+ j:  17 T:  1.85     Suc:  2000 Eva:    43905 CPU:   472.     F:10.6772 Pen:  7.7231
+ The best Chi^2 values: 2.9541    
+ j:  18 T:  1.67     Suc:  2000 Eva:    46977 CPU:   506.     F: 6.6716 Pen:  2.8635
+ The best Chi^2 values: 3.8082    
+ j:  19 T:  1.50     Suc:  2000 Eva:    50139 CPU:   539.     F: 3.3812 Pen:  0.8570
+ The best Chi^2 values: 2.5241    
+ j:  20 T:  1.35     Suc:  2000 Eva:    53188 CPU:   572.     F: 2.5018 Pen:  0.6085
+ The best Chi^2 values: 1.8933    
+ j:  21 T:  1.22     Suc:  2000 Eva:    56280 CPU:   606.     F: 2.5018 Pen:  0.6085
+ The best Chi^2 values: 1.8933    
+ j:  22 T:  1.09     Suc:  2000 Eva:    59492 CPU:   640.     F: 2.3351 Pen:  0.1114
+ The best Chi^2 values: 2.2237    
+ j:  23 T: 0.985     Suc:  2000 Eva:    62731 CPU:   675.     F: 2.0662 Pen:  0.1119
+ The best Chi^2 values: 1.9543    
+ j:  24 T: 0.886     Suc:  2000 Eva:    66140 CPU:   711.     F: 2.0662 Pen:  0.1119
+ The best Chi^2 values: 1.9543    
+ j:  25 T: 0.798     Suc:  2000 Eva:    69762 CPU:   750.     F: 2.0662 Pen:  0.1119
+ The best Chi^2 values: 1.9543    
+ j:  26 T: 0.718     Suc:  2000 Eva:    73321 CPU:   789.     F: 2.0662 Pen:  0.1119
+ The best Chi^2 values: 1.9543    
+ j:  27 T: 0.646     Suc:  2000 Eva:    77206 CPU:   830.     F: 2.0662 Pen:  0.1119
+ The best Chi^2 values: 1.9543    
+ j:  28 T: 0.581     Suc:  2000 Eva:    81517 CPU:   877.     F: 2.0662 Pen:  0.1119
+ The best Chi^2 values: 1.9543    
+ j:  29 T: 0.523     Suc:  2000 Eva:    85790 CPU:   923.     F: 2.0662 Pen:  0.1119
+ The best Chi^2 values: 1.9543    
+ j:  30 T: 0.471     Suc:  2000 Eva:    90089 CPU:   969.     F: 2.0068 Pen:  0.2435
+ The best Chi^2 values: 1.7632    
+ j:  31 T: 0.424     Suc:  2000 Eva:    94631 CPU:  0.102E+04 F: 2.0068 Pen:  0.2435
+ The best Chi^2 values: 1.7632    
+ j:  32 T: 0.382     Suc:  2000 Eva:    99282 CPU:  0.107E+04 F: 2.0068 Pen:  0.2435
+ The best Chi^2 values: 1.7632    
+ j:  33 T: 0.343     Suc:  2000 Eva:   104326 CPU:  0.112E+04 F: 1.8402 Pen:  0.1712
+ The best Chi^2 values: 1.6690    
+ j:  34 T: 0.309     Suc:  2000 Eva:   109138 CPU:  0.117E+04 F: 1.8402 Pen:  0.1712
+ The best Chi^2 values: 1.6690    
+ j:  35 T: 0.278     Suc:  2000 Eva:   114113 CPU:  0.123E+04 F: 1.8402 Pen:  0.1712
+ The best Chi^2 values: 1.6690    
+ j:  36 T: 0.250     Suc:  2000 Eva:   119409 CPU:  0.128E+04 F: 1.7620 Pen:  0.1471
+ The best Chi^2 values: 1.6149    
+ j:  37 T: 0.225     Suc:  2000 Eva:   125743 CPU:  0.135E+04 F: 1.7620 Pen:  0.1471
+ The best Chi^2 values: 1.6149    
+ j:  38 T: 0.203     Suc:  2000 Eva:   132211 CPU:  0.142E+04 F: 1.7503 Pen:  0.0942
+ The best Chi^2 values: 1.6561    
+ j:  39 T: 0.182     Suc:  2000 Eva:   139255 CPU:  0.150E+04 F: 1.5615 Pen:  0.1393
+ The best Chi^2 values: 1.4221    
+ j:  40 T: 0.164     Suc:  2000 Eva:   146220 CPU:  0.157E+04 F: 1.5615 Pen:  0.1393
+ The best Chi^2 values: 1.4221    
+ j:  41 T: 0.148     Suc:  2000 Eva:   153651 CPU:  0.165E+04 F: 1.4978 Pen:  0.0969
+ The best Chi^2 values: 1.4009    
+ j:  42 T: 0.133     Suc:  2000 Eva:   162266 CPU:  0.174E+04 F: 1.4815 Pen:  0.0827
+ The best Chi^2 values: 1.3988    
+ j:  43 T: 0.120     Suc:  2000 Eva:   171306 CPU:  0.184E+04 F: 1.4815 Pen:  0.0827
+ The best Chi^2 values: 1.3988    
+ j:  44 T: 0.108     Suc:  2000 Eva:   181630 CPU:  0.195E+04 F: 1.4815 Pen:  0.0827
+ The best Chi^2 values: 1.3988    
+ j:  45 T: 0.970E-01 Suc:  2000 Eva:   192664 CPU:  0.207E+04 F: 1.4815 Pen:  0.0827
+ The best Chi^2 values: 1.3988    
+ j:  46 T: 0.873E-01 Suc:  2000 Eva:   205260 CPU:  0.221E+04 F: 1.4584 Pen:  0.0336
+ The best Chi^2 values: 1.4248    
+ j:  47 T: 0.786E-01 Suc:  2000 Eva:   219321 CPU:  0.236E+04 F: 1.4240 Pen:  0.0469
+ The best Chi^2 values: 1.3771    
+ j:  48 T: 0.707E-01 Suc:  2000 Eva:   235299 CPU:  0.253E+04 F: 1.4240 Pen:  0.0469
+ The best Chi^2 values: 1.3771    
+ j:  49 T: 0.636E-01 Suc:  2000 Eva:   253616 CPU:  0.272E+04 F: 1.4240 Pen:  0.0469
+ The best Chi^2 values: 1.3771    
+ j:  50 T: 0.573E-01 Suc:  1983 Eva:   273616 CPU:  0.294E+04 F: 1.4240 Pen:  0.0469
+ The best Chi^2 values: 1.3771    
+ j:  51 T: 0.515E-01 Suc:  1707 Eva:   293616 CPU:  0.315E+04 F: 1.4240 Pen:  0.0469
+ The best Chi^2 values: 1.3771    
+ j:  52 T: 0.464E-01 Suc:  1531 Eva:   313616 CPU:  0.337E+04 F: 1.4230 Pen:  0.0657
+ The best Chi^2 values: 1.3572    
+ j:  53 T: 0.417E-01 Suc:  1189 Eva:   333616 CPU:  0.358E+04 F: 1.4230 Pen:  0.0657
+ The best Chi^2 values: 1.3572    
+ j:  54 T: 0.376E-01 Suc:   968 Eva:   353616 CPU:  0.380E+04 F: 1.4006 Pen:  0.0408
+ The best Chi^2 values: 1.3598    
+ j:  55 T: 0.338E-01 Suc:   891 Eva:   373616 CPU:  0.401E+04 F: 1.3864 Pen:  0.0500
+ The best Chi^2 values: 1.3364    
+ j:  56 T: 0.304E-01 Suc:   903 Eva:   393616 CPU:  0.422E+04 F: 1.3563 Pen:  0.0271
+ The best Chi^2 values: 1.3292    
+ j:  57 T: 0.274E-01 Suc:   687 Eva:   413616 CPU:  0.444E+04 F: 1.3563 Pen:  0.0271
+ The best Chi^2 values: 1.3292    
+ j:  58 T: 0.247E-01 Suc:   468 Eva:   433616 CPU:  0.465E+04 F: 1.3563 Pen:  0.0271
+ The best Chi^2 values: 1.3292    
+ j:  59 T: 0.222E-01 Suc:   486 Eva:   453616 CPU:  0.487E+04 F: 1.3563 Pen:  0.0271
+ The best Chi^2 values: 1.3292    
+ j:  60 T: 0.200E-01 Suc:   441 Eva:   473616 CPU:  0.508E+04 F: 1.3563 Pen:  0.0271
+ The best Chi^2 values: 1.3292    
+ j:  61 T: 0.180E-01 Suc:   447 Eva:   493616 CPU:  0.529E+04 F: 1.3563 Pen:  0.0271
+ The best Chi^2 values: 1.3292    
+ j:  62 T: 0.162E-01 Suc:   282 Eva:   513616 CPU:  0.551E+04 F: 1.3563 Pen:  0.0271
+ The best Chi^2 values: 1.3292    
+ j:  63 T: 0.146E-01 Suc:   263 Eva:   533616 CPU:  0.572E+04 F: 1.3563 Pen:  0.0271
+ The best Chi^2 values: 1.3292    
+ j:  64 T: 0.131E-01 Suc:   209 Eva:   553616 CPU:  0.594E+04 F: 1.3563 Pen:  0.0271
+ The best Chi^2 values: 1.3292    
+ j:  65 T: 0.118E-01 Suc:   171 Eva:   573616 CPU:  0.615E+04 F: 1.3563 Pen:  0.0271
+ The best Chi^2 values: 1.3292    
+ j:  66 T: 0.106E-01 Suc:   106 Eva:   593616 CPU:  0.637E+04 F: 1.3563 Pen:  0.0271
+ The best Chi^2 values: 1.3292    
+ j:  67 T: 0.955E-02 Suc:   146 Eva:   613616 CPU:  0.658E+04 F: 1.3563 Pen:  0.0271
+ The best Chi^2 values: 1.3292    
+ j:  68 T: 0.860E-02 Suc:   118 Eva:   633616 CPU:  0.679E+04 F: 1.3563 Pen:  0.0271
+ The best Chi^2 values: 1.3292    
+ j:  69 T: 0.774E-02 Suc:   104 Eva:   653616 CPU:  0.701E+04 F: 1.3563 Pen:  0.0271
+ The best Chi^2 values: 1.3292    
+ j:  70 T: 0.696E-02 Suc:    90 Eva:   673616 CPU:  0.722E+04 F: 1.3563 Pen:  0.0271
+ The best Chi^2 values: 1.3292    
+
+
+     ===== CORAL05  finished at   13-Jan-2022   15:38:30

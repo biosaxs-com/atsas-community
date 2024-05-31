@@ -1,0 +1,33 @@
+
+           ####    G N O M   ---   Version 4.6                       ####
+
+                                                    20-Apr-2014   13:38:26
+           ===    Run No   1   ===
+ Run title:   Merge of: HSA 2.5 25C HSA 5 25C 1h HSA 10 25C 1 HSA 20 25C 1 HSA
+
+
+
+          To optimize the performance, some input data points 
+           have been joined. New number of points equals to 374
+
+   *******    Input file(s) : Merge01.dat
+           Condition P(rmin) = 0 is used. 
+           Condition P(rmax) = 0 is used. 
+
+          Highest ALPHA is found to be   0.8501E-05
+
+  The measure of inconsistency AN1 equals to    0.9051E-02
+     Alpha    Discrp  Oscill  Stabil  Sysdev  Positv  Valcen    Total   
+  0.8501E-02  0.0200  1.2715  0.0664  0.3861  1.0000  0.8898  0.56312
+  0.1700E-02  0.0125  1.5053  0.0330  0.5469  1.0000  0.8889  0.53827
+  0.3400E-03  0.0096  1.7678  0.0225  0.6220  1.0000  0.8873  0.46097
+  0.6801E-04  0.0088  2.0184  0.0261  0.6005  1.0000  0.8880  0.41001
+  0.1360E-04  0.0086  2.3447  0.0281  0.6113  1.0000  0.8880  0.38757
+  0.2720E-05  0.0085  2.9418  0.0470  0.6434  0.9999  0.8866  0.36128
+  0.5441E-06  0.0085  4.1838  0.0553  0.6542  0.9991  0.8824  0.34667
+  0.1088E-06  0.0084  6.9891  0.1499  0.6542  0.9958  0.8687  0.18889
+  0.2176E-07  0.0084 14.9588  0.4717  0.6649  0.9619  0.7868  0.00000
+     Alpha    Discrp  Oscill  Stabil  Sysdev  Positv  Valcen    Total   
+  0.8501E-02  0.0200  1.2715  0.0664  0.3861  1.0000  0.8898  0.56312
+
+

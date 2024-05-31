@@ -1,0 +1,93 @@
+[tgrant@Moriarty2 qb468]$ /opt/atsas/bin/dammif
+GNOM output file? .................................................... : ZeroC04.out
+Angular unit? Select one of: [a]ngstrom, [n]anometer, [u]nspecified 
+(default: unspecified) ............................................... : 
+Output file prefix? (default: dammif) ................................ : test14
+Create pseudo chains in PDB output? Select one of: [n]o, [y]es 
+(default: no) ........................................................ : 
+Expected particle symmetry? Select one of: Pn (n=1,..,19), Pn2 
+(n=2,..,12) (default: P1) ............................................ : p22
+Expected particle anisometry? Select one of: [o]blate, [p]rolate, 
+[u]nknown (default: unknown) ......................................... : 
+Simulated annealing setup? Select one of: [f]ast, [s]low, 
+[i]nteractive (default: slow) ........................................ : f
+dammif ........................................... : 1.0.1
+Log opened ....................................... : 2009-03-09, 16:56:31
+Run as:
+Full command line ................................ : /opt/atsas/bin/dammif
+Configuration mode ............................... : fast
+Angular units .................................... : undefined
+Prefix ........................................... : test14
+Threads .......................................... : 1
+GNOM input file .................................. : ZeroC04.out
+Expected particle anisometry ..................... : unknown
+Enforced particle symmetry ....................... : P22
+Pseudo-chains in PDB output ...................... : no
+GNOM file:
+Title ............................................ : Extrapolation to c=0 from: qb468a_S002_ qb468a_S003_ qb468a_S005
+Angular units .................................... : angstrom
+Maximum particle diameter [Angstrom] ............. : 94.8
+Radius of gyration [Angstrom] .................... : 31.8
+Minimum s [1/Angstrom] ........................... : 0.00
+Maximum s [1/Angstrom] ........................... : 0.289
+Configured as:
+Output filename prefix ........................... : test14
+Dummy atom radius ................................ : 3.40
+Expected particle anisometry ..................... : unknown
+Number of spherical harmonics .................... : 15
+Proportion of the curve to be fitted ............. : 1.00
+Maximum s [1/Angstrom] ........................... : 0.289
+Number of shannon channels ....................... : 9
+Number of supporting points ...................... : 20
+Weighting function ............................... : emphasised porod
+Initial random seed .............................. : 1829094108
+Maximum number of steps .......................... : 200
+Maximum number of iterations ..................... : 20000
+Minumum number of successes ...................... : 20
+Maximum number of successes ...................... : 2000
+Temperature scheduling factor .................... : 0.900
+Center penalty weight ............................ : 0.100E-04
+Rg penalty weight ................................ : 0.100E-02
+Looseness penalty weight ......................... : 0.100E-01
+Disconnectivity penalty weight ................... : 0.00
+Anisometry penalty weight ........................ : 0.00
+Constant subtraction ............................. : skipped (unable to determine constant)
+Atom radius ...................................... : 3.40
+Annealing procedure status ....................... : warming up
+*** glibc detected *** /opt/atsas/bin/dammif: munmap_chunk(): invalid pointer: 0x0000000001e250d0 ***
+======= Backtrace: =========
+/lib64/libc.so.6[0x3054078228]
+/opt/atsas/bin/dammif(graph_list_assign_+0x55)[0x41dc95]
+/opt/atsas/bin/dammif(__class_dammif_data_private_MOD_dammif_data_sync+0xf6)[0x416006]
+/opt/atsas/bin/dammif(dammif_warm_up_+0x182)[0x415022]
+/opt/atsas/bin/dammif(dammif_init_+0x60f)[0x415b1f]
+/opt/atsas/bin/dammif(MAIN__+0x98)[0x426018]
+/opt/atsas/bin/dammif(main+0x2a)[0x42c6ba]
+/lib64/libc.so.6(__libc_start_main+0xfa)[0x305401e32a]
+/opt/atsas/bin/dammif[0x40a0aa]
+======= Memory map: ========
+00400000-0045f000 r-xp 00000000 fd:00 30057041                           /opt/atsas/bin/dammif
+0055f000-00560000 rw-p 0005f000 fd:00 30057041                           /opt/atsas/bin/dammif
+00560000-00561000 rw-p 00560000 00:00 0 
+01dfb000-01e66000 rw-p 01dfb000 00:00 0                                  [heap]
+3052e00000-3052e1d000 r-xp 00000000 fd:00 26894422                       /lib64/ld-2.8.so
+305301c000-305301d000 r--p 0001c000 fd:00 26894422                       /lib64/ld-2.8.so
+305301d000-305301e000 rw-p 0001d000 fd:00 26894422                       /lib64/ld-2.8.so
+3054000000-3054162000 r-xp 00000000 fd:00 26894463                       /lib64/libc-2.8.so
+3054162000-3054362000 ---p 00162000 fd:00 26894463                       /lib64/libc-2.8.so
+3054362000-3054366000 r--p 00162000 fd:00 26894463                       /lib64/libc-2.8.so
+3054366000-3054367000 rw-p 00166000 fd:00 26894463                       /lib64/libc-2.8.so
+3054367000-305436c000 rw-p 3054367000 00:00 0 
+3054400000-3054484000 r-xp 00000000 fd:00 26894470                       /lib64/libm-2.8.so
+3054484000-3054683000 ---p 00084000 fd:00 26894470                       /lib64/libm-2.8.so
+3054683000-3054684000 r--p 00083000 fd:00 26894470                       /lib64/libm-2.8.so
+3054684000-3054685000 rw-p 00084000 fd:00 26894470                       /lib64/libm-2.8.so
+3059800000-3059816000 r-xp 00000000 fd:00 26894471                       /lib64/libgcc_s-4.3.0-20080428.so.1
+3059816000-3059a15000 ---p 00016000 fd:00 26894471                       /lib64/libgcc_s-4.3.0-20080428.so.1
+3059a15000-3059a16000 rw-p 00015000 fd:00 26894471                       /lib64/libgcc_s-4.3.0-20080428.so.1
+7fc75ec37000-7fc75ec39000 rw-p 7fc75ec37000 00:00 0 
+7fc75ec65000-7fc75ec67000 rw-p 7fc75ec65000 00:00 0 
+7fff66c50000-7fff66c66000 rw-p 7ffffffe9000 00:00 0                      [stack]
+7fff66dfd000-7fff66dfe000 r-xp 7fff66dfd000 00:00 0                      [vdso]
+ffffffffff600000-ffffffffff601000 r-xp 00000000 00:00 0                  [vsyscall]
+Abort

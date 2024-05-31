@@ -1,0 +1,60 @@
+Sample description: Users put what they want here.
+Sample:   c= 15.0000 mg/ml  Code: BSA_RNAP_buffer2
+
+1D-Data goes here
+XXXXX XXXXX XXXXX
+XXXXX XXXXX XXXXX
+XXXXX XXXXX XXXXX
+XXXXX XXXXX XXXXX
+
+instrument: EMBL P12 bioSAXS
+detector: Pilatus 6M
+column type: S75 Increase
+date: 2017-10-17
+wavelength [nm]: 0.1239
+sample-to-detector distance [m]: 2.01
+exposure time/frame [s]: 0.995
+sample temperature [C]: 20.0
+flow rate [ml/min]: 0.600
+sample injection concentration [mg/ml]: 15.0
+sample injection volume [ml]: 0.0750
+creator: radaver
+creator-version: 9729
+working-directory: /dataInt/p12/p3l-XXXX/2017-10-17/SECSAXS_BSA
+header-file: datacollection/header/img_0501_00001.txt
+image-file: datacollection/pilatus2m/img_0501_00001.tiff
+angular-axis-file: etc/radial-averaging/saxs-2/saxis_saxs2_20171012.dat
+beamstop-mask-file: etc/radial-averaging/saxs-2/msk_saxs2_20171012.msk
+detector-response-file: none
+flatfield-file: none
+beam-center-x: 677.7000
+beam-center-y: 1652.2000
+unit-time: 100.0000
+channel-first: 7
+channel-last: 1830
+angular-unit: nanometer
+PETRA Current: 99.95
+Bragg Angle [mrad]: 10.950
+QBPM 1: 3.286e-7
+Diode 2: 7.461e-8
+Diode 1: -3.088e-11
+SEU Target Temperature: 20.0
+SEU Current Temperature: 20.1
+Sample Location: P1-A-3
+Storage Temperature: 10.1
+Usage A: 100
+Usage B: 0
+Usage C: 0
+Usage D: 0
+Description A: RNAP_buffer1
+Pressure: 20.4
+Detector Position: 2
+Buffer: RNAP_buffer2
+Exposure period [s]: 1.000
+Exposure Delay [s]: 0.000
+Code: BSA_RNAP_buffer2
+Run Number: 501
+Sample: BSA
+Time Stamp (end): 2017-10-17 17:44:39.362
+Time Stamp (begin): 2017-10-17 17:44:38.367
+Transmitted Beam (mean): 0.355

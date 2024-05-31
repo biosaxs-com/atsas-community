@@ -1,0 +1,173 @@
+%% Script for importing Pair Distance Distribution Functions
+% By Martin NP
+% Huge thanks to Mohsen Nosratinia for help with getting the regular
+% expressions to work
+
+%% Preparing list of filenames for import
+
+path = [pwd, '\data\maxlab\']; % Edit this thing so that "path" = the path from the directory you stand in to the data directory
+if ~isdir(path)
+  errorMessage = sprintf...
+      ('Error: The following folder does not exist:\n%s', path);
+  uiwait(warndlg(errorMessage));
+  return;
+end
+
+filePattern = fullfile(path, '*.out');
+OutFiles = dir(filePattern);
+
+block1 = cell(1,length(OutFiles));
+block2 = cell(1,length(OutFiles));
+block3 = cell(1,length(OutFiles));
+block4 = cell(1,length(OutFiles)); 
+
+%% Preparing colormap and legends for plots
+
+cc = hsv(length(OutFiles)); % creates colormap. jet is another suitable colormap
+
+% legends
+ Legend=cell(length(OutFiles),1);
+ for p=1:length(OutFiles)
+   Legend{p}=strcat(OutFiles(p,1).name);
+ end
+ 
+
+%% Splitting the data file into blocks that can be read, then reading them
+
+for k = 1:length(OutFiles)
+   baseFileName = OutFiles(k).name;
+   fullFileName = fullfile(path, baseFileName);   
+   fileH = fopen(fullFileName);
+   content = fscanf(fileH, '%c', inf);
+   fclose(fileH);
+
+   splitstring = regexp(content, '\r\n\r\n', 'split');
+
+   blocks = regexp(splitstring, '\d\.\d{4}.*\r\n.*\d\.\d{4}','match');
+   numericBlocksIdx = find(cellfun(@(x) ~isempty(x), blocks));
+   numericBlocks = splitstring(numericBlocksIdx);
+   block1{1,k} = textscan(numericBlocks{1,1},repmat('%f',1,8), 'headerLines', 5);
+   block2{1,k} = textscan(numericBlocks{1,2},repmat('%f',1,8), 'headerLines', 2);
+   block3{1,k} = textscan(numericBlocks{1,3},repmat('%f',1,5));
+   block4{1,k} = textscan(numericBlocks{1,4},repmat('%f',1,3));
+end
+
+%% Creating new cell structures
+% textscan will give a cell structure which is often overkill
+
+Global = cell(1,length(OutFiles));
+Golden = cell(1,length(OutFiles));
+DataFit = cell(1,length(OutFiles)); 
+PDDFs = cell(1,length(OutFiles)); 
+
+for k = 1:length(OutFiles)
+    NaNs = isnan(block3{1,k}{1,5});
+    ExpI_d = block3{1,k}{1,2}(~NaNs);
+    ExpI = vertcat(block3{1,k}{1,4}(NaNs), ExpI_d);
+    Extrapol_d = block3{1,k}{1,2}(NaNs);
+    Extrapol = vertcat(Extrapol_d,block3{1,k}{1,5}(~NaNs));
+    DataFit{1,k} = [block3{1,k}{1,1},ExpI,block3{1,k}{1,3},block3{1,k}{1,5},Extrapol];
+end
+
+for k = 1:length(OutFiles)
+    Global{1,k} = [block1{1,k}{1,1},block1{1,k}{1,8}];
+    Golden{1,k} = [block2{1,k}{1,1},block2{1,k}{1,8}];
+    PDDFs{1,k} = [block4{1,k}{1,1},block4{1,k}{1,2},block4{1,k}{1,3}];  
+end
+
+%% plotting the data
+
+figure( 'Name', 'PDDF' );
+title('Pair Distance Distribution Function','fontsize',18')
+set(gca, 'xscale', 'lin')
+set(gca, 'yscale', 'lin')
+xlabel('real space distance (nm)','fontsize',16)
+ylabel('Occurrences','fontsize',16)
+hold on
+
+for k = 1:length(OutFiles)
+    plot(PDDFs{1,k}(:,1),PDDFs{1,k}(:,2),'color', cc(k,:), 'LineWidth', 3)
+end
+h_legend = legend(Legend);
+set(h_legend,'FontSize',18);
+
+figure( 'Name', 'Golden Search' );
+title('Golden Search: Optimization of the regularization parameter','fontsize',14')
+set(gca, 'xscale', 'lin')
+set(gca, 'yscale', 'lin')
+xlabel('regularization parameter','fontsize',14)
+ylabel('Total Statistics','fontsize',14)
+hold on
+
+for k = 1:length(OutFiles)
+    scatter(Golden{1,k}(:,1),Golden{1,k}(:,2),'filled')
+end
+legend(Legend)
+
+% no so fun plot - maybe still informative
+% figure( 'Name', 'Global Search' );
+% title('Global Search: Optimization of the regularization parameter','fontsize',14')
+% set(gca, 'xscale', 'log')
+% set(gca, 'yscale', 'lin')
+% xlabel('regularization parameter','fontsize',14)
+% ylabel('Total Statistics','fontsize',14)
+% hold on
+% 
+% for k = 1:length(OutFiles)
+%     scatter(Global{1,k}(:,1),Global{1,k}(:,2), 'filled')
+% end
+% legend(Legend)
+
+figure( 'Name', 'Regularized data' );
+title('Regularized data','fontsize',16')
+set(gca, 'xscale', 'lin')
+set(gca, 'yscale', 'log')
+xlabel('Momentum Transfer (nm^{-1})','fontsize',16)
+ylabel('Detector Counts in 1sec (reduced)','fontsize',16)
+hold on
+for k = 1:length(OutFiles)
+    plot(DataFit{1,k}(:,1),DataFit{1,k}(:,5),'color', cc(k,:), 'LineWidth', 3)
+end
+h_legend = legend(Legend);
+set(h_legend,'FontSize',18);
+
+%% Example of how it fit plot could look
+
+DataFileNumber = 3;
+Residuals = DataFit{1,DataFileNumber}(:,2)-DataFit{1,DataFileNumber}(:,5);
+zeroline = zeros(length(DataFit{1,DataFileNumber}(:,5)));
+Norm_Residuals = (DataFit{1,DataFileNumber}(:,2)-DataFit{1,DataFileNumber}(:,5))./DataFit{1,DataFileNumber}(:,2);
+
+figure( 'Name', 'fit' );
+hold on
+
+subplot(4,1,1:3)
+hold on
+Titel = sprintf('Fit From the indirect Fourier transformation, %s', OutFiles(DataFileNumber).name);
+title(Titel,'fontsize',16')
+set(gca, 'xscale', 'lin')
+set(gca, 'yscale', 'log')
+ylabel('Detector Counts in 1sec (reduced)')
+scatter(DataFit{1,DataFileNumber}(:,1),DataFit{1,DataFileNumber}(:,2), 'filled')
+plot(DataFit{1,DataFileNumber}(:,1),DataFit{1,DataFileNumber}(:,5), 'color', 'r', 'LineWidth', 2)
+legend('Experimental data','Fit')
+
+% subplot(4,1,3)
+% hold on
+% set(gca, 'xscale', 'lin')
+% set(gca, 'yscale', 'log')
+% scatter(DataFit{1,DataFileNumber}(:,1),DataFit{1,DataFileNumber}(:,2), 'filled')
+% plot(DataFit{1,DataFileNumber}(:,1),DataFit{1,DataFileNumber}(:,5), 'color', 'r')
+% legend('Experimental data','Fit')
+% axis([ 0.05 0.5 100 100000 ]) % don't know a way to automate this (yet!)
+
+subplot(4,1,4)
+hold on
+xlabel('Momentum Transfer (nm^{-1})')
+ylabel('Norm Residuals')
+scatter(DataFit{1,DataFileNumber}(:,1),Norm_Residuals)
+plot(DataFit{1,DataFileNumber}(:,1),zeroline, 'color', 'r')
+legend('Residuals','zero line', 'Location', 'SouthWest')
+
+
+

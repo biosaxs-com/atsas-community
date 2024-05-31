@@ -1,0 +1,143 @@
+   === GLOOPY01 started at           24-Feb-2009   09:55:00
+ Computation mode ....................................... : User
+ Project identificator .................................. : protein
+ Project decsription .................................... : protein
+ Random sequence initialized from ....................... : 95523
+ GNOM file name ......................................... : 123_b.out
+  ** Information read from the GNOM file **
+ Data set title ......................................... :   Extrapolation to c=0 from: Avrag08.dat Avrag07.dat Avrag06.dat A
+ Raw data file name ..................................... : ZeroC18.dat
+ Maximum diameter of the particle ....................... : 123.0
+  Solution at Alpha =  0.313E+03   Rg :  0.411E+02   I(0) :   0.838E+01 
+ Number of GNOM data points ............................. : 410
+ Maximum s value [1/angstrom] ........................... : 0.2853
+ Number of Shannon channels ............................. : 11.17
+ Number of knots in the curve to fit .................... : 56
+ DAM coordinates file name .............................. : protein.pdb
+ Number of DRs read ..................................... : 595
+ Center of DRs read:   75.704  74.080  27.132
+Center of the initial structure was shifted to the origin
+ Packing radius of dummy atoms .......................... : 1.900
+ Point symmetry of the particle ......................... : P1
+ Tail connected to residue # 1
+ Full number of atoms ................................... : 809
+  Number of angular directions .......................... : 611
+ Radius of the amino acid ............................... : 5.000
+ Contrast of the hydration layer ........................ : 3.000e-2
+ Radius of the search volume ............................ : 61.50
+ Hyd penalty weight ..................................... : 1.000e-4
+ Bur penalty weight ..................................... : 1.000e-4
+ Potentials penalty weight .............................. : 1.000e-3
+ Angles penalty weight .................................. : 1.000e-5
+  Angle penalty from loop only .......................... : Y
+ Dihedrals penalty weight ............................... : 1.000e-4
+ Distances penalty weight ............................... : 1.000e-4
+ CA-CB cross penalty weight ............................. : 0.1000
+ CB-CB cross penalty weight ............................. : 1.000e-2
+ Spring penalty weight .................................. : 1.000e-2
+  Sequence file name .................................... : protein.seq
+ Initial H .............................................. : 8.131e-2
+ Initial B .............................................. : 19.92
+ Initial potential ...................................... : -3.994e-2
+ Angles penalty ......................................... : 9.086
+ Dihedrals penalty ...................................... : 1.595
+ Burrial penalty ........................................ : 3.563
+ Distances penalty ...................................... : 158.7
+ CA-CB penalty .......................................... : 2.989e-2
+ CB-CB penalty .......................................... : 4.718e-2
+ Local penalty value .................................... : 0.1636
+ Weight: 0=s^2,1=const at s<MaxPor,2=aver ............... : 2
+ Initial scale factor ................................... : 5.192e-8
+ Scale factor fixed (Y=Yes, N=No) ....................... : N
+ Initial R^2 factor ..................................... : 0.1201
+ Initial R   factor ..................................... : 0.3465
+ Initial penalty ........................................ : 1.918e-2
+ Initial fVal ........................................... : 0.1392
+ Initial annealing temperature .......................... : 1.000e-3
+ Annealing schedule factor .............................. : 0.9000
+ # of independent atoms to modify ....................... : 1
+ Max # of iterations at each T .......................... : 70000
+ Max # of successes at each T ........................... : 7000
+ Min # of successes to continue ......................... : 70
+ Max # of annealing steps ............................... : 100
+ jAnn:   1  T: 0.100E-02  iSuc:  7000  nEva:     7787  CPU:  0.1862E+03
+  fVal: 0.0421  Rf: 0.12606 Hyd:-0.146 Bur: 22.24 Eng:  0.044 Ang: 0.666E+01 Dih: 0.157E+01 Dst: 0.218E+03 VolCACB: 0.484E-01 VolCBCB: 0.652E-01 Spr: 0.855E-01 Sca: 0.498E-07
+ jAnn:   2  T: 0.900E-03  iSuc:  7000  nEva:    15547  CPU:  0.3608E+03
+  fVal: 0.0421  Rf: 0.12606 Hyd:-0.146 Bur: 22.24 Eng:  0.044 Ang: 0.666E+01 Dih: 0.157E+01 Dst: 0.218E+03 VolCACB: 0.484E-01 VolCBCB: 0.652E-01 Spr: 0.940E-01 Sca: 0.498E-07
+ jAnn:   3  T: 0.810E-03  iSuc:  7000  nEva:    23305  CPU:  0.5376E+03
+  fVal: 0.0369  Rf: 0.12281 Hyd: 0.026 Bur: 18.93 Eng:  0.052 Ang: 0.653E+01 Dih: 0.157E+01 Dst: 0.179E+03 VolCACB: 0.392E-01 VolCBCB: 0.536E-01 Spr: 0.105E+00 Sca: 0.557E-07
+ jAnn:   4  T: 0.729E-03  iSuc:  7000  nEva:    31199  CPU:  0.7163E+03
+  fVal: 0.0363  Rf: 0.12493 Hyd:-0.062 Bur: 18.60 Eng:  0.053 Ang: 0.594E+01 Dih: 0.151E+01 Dst: 0.171E+03 VolCACB: 0.365E-01 VolCBCB: 0.526E-01 Spr: 0.905E-01 Sca: 0.565E-07
+ jAnn:   5  T: 0.656E-03  iSuc:  7000  nEva:    39115  CPU:  0.9011E+03
+  fVal: 0.0363  Rf: 0.12493 Hyd:-0.062 Bur: 18.60 Eng:  0.053 Ang: 0.594E+01 Dih: 0.151E+01 Dst: 0.171E+03 VolCACB: 0.365E-01 VolCBCB: 0.526E-01 Spr: 0.830E-01 Sca: 0.565E-07
+ jAnn:   6  T: 0.590E-03  iSuc:  7000  nEva:    47067  CPU:  0.1089E+04
+  fVal: 0.0353  Rf: 0.12047 Hyd:-0.058 Bur: 18.36 Eng:  0.072 Ang: 0.639E+01 Dih: 0.156E+01 Dst: 0.168E+03 VolCACB: 0.377E-01 VolCBCB: 0.516E-01 Spr: 0.112E+00 Sca: 0.558E-07
+ jAnn:   7  T: 0.531E-03  iSuc:  7000  nEva:    55110  CPU:  0.1282E+04
+  fVal: 0.0336  Rf: 0.10844 Hyd: 0.055 Bur: 20.36 Eng: -0.034 Ang: 0.654E+01 Dih: 0.155E+01 Dst: 0.177E+03 VolCACB: 0.380E-01 VolCBCB: 0.557E-01 Spr: 0.113E+00 Sca: 0.549E-07
+ jAnn:   8  T: 0.478E-03  iSuc:  7000  nEva:    63207  CPU:  0.1472E+04
+  fVal: 0.0323  Rf: 0.09899 Hyd:-0.109 Bur: 20.04 Eng:  0.041 Ang: 0.616E+01 Dih: 0.155E+01 Dst: 0.180E+03 VolCACB: 0.411E-01 VolCBCB: 0.536E-01 Spr: 0.114E+00 Sca: 0.537E-07
+ jAnn:   9  T: 0.430E-03  iSuc:  7000  nEva:    71403  CPU:  0.1661E+04
+  fVal: 0.0323  Rf: 0.09899 Hyd:-0.109 Bur: 20.04 Eng:  0.041 Ang: 0.616E+01 Dih: 0.155E+01 Dst: 0.180E+03 VolCACB: 0.411E-01 VolCBCB: 0.536E-01 Spr: 0.113E+00 Sca: 0.537E-07
+ jAnn:  10  T: 0.387E-03  iSuc:  7000  nEva:    79649  CPU:  0.1850E+04
+  fVal: 0.0323  Rf: 0.09899 Hyd:-0.109 Bur: 20.04 Eng:  0.041 Ang: 0.616E+01 Dih: 0.155E+01 Dst: 0.180E+03 VolCACB: 0.411E-01 VolCBCB: 0.536E-01 Spr: 0.112E+00 Sca: 0.537E-07
+ jAnn:  11  T: 0.349E-03  iSuc:  7000  nEva:    88032  CPU:  0.2044E+04
+  fVal: 0.0306  Rf: 0.09521 Hyd:-0.082 Bur: 19.00 Eng:  0.031 Ang: 0.605E+01 Dih: 0.157E+01 Dst: 0.170E+03 VolCACB: 0.355E-01 VolCBCB: 0.500E-01 Spr: 0.127E+00 Sca: 0.562E-07
+ jAnn:  12  T: 0.314E-03  iSuc:  7000  nEva:    96435  CPU:  0.2246E+04
+  fVal: 0.0294  Rf: 0.09866 Hyd:-0.030 Bur: 18.93 Eng:  0.023 Ang: 0.609E+01 Dih: 0.152E+01 Dst: 0.153E+03 VolCACB: 0.341E-01 VolCBCB: 0.491E-01 Spr: 0.118E+00 Sca: 0.569E-07
+ jAnn:  13  T: 0.282E-03  iSuc:  7000  nEva:   105001  CPU:  0.2446E+04
+  fVal: 0.0294  Rf: 0.09866 Hyd:-0.030 Bur: 18.93 Eng:  0.023 Ang: 0.609E+01 Dih: 0.152E+01 Dst: 0.153E+03 VolCACB: 0.341E-01 VolCBCB: 0.491E-01 Spr: 0.116E+00 Sca: 0.569E-07
+ jAnn:  14  T: 0.254E-03  iSuc:  7000  nEva:   113859  CPU:  0.2652E+04
+  fVal: 0.0274  Rf: 0.08861 Hyd: 0.174 Bur: 20.22 Eng: -0.022 Ang: 0.602E+01 Dih: 0.155E+01 Dst: 0.151E+03 VolCACB: 0.359E-01 VolCBCB: 0.501E-01 Spr: 0.124E+00 Sca: 0.554E-07
+ jAnn:  15  T: 0.229E-03  iSuc:  7000  nEva:   122832  CPU:  0.2866E+04
+  fVal: 0.0274  Rf: 0.08861 Hyd: 0.174 Bur: 20.22 Eng: -0.022 Ang: 0.602E+01 Dih: 0.155E+01 Dst: 0.151E+03 VolCACB: 0.359E-01 VolCBCB: 0.501E-01 Spr: 0.109E+00 Sca: 0.554E-07
+ jAnn:  16  T: 0.206E-03  iSuc:  7000  nEva:   131876  CPU:  0.3088E+04
+  fVal: 0.0268  Rf: 0.09495 Hyd: 0.044 Bur: 17.86 Eng:  0.006 Ang: 0.638E+01 Dih: 0.155E+01 Dst: 0.130E+03 VolCACB: 0.319E-01 VolCBCB: 0.499E-01 Spr: 0.115E+00 Sca: 0.576E-07
+ jAnn:  17  T: 0.185E-03  iSuc:  7000  nEva:   141086  CPU:  0.3315E+04
+  fVal: 0.0255  Rf: 0.08368 Hyd: 0.053 Bur: 19.09 Eng:  0.002 Ang: 0.621E+01 Dih: 0.155E+01 Dst: 0.135E+03 VolCACB: 0.348E-01 VolCBCB: 0.523E-01 Spr: 0.125E+00 Sca: 0.564E-07
+ jAnn:  18  T: 0.167E-03  iSuc:  7000  nEva:   150431  CPU:  0.3543E+04
+  fVal: 0.0255  Rf: 0.08130 Hyd: 0.023 Bur: 18.96 Eng: -0.002 Ang: 0.632E+01 Dih: 0.154E+01 Dst: 0.134E+03 VolCACB: 0.366E-01 VolCBCB: 0.510E-01 Spr: 0.121E+00 Sca: 0.556E-07
+ jAnn:  19  T: 0.150E-03  iSuc:  7000  nEva:   159991  CPU:  0.3776E+04
+  fVal: 0.0249  Rf: 0.08779 Hyd: 0.140 Bur: 18.82 Eng: -0.017 Ang: 0.592E+01 Dih: 0.154E+01 Dst: 0.120E+03 VolCACB: 0.316E-01 VolCBCB: 0.497E-01 Spr: 0.116E+00 Sca: 0.575E-07
+ jAnn:  20  T: 0.135E-03  iSuc:  7000  nEva:   169989  CPU:  0.4020E+04
+  fVal: 0.0249  Rf: 0.08779 Hyd: 0.140 Bur: 18.82 Eng: -0.017 Ang: 0.592E+01 Dih: 0.154E+01 Dst: 0.120E+03 VolCACB: 0.316E-01 VolCBCB: 0.497E-01 Spr: 0.132E+00 Sca: 0.575E-07
+ jAnn:  21  T: 0.122E-03  iSuc:  7000  nEva:   180112  CPU:  0.4269E+04
+  fVal: 0.0247  Rf: 0.08132 Hyd:-0.107 Bur: 18.04 Eng:  0.070 Ang: 0.597E+01 Dih: 0.152E+01 Dst: 0.123E+03 VolCACB: 0.300E-01 VolCBCB: 0.508E-01 Spr: 0.123E+00 Sca: 0.568E-07
+ jAnn:  22  T: 0.109E-03  iSuc:  7000  nEva:   190925  CPU:  0.4536E+04
+  fVal: 0.0239  Rf: 0.07677 Hyd: 0.005 Bur: 17.94 Eng:  0.065 Ang: 0.579E+01 Dih: 0.151E+01 Dst: 0.122E+03 VolCACB: 0.304E-01 VolCBCB: 0.495E-01 Spr: 0.116E+00 Sca: 0.562E-07
+ jAnn:  23  T: 0.985E-04  iSuc:  7000  nEva:   202132  CPU:  0.4808E+04
+  fVal: 0.0230  Rf: 0.08389 Hyd:-0.079 Bur: 17.24 Eng:  0.068 Ang: 0.625E+01 Dih: 0.154E+01 Dst: 0.998E+02 VolCACB: 0.328E-01 VolCBCB: 0.485E-01 Spr: 0.123E+00 Sca: 0.572E-07
+ jAnn:  24  T: 0.886E-04  iSuc:  7000  nEva:   213893  CPU:  0.5098E+04
+  fVal: 0.0229  Rf: 0.07534 Hyd:-0.024 Bur: 18.24 Eng:  0.108 Ang: 0.626E+01 Dih: 0.155E+01 Dst: 0.113E+03 VolCACB: 0.310E-01 VolCBCB: 0.505E-01 Spr: 0.107E+00 Sca: 0.565E-07
+ jAnn:  25  T: 0.798E-04  iSuc:  7000  nEva:   226252  CPU:  0.5399E+04
+  fVal: 0.0225  Rf: 0.07550 Hyd:-0.069 Bur: 17.97 Eng:  0.063 Ang: 0.590E+01 Dih: 0.153E+01 Dst: 0.109E+03 VolCACB: 0.315E-01 VolCBCB: 0.486E-01 Spr: 0.107E+00 Sca: 0.567E-07
+ jAnn:  26  T: 0.718E-04  iSuc:  7000  nEva:   239388  CPU:  0.5718E+04
+  fVal: 0.0211  Rf: 0.07757 Hyd: 0.015 Bur: 18.19 Eng:  0.053 Ang: 0.529E+01 Dih: 0.150E+01 Dst: 0.924E+02 VolCACB: 0.296E-01 VolCBCB: 0.468E-01 Spr: 0.114E+00 Sca: 0.575E-07
+ jAnn:  27  T: 0.646E-04  iSuc:  7000  nEva:   253986  CPU:  0.6070E+04
+  fVal: 0.0208  Rf: 0.07605 Hyd:-0.018 Bur: 17.34 Eng:  0.058 Ang: 0.556E+01 Dih: 0.152E+01 Dst: 0.935E+02 VolCACB: 0.270E-01 VolCBCB: 0.448E-01 Spr: 0.101E+00 Sca: 0.572E-07
+ jAnn:  28  T: 0.581E-04  iSuc:  7000  nEva:   269382  CPU:  0.6441E+04
+  fVal: 0.0204  Rf: 0.07585 Hyd:-0.089 Bur: 17.53 Eng:  0.052 Ang: 0.515E+01 Dih: 0.150E+01 Dst: 0.894E+02 VolCACB: 0.265E-01 VolCBCB: 0.452E-01 Spr: 0.104E+00 Sca: 0.582E-07
+ jAnn:  29  T: 0.523E-04  iSuc:  7000  nEva:   286402  CPU:  0.6851E+04
+  fVal: 0.0189  Rf: 0.08011 Hyd:-0.026 Bur: 17.31 Eng:  0.034 Ang: 0.546E+01 Dih: 0.154E+01 Dst: 0.658E+02 VolCACB: 0.261E-01 VolCBCB: 0.462E-01 Spr: 0.955E-01 Sca: 0.581E-07
+ jAnn:  30  T: 0.471E-04  iSuc:  7000  nEva:   304944  CPU:  0.7296E+04
+  fVal: 0.0189  Rf: 0.08011 Hyd:-0.026 Bur: 17.31 Eng:  0.034 Ang: 0.546E+01 Dih: 0.154E+01 Dst: 0.658E+02 VolCACB: 0.261E-01 VolCBCB: 0.462E-01 Spr: 0.977E-01 Sca: 0.581E-07
+ jAnn:  31  T: 0.424E-04  iSuc:  7000  nEva:   325647  CPU:  0.7790E+04
+  fVal: 0.0184  Rf: 0.08101 Hyd:-0.063 Bur: 17.28 Eng:  0.029 Ang: 0.522E+01 Dih: 0.151E+01 Dst: 0.619E+02 VolCACB: 0.227E-01 VolCBCB: 0.436E-01 Spr: 0.993E-01 Sca: 0.594E-07
+ jAnn:  32  T: 0.382E-04  iSuc:  7000  nEva:   348191  CPU:  0.8328E+04
+  fVal: 0.0174  Rf: 0.07345 Hyd: 0.058 Bur: 17.97 Eng:  0.013 Ang: 0.598E+01 Dih: 0.155E+01 Dst: 0.565E+02 VolCACB: 0.253E-01 VolCBCB: 0.460E-01 Spr: 0.922E-01 Sca: 0.581E-07
+ jAnn:  33  T: 0.343E-04  iSuc:  7000  nEva:   374543  CPU:  0.8956E+04
+  fVal: 0.0169  Rf: 0.07216 Hyd: 0.131 Bur: 18.10 Eng:  0.024 Ang: 0.532E+01 Dih: 0.150E+01 Dst: 0.545E+02 VolCACB: 0.259E-01 VolCBCB: 0.443E-01 Spr: 0.913E-01 Sca: 0.584E-07
+ jAnn:  34  T: 0.309E-04  iSuc:  7000  nEva:   406325  CPU:  0.9711E+04
+  fVal: 0.0160  Rf: 0.07121 Hyd: 0.052 Bur: 17.26 Eng:  0.018 Ang: 0.549E+01 Dih: 0.153E+01 Dst: 0.503E+02 VolCACB: 0.214E-01 VolCBCB: 0.409E-01 Spr: 0.838E-01 Sca: 0.584E-07
+ jAnn:  35  T: 0.278E-04  iSuc:  7000  nEva:   449266  CPU:  0.1073E+05
+  fVal: 0.0150  Rf: 0.06888 Hyd: 0.102 Bur: 18.25 Eng:  0.023 Ang: 0.492E+01 Dih: 0.149E+01 Dst: 0.407E+02 VolCACB: 0.243E-01 VolCBCB: 0.439E-01 Spr: 0.806E-01 Sca: 0.585E-07
+ jAnn:  36  T: 0.250E-04  iSuc:  7000  nEva:   487214  CPU:  0.1162E+05
+  fVal: 0.0150  Rf: 0.06888 Hyd: 0.102 Bur: 18.25 Eng:  0.023 Ang: 0.492E+01 Dih: 0.149E+01 Dst: 0.407E+02 VolCACB: 0.243E-01 VolCBCB: 0.439E-01 Spr: 0.757E-01 Sca: 0.585E-07
+ jAnn:  37  T: 0.225E-04  iSuc:  7000  nEva:   552328  CPU:  0.1310E+05
+  fVal: 0.0135  Rf: 0.06385 Hyd: 0.097 Bur: 18.70 Eng:  0.009 Ang: 0.515E+01 Dih: 0.150E+01 Dst: 0.358E+02 VolCACB: 0.227E-01 VolCBCB: 0.432E-01 Spr: 0.767E-01 Sca: 0.586E-07
+ jAnn:  38  T: 0.203E-04  iSuc:     0  nEva:   622328  CPU:  0.1466E+05
+  fVal: 0.0135  Rf: 0.06385 Hyd: 0.097 Bur: 18.70 Eng:  0.009 Ang: 0.515E+01 Dih: 0.150E+01 Dst: 0.358E+02 VolCACB: 0.227E-01 VolCBCB: 0.432E-01 Spr: 0.767E-01 Sca: 0.586E-07
+
+ Final Chi against raw data ............................. : 11.57
+ Final Chi against raw data-Const ....................... : 11.57
+
+     ===== GLOOPY01 finished at   24-Feb-2009   14:41:33

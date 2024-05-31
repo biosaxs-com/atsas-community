@@ -1,0 +1,57 @@
+   C R Y S O L    Version 2.8  -- 16/02/11 
+ 
+ 
+ -- Program  started  at   12-Dec-2012   05:39:47--
+ 
+ --------  Real space resolution and grid  -------- 
+ 
+  Maximum order of harmonics ............................ : 19
+  Order of Fibonacci grid ............................... : 17
+  Total number of directions ............................ : 2585
+ 
+ ------------  Reciprocal space grid  -------------
+ 
+   in s = 4*pi*sin(theta)/lambda [1/angstrom] 
+  Maximum scattering angle .............................. : 0.5000
+  Number of angular points .............................. : 200
+ 
+ --- Structural parameters (sizes in angstroms) --- 
+ 
+ PDB file name .......................................... : 1e7i_withLIG.pdb
+  Number of atoms read .................................. : 4619
+  Number of skipped rotamers ............................ : 20
+ Geometric Center:   25.552    9.450   19.834
+  Number of carbons read ................................ : 2968
+  Number of nitrogens read .............................. : 752
+  Number of oxigens read ................................ : 858
+  Number of sulfur atoms read ........................... : 41
+ Center of the excess electron density:  0.545  0.042 -0.170
+ Electron   Rg   :  27.81       Envelope   Rg      :  27.66    
+ Shape      Rg   :  27.82       Envelope  volume   : 0.1017E+06
+ Shell    volume : 0.3119E+05   Envelope  surface  :  9403.    
+ Shell      Rg   :  34.82       Envelope  radius   :  50.80    
+ Shell    width  :  3.000       Envelope  diameter :  93.85    
+ Molecular Weight: 0.6590E+05   Dry volume         : 0.7987E+05
+ Displaced volume: 0.8317E+05   Average atomic rad.:  1.626    
+ Number of residuals :     582
+ 
+ -- No data fitting, parameters entered manually --
+ 
+ Solvent density ........................................ : 0.3340
+ Contrast of the solvation shell ........................ : 3.000e-2
+ Average atomic radius .................................. : 1.626
+ Excluded Volume ........................................ : 8.317e+4
+ Average atomic volume .................................. : 18.01
+ Radius of gyration from atomic structure
+ Rg ( Atoms - Excluded volume + Shell ) ................. : 28.71
+ Rg from the slope of net intensity ..................... : 29.24
+ Average electron density ............................... : 0.4236
+  
+ ----------------  Output files  ------------------
+  
+ Coefficients   saved to file 1e7i_withLIG00.flm
+ CRYSOL data    saved to file 1e7i_withLIG00.sav
+ Intensities    saved to file 1e7i_withLIG00.int
+ Net amplitudes saved to file 1e7i_withLIG00.alm
+ 
+   C R Y S O L    Version 2.8  -- 16/02/11  ----  terminated at   12-Dec-2012   05:41:05--

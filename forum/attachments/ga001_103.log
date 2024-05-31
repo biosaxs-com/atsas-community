@@ -1,0 +1,16 @@
+             GAJOE  Version 1.3
+            Ensemble optimization
+ Experimental data file name ............................ : 088_2.dat
+ Intensities file name .................................. : web00.int
+ Master file was used for this construct
+ --Advanced mode--
+ Number of generations .................................. : 1000
+ Number of ensembles .................................... : 50
+ Number of curves per ensemble .......................... : 20
+ Maximum number of mutations per ensemble ............... : 10
+ Number of crossings per generation ..................... : 20
+ Number of cycles ....................................... : 50
+ Repetitions allowed
+ Constant subtraction allowed
+ Convergence file is created
+ Analysis files will be created

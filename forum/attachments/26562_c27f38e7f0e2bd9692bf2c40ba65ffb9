@@ -1,0 +1,248 @@
+   === BUNCH08  started at           13-Jul-2014   11:33:55
+ Computation mode ....................................... : User
+ Project identificator .................................. : cat321
+ Project decsription .................................... : cat321 nf bunch4
+ Random sequence initialized from ....................... : 113404
+ Initial coordinates file name .......................... : cat321_mod_bunch.pdb
+ Number of atoms read ................................... : 779
+ Center of the initial structure :     0.0001   0.0003   0.0002
+ Maximum radius ......................................... : 72.54
+Averaged formfactors of DRs used
+ DR formfactor multiplier ............................... : 1.000
+ Point symmetry of the particle ......................... : P1
+ Number of equivalent positions ......................... : 1
+ Angles penalty ......................................... : 10.91
+ Dihedrals penalty ...................................... : 1.091
+ Angles penalty weight .................................. : 10.00
+ Dihedrals penalty weight ............................... : 1.000
+ Cross penalty .......................................... : 0.1647
+ Cross penalty weight ................................... : 100.0
+ Extended loops penalty ................................. : 6.238
+ Extended loops penalty weight .......................... : 1.000
+ Distances penalty ...................................... : 1.600
+ Distances penalty weight ............................... : 10.00
+ Shift penalty .......................................... : 1.540e-5
+ Shift penalty weight ................................... : 1.000
+ Total number of scattering curves ...................... : 1
+ 1-st construct, the first and the last residues: 1   and   779
+ File name, 1-st experimental data ...................... : cat321_trunc14-620.dat
+ Number of experimental points found .................... : 607
+ Experimental radius of gyration ........................ : 34.21
+ Number of points in the Guinier Plot ................... : 46
+ Amplitudes, 1-st subunit ............................... : cat_mod200.alm
+ Number of points in partial ampliudes .................. : 51
+ Maximum order of harmonics ............................. : 15
+ Evaluated from the file ................................ : cat_mod2.pdb
+ Current subunit:   4979 atoms read, center at   -84.70   85.21   -4.66
+ Residues in the full-length protein ........ : 1    -      620
+ Amplitudes, 2-nd subunit ............................... : 32-100.alm
+ Number of points in partial ampliudes .................. : 51
+ Maximum order of harmonics ............................. : 15
+ Evaluated from the file ................................ : 32-1.pdb
+ Current subunit:   1061 atoms read, center at   254.69   -0.69    1.14
+ Residues in the full-length protein ........ : 634    -    767
+ Total penalty .......................................... : 142.7
+ 1-st curve:
+ Theoretical  points from            1  to           43  used
+ The best chi values:28.18632
+ Initial fVal ........................................... : 937.2
+ Spatial step in angstroems ............................. : 0.0
+ Angular step in degrees ................................ : 20.00
+ Initial annealing temperature .......................... : 10.00
+ Annealing schedule factor .............................. : 0.9000
+ Max # of iterations at each T .......................... : 38950
+ Max # of successes at each T ........................... : 3895
+ Min # of successes to continue ......................... : 100
+ Max # of annealing steps ............................... : 100
+  ====  Simulated annealing procedure started  ====
+ j:   1 T: 0.100E+02 Suc:  3895 Eva:     5103 CPU:  0.839E+02 F:******* Pen: 85.5247
+ The best chi values: 9.10810
+ j:   2 T: 0.900E+01 Suc:  3895 Eva:    10445 CPU:  0.168E+03 F:******* Pen: 85.5247
+ The best chi values: 9.10810
+ j:   3 T: 0.810E+01 Suc:  3895 Eva:    15759 CPU:  0.252E+03 F:******* Pen: 85.5247
+ The best chi values: 9.10810
+ j:   4 T: 0.729E+01 Suc:  3895 Eva:    21202 CPU:  0.342E+03 F:******* Pen: 85.5247
+ The best chi values: 9.10810
+ j:   5 T: 0.656E+01 Suc:  3895 Eva:    26822 CPU:  0.434E+03 F:******* Pen: 85.5247
+ The best chi values: 9.10810
+ j:   6 T: 0.590E+01 Suc:  3895 Eva:    32460 CPU:  0.526E+03 F:******* Pen: 85.5247
+ The best chi values: 9.10810
+ j:   7 T: 0.531E+01 Suc:  3895 Eva:    38258 CPU:  0.621E+03 F:******* Pen: 70.6908
+ The best chi values: 9.59765
+ j:   8 T: 0.478E+01 Suc:  3895 Eva:    44335 CPU:  0.717E+03 F:******* Pen: 70.6908
+ The best chi values: 9.59765
+ j:   9 T: 0.430E+01 Suc:  3895 Eva:    50488 CPU:  0.812E+03 F:******* Pen: 70.6908
+ The best chi values: 9.59765
+ j:  10 T: 0.387E+01 Suc:  3895 Eva:    56364 CPU:  0.903E+03 F:******* Pen: 70.6908
+ The best chi values: 9.59765
+ j:  11 T: 0.349E+01 Suc:  3895 Eva:    62634 CPU:  0.100E+04 F:******* Pen: 70.6908
+ The best chi values: 9.59765
+ j:  12 T: 0.314E+01 Suc:  3895 Eva:    68896 CPU:  0.110E+04 F:******* Pen: 70.6908
+ The best chi values: 9.59765
+ j:  13 T: 0.282E+01 Suc:  3895 Eva:    75353 CPU:  0.120E+04 F:******* Pen: 72.0442
+ The best chi values: 9.03766
+ j:  14 T: 0.254E+01 Suc:  3895 Eva:    82210 CPU:  0.131E+04 F:******* Pen: 72.0442
+ The best chi values: 9.03766
+ j:  15 T: 0.229E+01 Suc:  3895 Eva:    89174 CPU:  0.143E+04 F:******* Pen: 72.0442
+ The best chi values: 9.03766
+ j:  16 T: 0.206E+01 Suc:  3895 Eva:    96464 CPU:  0.155E+04 F:******* Pen: 72.0442
+ The best chi values: 9.03766
+ j:  17 T: 0.185E+01 Suc:  3895 Eva:   103832 CPU:  0.167E+04 F:******* Pen: 72.0442
+ The best chi values: 9.03766
+ j:  18 T: 0.167E+01 Suc:  3895 Eva:   111604 CPU:  0.180E+04 F:******* Pen: 73.7741
+ The best chi values: 8.92397
+ j:  19 T: 0.150E+01 Suc:  3895 Eva:   119688 CPU:  0.193E+04 F:******* Pen: 65.7735
+ The best chi values: 9.13049
+ j:  20 T: 0.135E+01 Suc:  3895 Eva:   128084 CPU:  0.206E+04 F:******* Pen: 65.7735
+ The best chi values: 9.13049
+ j:  21 T: 0.122E+01 Suc:  3895 Eva:   136607 CPU:  0.219E+04 F:******* Pen: 65.7735
+ The best chi values: 9.13049
+ j:  22 T: 0.109E+01 Suc:  3895 Eva:   145771 CPU:  0.233E+04 F:******* Pen: 65.7735
+ The best chi values: 9.13049
+ j:  23 T: 0.985E+00 Suc:  3895 Eva:   155508 CPU:  0.249E+04 F:******* Pen: 54.4744
+ The best chi values: 9.52277
+ j:  24 T: 0.886E+00 Suc:  3895 Eva:   165595 CPU:  0.264E+04 F:******* Pen: 62.0221
+ The best chi values: 8.59478
+ j:  25 T: 0.798E+00 Suc:  3895 Eva:   176567 CPU:  0.282E+04 F:******* Pen: 61.5788
+ The best chi values: 8.61027
+ j:  26 T: 0.718E+00 Suc:  3895 Eva:   187540 CPU:  0.299E+04 F:******* Pen: 62.1909
+ The best chi values: 8.56681
+ j:  27 T: 0.646E+00 Suc:  3895 Eva:   199308 CPU:  0.319E+04 F:******* Pen: 59.3542
+ The best chi values: 8.50971
+ j:  28 T: 0.581E+00 Suc:  3895 Eva:   211383 CPU:  0.338E+04 F:******* Pen: 52.0338
+ The best chi values: 8.45004
+ j:  29 T: 0.523E+00 Suc:  3895 Eva:   224265 CPU:  0.359E+04 F:******* Pen: 52.0338
+ The best chi values: 8.45004
+ j:  30 T: 0.471E+00 Suc:  3895 Eva:   239109 CPU:  0.384E+04 F:******* Pen: 52.0338
+ The best chi values: 8.45004
+ j:  31 T: 0.424E+00 Suc:  3895 Eva:   254561 CPU:  0.408E+04 F:******* Pen: 52.0338
+ The best chi values: 8.45004
+ j:  32 T: 0.382E+00 Suc:  3895 Eva:   270538 CPU:  0.433E+04 F:******* Pen: 52.0338
+ The best chi values: 8.45004
+ j:  33 T: 0.343E+00 Suc:  3895 Eva:   287870 CPU:  0.459E+04 F:******* Pen: 52.0338
+ The best chi values: 8.45004
+ j:  34 T: 0.309E+00 Suc:  3895 Eva:   306531 CPU:  0.487E+04 F:******* Pen: 52.0338
+ The best chi values: 8.45004
+ j:  35 T: 0.278E+00 Suc:  3895 Eva:   325522 CPU:  0.517E+04 F:******* Pen: 47.7817
+ The best chi values: 8.36046
+ j:  36 T: 0.250E+00 Suc:  3895 Eva:   346361 CPU:  0.549E+04 F:******* Pen: 47.7817
+ The best chi values: 8.36046
+ j:  37 T: 0.225E+00 Suc:  3895 Eva:   368733 CPU:  0.583E+04 F:******* Pen: 47.7817
+ The best chi values: 8.36046
+ j:  38 T: 0.203E+00 Suc:  3895 Eva:   392509 CPU:  0.619E+04 F:******* Pen: 47.7817
+ The best chi values: 8.36046
+ j:  39 T: 0.182E+00 Suc:  3895 Eva:   417597 CPU:  0.661E+04 F:******* Pen: 47.7817
+ The best chi values: 8.36046
+ j:  40 T: 0.164E+00 Suc:  3895 Eva:   446202 CPU:  0.708E+04 F:******* Pen: 47.7817
+ The best chi values: 8.36046
+ j:  41 T: 0.148E+00 Suc:  3895 Eva:   476297 CPU:  0.756E+04 F:******* Pen: 47.7817
+ The best chi values: 8.36046
+ j:  42 T: 0.133E+00 Suc:  3895 Eva:   505693 CPU:  0.804E+04 F:******* Pen: 47.7817
+ The best chi values: 8.36046
+ j:  43 T: 0.120E+00 Suc:  3895 Eva:   537933 CPU:  0.856E+04 F:******* Pen: 47.7817
+ The best chi values: 8.36046
+ j:  44 T: 0.108E+00 Suc:  3895 Eva:   573534 CPU:  0.912E+04 F:******* Pen: 47.7817
+ The best chi values: 8.36046
+ j:  45 T: 0.970E-01 Suc:  3895 Eva:   610498 CPU:  0.973E+04 F:******* Pen: 47.7817
+ The best chi values: 8.36046
+ j:  46 T: 0.873E-01 Suc:  3751 Eva:   649448 CPU:  0.103E+05 F:******* Pen: 41.8619
+ The best chi values: 8.60699
+ j:  47 T: 0.786E-01 Suc:  3389 Eva:   688398 CPU:  0.109E+05 F:******* Pen: 45.0333
+ The best chi values: 8.38391
+ j:  48 T: 0.707E-01 Suc:  3244 Eva:   727348 CPU:  0.115E+05 F:******* Pen: 45.0333
+ The best chi values: 8.38391
+ j:  49 T: 0.636E-01 Suc:  3039 Eva:   766298 CPU:  0.121E+05 F:******* Pen: 45.0333
+ The best chi values: 8.38391
+ j:  50 T: 0.573E-01 Suc:  2951 Eva:   805248 CPU:  0.128E+05 F:******* Pen: 45.0333
+ The best chi values: 8.38391
+ j:  51 T: 0.515E-01 Suc:  2645 Eva:   844198 CPU:  0.134E+05 F:******* Pen: 42.1992
+ The best chi values: 8.48415
+ j:  52 T: 0.464E-01 Suc:  2258 Eva:   883148 CPU:  0.140E+05 F:******* Pen: 42.1992
+ The best chi values: 8.48415
+ j:  53 T: 0.417E-01 Suc:  2130 Eva:   922098 CPU:  0.146E+05 F:******* Pen: 42.1992
+ The best chi values: 8.48415
+ j:  54 T: 0.376E-01 Suc:  2106 Eva:   961048 CPU:  0.152E+05 F:******* Pen: 42.1992
+ The best chi values: 8.48415
+ j:  55 T: 0.338E-01 Suc:  2130 Eva:   999998 CPU:  0.158E+05 F:******* Pen: 42.1992
+ The best chi values: 8.48415
+ j:  56 T: 0.304E-01 Suc:  1955 Eva:  1038948 CPU:  0.165E+05 F:******* Pen: 42.1992
+ The best chi values: 8.48415
+ j:  57 T: 0.274E-01 Suc:  1837 Eva:  1077898 CPU:  0.171E+05 F:******* Pen: 42.1992
+ The best chi values: 8.48415
+ j:  58 T: 0.247E-01 Suc:  1622 Eva:  1116848 CPU:  0.177E+05 F:******* Pen: 42.1992
+ The best chi values: 8.48415
+ j:  59 T: 0.222E-01 Suc:  1551 Eva:  1155798 CPU:  0.184E+05 F:******* Pen: 42.1992
+ The best chi values: 8.48415
+ j:  60 T: 0.200E-01 Suc:  1462 Eva:  1194748 CPU:  0.190E+05 F:******* Pen: 42.1992
+ The best chi values: 8.48415
+ j:  61 T: 0.180E-01 Suc:  1293 Eva:  1233698 CPU:  0.196E+05 F:******* Pen: 42.1992
+ The best chi values: 8.48415
+ j:  62 T: 0.162E-01 Suc:  1234 Eva:  1272648 CPU:  0.203E+05 F:******* Pen: 42.1992
+ The best chi values: 8.48415
+ j:  63 T: 0.146E-01 Suc:  1093 Eva:  1311598 CPU:  0.209E+05 F:******* Pen: 42.1992
+ The best chi values: 8.48415
+ j:  64 T: 0.131E-01 Suc:  1048 Eva:  1350548 CPU:  0.216E+05 F:******* Pen: 42.1992
+ The best chi values: 8.48415
+ j:  65 T: 0.118E-01 Suc:   971 Eva:  1389498 CPU:  0.222E+05 F:******* Pen: 42.1992
+ The best chi values: 8.48415
+ j:  66 T: 0.106E-01 Suc:   918 Eva:  1428448 CPU:  0.228E+05 F:******* Pen: 42.1992
+ The best chi values: 8.48415
+ j:  67 T: 0.955E-02 Suc:   777 Eva:  1467398 CPU:  0.234E+05 F:******* Pen: 42.1992
+ The best chi values: 8.48415
+ j:  68 T: 0.860E-02 Suc:   768 Eva:  1506348 CPU:  0.241E+05 F:******* Pen: 43.5741
+ The best chi values: 8.40210
+ j:  69 T: 0.774E-02 Suc:   736 Eva:  1545298 CPU:  0.247E+05 F:******* Pen: 43.6034
+ The best chi values: 8.37330
+ j:  70 T: 0.696E-02 Suc:   668 Eva:  1584248 CPU:  0.253E+05 F:******* Pen: 43.5482
+ The best chi values: 8.37194
+ j:  71 T: 0.627E-02 Suc:   608 Eva:  1623198 CPU:  0.259E+05 F:******* Pen: 43.6497
+ The best chi values: 8.36280
+ j:  72 T: 0.564E-02 Suc:   591 Eva:  1662148 CPU:  0.265E+05 F:******* Pen: 43.3766
+ The best chi values: 8.37055
+ j:  73 T: 0.508E-02 Suc:   623 Eva:  1701098 CPU:  0.272E+05 F:******* Pen: 43.3688
+ The best chi values: 8.36109
+ j:  74 T: 0.457E-02 Suc:   548 Eva:  1740048 CPU:  0.278E+05 F:******* Pen: 43.2054
+ The best chi values: 8.36757
+ j:  75 T: 0.411E-02 Suc:   495 Eva:  1778998 CPU:  0.284E+05 F:******* Pen: 43.2054
+ The best chi values: 8.36757
+ j:  76 T: 0.370E-02 Suc:   464 Eva:  1817948 CPU:  0.290E+05 F:******* Pen: 43.2054
+ The best chi values: 8.36757
+ j:  77 T: 0.333E-02 Suc:   466 Eva:  1856898 CPU:  0.296E+05 F:******* Pen: 43.2054
+ The best chi values: 8.36757
+ j:  78 T: 0.300E-02 Suc:   361 Eva:  1895848 CPU:  0.303E+05 F:******* Pen: 43.2054
+ The best chi values: 8.36757
+ j:  79 T: 0.270E-02 Suc:   397 Eva:  1934798 CPU:  0.309E+05 F:******* Pen: 43.2054
+ The best chi values: 8.36757
+ j:  80 T: 0.243E-02 Suc:   392 Eva:  1973748 CPU:  0.315E+05 F:******* Pen: 43.4027
+ The best chi values: 8.35055
+ j:  81 T: 0.218E-02 Suc:   361 Eva:  2012698 CPU:  0.322E+05 F:******* Pen: 43.3034
+ The best chi values: 8.35560
+ j:  82 T: 0.197E-02 Suc:   303 Eva:  2051648 CPU:  0.328E+05 F:******* Pen: 43.3767
+ The best chi values: 8.34818
+ j:  83 T: 0.177E-02 Suc:   283 Eva:  2090598 CPU:  0.335E+05 F:******* Pen: 43.3864
+ The best chi values: 8.34755
+ j:  84 T: 0.159E-02 Suc:   298 Eva:  2129548 CPU:  0.341E+05 F:******* Pen: 43.2652
+ The best chi values: 8.35046
+ j:  85 T: 0.143E-02 Suc:   255 Eva:  2168498 CPU:  0.347E+05 F:******* Pen: 43.2447
+ The best chi values: 8.35018
+ j:  86 T: 0.129E-02 Suc:   226 Eva:  2207448 CPU:  0.354E+05 F:******* Pen: 43.1956
+ The best chi values: 8.35309
+ j:  87 T: 0.116E-02 Suc:   254 Eva:  2246398 CPU:  0.360E+05 F:******* Pen: 43.2383
+ The best chi values: 8.34952
+ j:  88 T: 0.104E-02 Suc:   226 Eva:  2285348 CPU:  0.367E+05 F:******* Pen: 43.1690
+ The best chi values: 8.35256
+ j:  89 T: 0.940E-03 Suc:   218 Eva:  2324298 CPU:  0.374E+05 F:******* Pen: 43.1148
+ The best chi values: 8.35469
+ j:  90 T: 0.846E-03 Suc:   187 Eva:  2363248 CPU:  0.380E+05 F:******* Pen: 43.1398
+ The best chi values: 8.35234
+ j:  91 T: 0.762E-03 Suc:   162 Eva:  2402198 CPU:  0.387E+05 F:******* Pen: 43.0777
+ The best chi values: 8.35478
+ j:  92 T: 0.686E-03 Suc:   150 Eva:  2441148 CPU:  0.393E+05 F:******* Pen: 43.0777
+ The best chi values: 8.35478
+ j:  93 T: 0.617E-03 Suc:   139 Eva:  2480098 CPU:  0.400E+05 F:******* Pen: 43.1002
+ The best chi values: 8.35291
+ j:  94 T: 0.555E-03 Suc:    93 Eva:  2519048 CPU:  0.406E+05 F:******* Pen: 43.1144
+ The best chi values: 8.35195
+
+
+     ===== BUNCH08  finished at   14-Jul-2014   16:21:24

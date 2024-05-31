@@ -1,0 +1,70 @@
+   === DAMMIN51  started at           13-May-2008   09:48:46
+ Computation mode ....................................... : Fast
+ Project identificator .................................. : 618-1
+  Project decsription:                                                   
+ Random sequence initialized from ....................... : 94902
+ GNOM file name ......................................... : 1-1-1.out
+  ** Information read from the GNOM file **
+ Data set title:   0.003341  1.201530 1.533166                                          
+ Raw data file name:  1-1-1.dat                                         
+ Maximum diameter of the particle ....................... : 170.0
+  Solution at Alpha =  0.237E+00   Rg :  0.572E+02   I(0) :   0.133E+03 
+ Radius of gyration read ................................ : 57.20
+ Number of GNOM data points ............................. : 72
+ Maximum s value [1/angstrom] ........................... : 0.1302
+ Number of Shannon channels ............................. : 7.046
+ Number of knots in the curve to fit .................... : 20
+  ** Constant subtraction procedure skipped **
+ Maximum order of harmonics ............................. : 10
+ DAM coordinates file name .............................. : damstart.pdb
+ Number of atoms read ................................... : 669
+ Maximum radius ......................................... : 88.12
+ Packing radius of dummy atoms .......................... : 0.0
+ Point symmetry of the particle ......................... : P1
+ Number of core (fixed) atoms ........................... : 0
+ Number of equivalent positions ......................... : 1
+ Expected particle anisometry ........................... : Unknown
+ Excluded volume per atom ............................... : 0.0
+ Radius of 1st coordination sphere ...................... : 0.0
+ Minimum number of contacts ............................. : 0
+ Maximum number of contacts ............................. : 0
+ Looseness penalty weight ............................... : 1.600e-2
+ No of non-solvent atoms ................................ : 669
+ Initial DAM looseness .................................. : 0.9975
+ Disconnectivity penalty weight ......................... : 1.600e-2
+ Initial DAM # of graphs ................................ : 669
+ Discontiguity   value .................................. : 6.506
+ Center of the initial DAM:   -4.9346  -2.2933  -3.0224
+ Peripheral penalty weight .............................. : 0.3000
+ Peripheral penalty value ............................... : 0.4066
+ Looseness fixing threshold ............................. : 5.000e-2
+ R-factor  fixing threshold ............................. : 1.500e-2
+  ***    The structure was randomized    ***
+ No of non-solvent atoms ................................ : 335
+ Randomized DAM looseness ............................... : 0.9975
+ Randomized DAM # of graphs ............................. : 335
+ Discontiguity   value .................................. : 5.814
+ Weight: 0=s^2, 1=Emphas.s->0, 2=Log .................... : 1
+ *** Porod weight with emphasis at low s ***
+ Initial scale factor ................................... : *****
+ Scale factor fixed (Y=Yes, N=No) ....................... : N
+ Initial R^2 factor ..................................... : *****
+ Initial R   factor ..................................... : *****
+ Initial penalty ........................................ : 0.2310
+ Initial fVal ........................................... : *****
+ Variation of the target function ....................... : *****
+ CPU per function call, seconds ......................... : 2.649e-4
+ Initial annealing temperature .......................... : 1.000e-3
+ Annealing schedule factor .............................. : 0.9000
+ # of independent atoms to modify ....................... : 1
+ Max # of iterations at each T .......................... : 46830
+ Max # of successes at each T ........................... : 4683
+ Min # of successes to continue ......................... : 15
+ Max # of annealing steps ............................... : 100
+  ====  Simulated annealing procedure started  ====
+ j:   1 T: 0.100E-02 Suc:     0 Eva:    46830 CPU:  0.118E+02 SqF:    nan
+  Rf:     nan Los:0.9975 Dis:5.8141 Per:  0.4066 Sca:       NAN
+
+ Final SQRT(Chi) against raw data ....................... : *****
+
+     ===== DAMMIN51 finished at   13-May-2008   09:49:28

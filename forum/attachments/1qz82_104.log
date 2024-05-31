@@ -1,0 +1,143 @@
+   === GASBOR Version 2.2p build 22.06.06 started on   20-Feb-2009   10:58:42
+ Computation mode ....................................... : User
+ Project identificator .................................. : 1qz82
+  Project decsription: 1qz8 gasbor P2 fit                                
+ Random sequence initialized from ....................... : 105938
+ GNOM file name ......................................... : gnom3.out
+  ** Information read from the GNOM file **
+ Data set title: Dif/Atom/Shap	e/Bord 1QZ8.pdb	Dro:  0.	030 Ra: 1.6210	Rg: 0.00 
+ Vt    
+ Raw data file name:  1QZ801.int                                        
+ Maximum diameter of the particle ....................... : 70.00
+  Solution at Alpha =  0.110E+03   Rg :  0.214E+02   I(0) :   0.112E+08 
+ Radius of gyration ..................................... : 21.40
+ Number of GNOM data points ............................. : 200
+ Maximum s value [1/angstrom] ........................... : 1.000
+ Number of Shannon channels ............................. : 22.28
+ Number of knots in the curve to fit .................... : 101
+ Point symmetry of the particle ......................... : P2
+ Number of equivalent positions ......................... : 2
+ Total number of residues ............................... : 226
+ Packing radius of dummy atoms .......................... : 1.900
+  Number of dummy waters ................................ : 145
+ Excluded volume per residue ............................ : 28.73
+ Radius of the search volume ............................ : 35.00
+ Histogram penalty weight ............................... : 5.000e-4
+ Bond length penalty weight ............................. : 5.000e-3
+ Discontiguity penalty weight ........................... : 5.000e-3
+ Peripheral penalty weight .............................. : 0.5000
+ Expected particle anisometry ........................... : Unknown
+ Contrast of the hydration layer ........................ : 3.000e-2
+ Initial scale factor ................................... : 0.9001
+ Scale factor fixed (Y=Yes, N=No) ....................... : N
+ Histogram penalty value ................................ : 27.31
+ Bond length penalty value .............................. : 0.8043
+ Initial DRM # of graphs ................................ : 146
+ Discontiguity   value .................................. : 2.330
+ Peripheral penalty value ............................... : 0.3219
+ Initial R^2 factor ..................................... : 6.554e-2
+ Initial penalty ........................................ : 0.1903
+ Initial fVal ........................................... : 0.2558
+ Initial annealing temperature .......................... : 1.000e-3
+ Annealing schedule factor .............................. : 0.9000
+ # of independent atoms to modify ....................... : 1
+ Max # of iterations at each T .......................... : 50000
+ Max # of successes at each T ........................... : 5000
+ Min # of successes to continue ......................... : 50
+ Max # of annealing steps ............................... : 100
+  ====  Simulated annealing procedure started  ====
+ j:   1 T: 0.100E-02 Suc:  5000 Eva:     6994 CPU:  0.576E+01 SqF: 0.3706
+  Rf2PR: 0.01763 His: 23.32 Bnd: 0.814 Dis:0.4507 Per :0.2035
+ j:   2 T: 0.900E-03 Suc:  5000 Eva:    14001 CPU:  0.116E+02 SqF: 0.3423
+  Rf2PR: 0.01338 His: 20.28 Bnd: 1.011 Dis:0.2501 Per :0.2157
+ j:   3 T: 0.810E-03 Suc:  5000 Eva:    21267 CPU:  0.176E+02 SqF: 0.3148
+  Rf2PR: 0.00918 His: 22.18 Bnd: 0.718 Dis:0.3329 Per :0.2243
+ j:   4 T: 0.729E-03 Suc:  5000 Eva:    28935 CPU:  0.240E+02 SqF: 0.2927
+  Rf2PR: 0.00693 His: 21.35 Bnd: 0.823 Dis:0.2165 Per :0.2366
+ j:   5 T: 0.656E-03 Suc:  5000 Eva:    36616 CPU:  0.302E+02 SqF: 0.2702
+  Rf2PR: 0.00356 His: 19.82 Bnd: 0.538 Dis:0.3085 Per :0.2570
+ j:   6 T: 0.590E-03 Suc:  5000 Eva:    44589 CPU:  0.367E+02 SqF: 0.2499
+  Rf2PR: 0.00384 His: 18.04 Bnd: 0.745 Dis:0.2615 Per :0.2556
+ j:   7 T: 0.531E-03 Suc:  5000 Eva:    52911 CPU:  0.435E+02 SqF: 0.2333
+  Rf2PR: 0.00430 His: 20.98 Bnd: 0.556 Dis:0.3707 Per :0.2479
+ j:   8 T: 0.478E-03 Suc:  5000 Eva:    61392 CPU:  0.503E+02 SqF: 0.2154
+  Rf2PR: 0.00478 His: 17.90 Bnd: 0.409 Dis:0.2966 Per :0.2547
+ j:   9 T: 0.430E-03 Suc:  5000 Eva:    70701 CPU:  0.577E+02 SqF: 0.2025
+  Rf2PR: 0.00265 His: 18.27 Bnd: 0.572 Dis:0.2966 Per :0.2686
+ j:  10 T: 0.387E-03 Suc:  5000 Eva:    80157 CPU:  0.653E+02 SqF: 0.1902
+  Rf2PR: 0.00327 His: 16.74 Bnd: 0.340 Dis:0.2730 Per :0.2860
+ j:  11 T: 0.349E-03 Suc:  5000 Eva:    90085 CPU:  0.732E+02 SqF: 0.1766
+  Rf2PR: 0.00093 His: 16.79 Bnd: 0.363 Dis:0.2388 Per :0.3101
+ j:  12 T: 0.314E-03 Suc:  5000 Eva:   100768 CPU:  0.817E+02 SqF: 0.1626
+  Rf2PR: 0.00124 His: 15.60 Bnd: 0.586 Dis:0.0830 Per :0.2856
+ j:  13 T: 0.282E-03 Suc:  5000 Eva:   111767 CPU:  0.906E+02 SqF: 0.1540
+  Rf2PR: 0.00118 His: 14.37 Bnd: 0.489 Dis:0.1735 Per :0.3018
+ j:  14 T: 0.254E-03 Suc:  5000 Eva:   123736 CPU:  0.100E+03 SqF: 0.1439
+  Rf2PR: 0.00125 His: 13.99 Bnd: 0.290 Dis:0.1424 Per :0.3186
+ j:  15 T: 0.229E-03 Suc:  5000 Eva:   136812 CPU:  0.110E+03 SqF: 0.1374
+  Rf2PR: 0.00151 His: 13.62 Bnd: 0.248 Dis:0.3085 Per :0.2974
+ j:  16 T: 0.206E-03 Suc:  5000 Eva:   150535 CPU:  0.121E+03 SqF: 0.1281
+  Rf2PR: 0.00106 His: 13.62 Bnd: 0.210 Dis:0.1630 Per :0.3151
+ j:  17 T: 0.185E-03 Suc:  5000 Eva:   165237 CPU:  0.133E+03 SqF: 0.1240
+  Rf2PR: 0.00091 His: 13.96 Bnd: 0.313 Dis:0.1323 Per :0.3066
+ j:  18 T: 0.167E-03 Suc:  5000 Eva:   181038 CPU:  0.145E+03 SqF: 0.1172
+  Rf2PR: 0.00056 His: 13.69 Bnd: 0.303 Dis:0.0927 Per :0.3132
+ j:  19 T: 0.150E-03 Suc:  5000 Eva:   198750 CPU:  0.159E+03 SqF: 0.1090
+  Rf2PR: 0.00068 His: 12.19 Bnd: 0.197 Dis:0.0734 Per :0.3326
+ j:  20 T: 0.135E-03 Suc:  5000 Eva:   218415 CPU:  0.174E+03 SqF: 0.1046
+  Rf2PR: 0.00045 His: 12.53 Bnd: 0.183 Dis:0.0639 Per :0.3278
+ j:  21 T: 0.122E-03 Suc:  5000 Eva:   240278 CPU:  0.191E+03 SqF: 0.0998
+  Rf2PR: 0.00056 His: 11.47 Bnd: 0.228 Dis:0.0179 Per :0.3313
+ j:  22 T: 0.109E-03 Suc:  5000 Eva:   264079 CPU:  0.210E+03 SqF: 0.0950
+  Rf2PR: 0.00056 His: 10.52 Bnd: 0.162 Dis:0.0734 Per :0.3372
+ j:  23 T: 0.985E-04 Suc:  5000 Eva:   291417 CPU:  0.231E+03 SqF: 0.0928
+  Rf2PR: 0.00052 His: 11.09 Bnd: 0.145 Dis:0.0453 Per :0.3315
+ j:  24 T: 0.886E-04 Suc:  5000 Eva:   322940 CPU:  0.256E+03 SqF: 0.0855
+  Rf2PR: 0.00066 His:  9.36 Bnd: 0.083 Dis:0.0453 Per :0.3386
+ j:  25 T: 0.798E-04 Suc:  5000 Eva:   357793 CPU:  0.283E+03 SqF: 0.0855
+  Rf2PR: 0.00066 His:  9.36 Bnd: 0.083 Dis:0.0453 Per :0.3386
+ j:  26 T: 0.718E-04 Suc:  5000 Eva:   397281 CPU:  0.314E+03 SqF: 0.0815
+  Rf2PR: 0.00030 His:  9.56 Bnd: 0.126 Dis:0.0000 Per :0.3612
+ j:  27 T: 0.646E-04 Suc:  5000 Eva:   442719 CPU:  0.349E+03 SqF: 0.0780
+  Rf2PR: 0.00040 His:  9.01 Bnd: 0.089 Dis:0.0000 Per :0.3538
+ j:  28 T: 0.581E-04 Suc:  4765 Eva:   492719 CPU:  0.389E+03 SqF: 0.0780
+  Rf2PR: 0.00067 His:  8.51 Bnd: 0.107 Dis:0.0089 Per :0.3412
+ j:  29 T: 0.523E-04 Suc:  3928 Eva:   542719 CPU:  0.428E+03 SqF: 0.0749
+  Rf2PR: 0.00047 His:  8.54 Bnd: 0.070 Dis:0.0089 Per :0.3496
+ j:  30 T: 0.471E-04 Suc:  3501 Eva:   592719 CPU:  0.468E+03 SqF: 0.0740
+  Rf2PR: 0.00051 His:  8.40 Bnd: 0.078 Dis:0.0000 Per :0.3378
+ j:  31 T: 0.424E-04 Suc:  2999 Eva:   642719 CPU:  0.507E+03 SqF: 0.0686
+  Rf2PR: 0.00042 His:  7.40 Bnd: 0.054 Dis:0.0000 Per :0.3439
+ j:  32 T: 0.382E-04 Suc:  2492 Eva:   692719 CPU:  0.545E+03 SqF: 0.0685
+  Rf2PR: 0.00028 His:  7.56 Bnd: 0.077 Dis:0.0000 Per :0.3439
+ j:  33 T: 0.343E-04 Suc:  2052 Eva:   742719 CPU:  0.584E+03 SqF: 0.0665
+  Rf2PR: 0.00052 His:  6.59 Bnd: 0.077 Dis:0.0000 Per :0.3750
+ j:  34 T: 0.309E-04 Suc:  1517 Eva:   792719 CPU:  0.622E+03 SqF: 0.0656
+  Rf2PR: 0.00044 His:  6.85 Bnd: 0.051 Dis:0.0000 Per :0.3905
+ j:  35 T: 0.278E-04 Suc:  1262 Eva:   842719 CPU:  0.661E+03 SqF: 0.0643
+  Rf2PR: 0.00041 His:  6.74 Bnd: 0.041 Dis:0.0000 Per :0.3699
+ j:  36 T: 0.250E-04 Suc:  1006 Eva:   892719 CPU:  0.700E+03 SqF: 0.0615
+  Rf2PR: 0.00029 His:  6.48 Bnd: 0.027 Dis:0.0000 Per :0.3783
+ j:  37 T: 0.225E-04 Suc:   687 Eva:   942719 CPU:  0.740E+03 SqF: 0.0608
+  Rf2PR: 0.00036 His:  5.95 Bnd: 0.053 Dis:0.0000 Per :0.3807
+ j:  38 T: 0.203E-04 Suc:   565 Eva:   992719 CPU:  0.778E+03 SqF: 0.0591
+  Rf2PR: 0.00033 His:  5.88 Bnd: 0.028 Dis:0.0000 Per :0.4007
+ j:  39 T: 0.182E-04 Suc:   377 Eva:  1042719 CPU:  0.813E+03 SqF: 0.0579
+  Rf2PR: 0.00029 His:  5.64 Bnd: 0.035 Dis:0.0000 Per :0.3963
+ j:  40 T: 0.164E-04 Suc:   278 Eva:  1092719 CPU:  0.848E+03 SqF: 0.0543
+  Rf2PR: 0.00027 His:  4.77 Bnd: 0.047 Dis:0.0000 Per :0.4052
+ j:  41 T: 0.148E-04 Suc:   254 Eva:  1142719 CPU:  0.885E+03 SqF: 0.0543
+  Rf2PR: 0.00027 His:  4.77 Bnd: 0.047 Dis:0.0000 Per :0.4052
+ j:  42 T: 0.133E-04 Suc:   187 Eva:  1192719 CPU:  0.924E+03 SqF: 0.0543
+  Rf2PR: 0.00027 His:  4.77 Bnd: 0.047 Dis:0.0000 Per :0.4052
+ j:  43 T: 0.120E-04 Suc:   128 Eva:  1242719 CPU:  0.963E+03 SqF: 0.0543
+  Rf2PR: 0.00027 His:  4.77 Bnd: 0.047 Dis:0.0000 Per :0.4052
+ j:  44 T: 0.108E-04 Suc:    75 Eva:  1292719 CPU:  0.100E+04 SqF: 0.0525
+  Rf2PR: 0.00026 His:  4.54 Bnd: 0.040 Dis:0.0000 Per :0.4226
+ j:  45 T: 0.970E-05 Suc:    26 Eva:  1342719 CPU:  0.104E+04 SqF: 0.0523
+  Rf2PR: 0.00020 His:  4.73 Bnd: 0.029 Dis:0.0000 Per :0.4130
+ 
+ Final Chi against raw data ............................. : 114.4
+ Final Chi against corrected data ....................... : 17.83
+ 
+     === GASBOR Version 2.2p build 22.06.06 finished on   20-Feb-2009   11:17:57

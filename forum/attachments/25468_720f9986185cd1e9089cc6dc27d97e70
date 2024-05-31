@@ -1,0 +1,69 @@
+   C R Y S O L    Version 2.8  -- 16/02/11 
+ 
+ 
+ -- Program  started  at   22-Jul-2013   16:03:44--
+ 
+ --------  Real space resolution and grid  -------- 
+ 
+  Maximum order of harmonics ............................ : 50
+  Order of Fibonacci grid ............................... : 18
+  Total number of directions ............................ : 4182
+ 
+ ------------  Reciprocal space grid  -------------
+ 
+   in s = 4*pi*sin(theta)/lambda [1/angstrom] 
+  Maximum scattering angle .............................. : 1.000
+  Number of angular points .............................. : 101
+ 
+ --- Structural parameters (sizes in angstroms) --- 
+ 
+ PDB file name .......................................... : prot.pdb
+  Number of atoms read .................................. : 1001
+ Geometric Center:   -0.569   20.578   19.252
+  Number of carbons read ................................ : 613
+  Number of nitrogens read .............................. : 193
+  Number of oxigens read ................................ : 185
+  Number of sulfur atoms read ........................... : 10
+ Center of the excess electron density:  0.452 -0.004  0.276
+ Electron   Rg   :  13.99       Envelope   Rg      :  13.98    
+ Shape      Rg   :  13.97       Envelope  volume   : 0.1830E+05
+ Shell    volume : 0.1154E+05   Envelope  surface  :  3218.    
+ Shell      Rg   :  18.85       Envelope  radius   :  25.48    
+ Shell    width  :  3.000       Envelope  diameter :  49.06    
+ Molecular Weight: 0.1432E+05   Dry volume         : 0.1736E+05
+ Displaced volume: 0.1741E+05   Average atomic rad.:  1.607    
+ Number of residuals :     129
+ 
+ ------  Experimental Curve and fitting ----------- 
+ 
+ Data file name ......................................... : lyzexp.dat
+ Title: #Lysozyme, high angles (>.22) 46 mg/ml, small angles (<.22) 15 mg/ml   
+  Maximum angle in the data file ........................ : 0.4960
+  Number of experimental points ......................... : 196
+  Angular units multiplied by ........................... : 1.000
+ No regriding. Number of exp points kept
+ Electron density of the solvent, e/A**3 ................ : 0.3340
+ 
+ -------  Search limits ---------------   ---  Fitting parameters -------
+  DroMin/Max   Ra(Mn/Mx)  ExVol(Min/max) Semax| Dro   Ra     Vol    Chi  Hydra
+ 0.000 0.075   1.40 1.80  16108.  18720. 0.496|0.010 1.480  17675. 0.451 0.499
+  
+ --------  Radii of gyration  [angstroms] ----------
+  
+ Guinier fits using the first  29 data pts 
+ Experimental curve                                : 15.23 +-  0.21
+ Theoretical  curve ..................................... : 14.95
+ Radius of Gyration from atomic structure
+ Rg ( Atoms - Excluded volume + Shell ) ................. : 14.45
+ Rg from the slope of net intensity ..................... : 14.79
+ Average electron density ............................... : 0.4319
+  
+ ----------------  Output files  ------------------
+  
+ Coefficients   saved to file prot01.flm
+ CRYSOL data    saved to file prot01.sav
+ Data fit       saved to file prot01.fit
+ Intensities    saved to file prot01.int
+ Net amplitudes saved to file prot01.alm
+ 
+   C R Y S O L    Version 2.8  -- 16/02/11  ----  terminated at   22-Jul-2013   16:04:27--

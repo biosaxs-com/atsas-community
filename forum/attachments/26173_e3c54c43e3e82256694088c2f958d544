@@ -1,0 +1,53 @@
+***  ------------------------------------------------  ***
+***    GAJOE - version 2.0                             ***
+***    Copyright (c) ATSAS Team                        ***
+***    EMBL, Hamburg Outstation, 2007 - 2012           ***
+***                                                    ***
+***    For doubts/questions please visit SAXIER forum: ***
+***    http://www.saxier.org/forum/viewtopic.php?f=10  ***
+***                                                    ***
+***    In case of bugs please refer to:                ***
+***    G. Tria, D.I. Svergun, EMBL BioSAXS group       ***
+***    atsas@embl-hamburg.de                           ***
+***  ------------------------------------------------  ***
+
+ Input the experimental data file name .................. : b4.dat
+ -------------------------------------------
+ -- Pool(s)
+ Input the name of the intensities file ................. : juneom.int
+ Input the name of the RANCH logfile .................... : Rancheom.log
+ Input the name of the SIZE_list file ................... : Size_listeom.txt
+ ---
+ -------------------------------------------
+ -- Standard Mode
+ Enter minimum number of curves per ensemble (min. 1, max. 20): 1
+ Constant subtraction allowed? .......................... : Y
+ Enter number of times you want the process repeated (min. 1): 100
+ -------------------------------------------
+ -- Number of theoretical curves :        10000
+ -------------------------------------------
+ Start:  02/08/13 14:05:33       
+ End:    02/08/13 15:05:49       
+ -------------------------------------------
+ -- Files created:
+ Fit to the experimental data ........................... : profiles_001_1.fit
+ Radius of gyration distribution ........................ : Rg_distr_001_1.dat
+ Max Dimensions distribution ............................ : Size_distr_001_1.dat
+ -------------------------------------------
+ -- Files in the pdb folder:
+ Filename                 Rg     Dmax     Times             
+
+ 00183eom.pdb           56.76   195.37      3
+ 00499eom.pdb           55.33   190.69      3
+ 05999eom.pdb           46.17   149.18     10
+ 07387eom.pdb           50.89   157.85      1
+ 08459eom.pdb           53.46   164.59      1
+ 08494eom.pdb           61.81   213.69      1
+ 08617eom.pdb           51.68   177.03      1
+ 08705eom.pdb           51.01   162.28      5
+ 09056eom.pdb           51.61   173.46      2
+ 09193eom.pdb           62.26   206.72      3
+
+ Average values:        52.03   171.39     30
+ -------------------------------------------
+ Chi-value:   0.857

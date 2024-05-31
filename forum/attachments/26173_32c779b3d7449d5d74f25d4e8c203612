@@ -1,0 +1,150 @@
+   === CORAL05  started at           11-May-2012   16:45:28
+ Computation mode ....................................... : User
+ Project identificator .................................. : cora31
+ Project decsription .................................... : higg1
+ Random sequence initialized from ....................... : 164537
+ File name with objects info ............................ : config.con
+ Coordinates of the 1-st subunit evaluated from ......... : LC1.pdb
+  1686 atoms read, center at   -35.81  -18.56  -23.30
+ Coordinates of the 2-nd subunit evaluated from ......... : HC1.pdb
+  1619 atoms read, center at   -24.09   -8.55  -32.66
+ Coordinates of the 3-rd subunit evaluated from ......... : FC1.pdb
+  1792 atoms read, center at    53.52  140.92  118.56
+ Coordinates of the 4-th subunit evaluated from ......... : LC2.pdb
+  1686 atoms read, center at   -35.81  -18.56  -23.30
+ Coordinates of the 5-th subunit evaluated from ......... : HC2.pdb
+  1619 atoms read, center at   -24.09   -8.55  -32.66
+ Coordinates of the 6-th subunit evaluated from ......... : FC2.pdb
+  1770 atoms read, center at    40.18  119.01  113.99
+ Number of backbone atoms generated ..................... : 1325
+Averaged formfactors of DRs used
+ DR formfactor multiplier ............................... : 1.000
+ Point symmetry of the particle ......................... : P1
+ Number of equivalent positions ......................... : 1
+ Cross penalty .......................................... : 5.709
+ Cross penalty weight ................................... : 100.0
+ Shift penalty .......................................... : 1.675
+ Shift penalty weight ................................... : 1.000
+ Contacts conditions file name .......................... : contact.cnd
+Condition #  1: Distance   6.300
+   Between chain #  1, Residues from GLY   614 to GLY   614
+       and chain #  1, Residues from GLY  1275 to GLY  1275
+Condition #  2: Distance   6.000
+   Between chain #  1, Residues from GLY   566 to GLY   566
+       and chain #  1, Residues from GLY  1235 to GLY  1235
+Condition #  3: Distance   6.000
+   Between chain #  1, Residues from GLY   571 to GLY   571
+       and chain #  1, Residues from GLY  1232 to GLY  1232
+Condition #  4: Distance   5.600
+   Between chain #  1, Residues from GLY   443 to GLY   443
+       and chain #  1, Residues from GLY  1107 to GLY  1107
+ Contacts conditions penalty ............................ : 11.83
+ Contacts penalty weight ................................ : 10.00
+ Total number of scattering curves ...................... : 1
+ 1-st construct, the first and the last residues: 1   and   1325
+ File name, 1-st experimental data ...................... : a4.dat
+ Number of experimental points found .................... : 1152
+ Angular units multiplied by ............................ : 0.1000
+ Experimental radius of gyration ........................ : 48.90
+ Number of points in the Guinier Plot ................... : 47
+ Maximum s-vector in master grid ........................ : 0.3314
+ Number of points in partial ampliudes .................. : 101
+ Maximum order of harmonics ............................. : 14
+ Total penalty .......................................... : 690.9
+ 1-st curve:
+ NEXP reduced to ........................................ : 1151
+ Theoretical  points from            5  to          101  used
+ The best chi values: 8.14124
+ Initial fVal ........................................... : 757.2
+ Spatial step in angstroems ............................. : 5.000
+ Angular step in degrees ................................ : 20.00
+ Initial annealing temperature .......................... : 10.00
+ Annealing schedule factor .............................. : 0.9000
+ Max # of iterations at each T .......................... : 31900
+ Max # of successes at each T ........................... : 3190
+ Min # of successes to continue ......................... : 100
+ Max # of annealing steps ............................... : 100
+  ====  Simulated annealing procedure started  ====
+ j:   1 T: 0.100E+02 Suc:  3190 Eva:     8079 CPU:  0.244E+03 F:17.5245 Pen: 12.1613
+ The best chi values: 2.31588
+ j:   2 T: 0.900E+01 Suc:  3190 Eva:    17868 CPU:  0.543E+03 F: 8.6790 Pen:  4.2351
+ The best chi values: 2.10805
+ j:   3 T: 0.810E+01 Suc:  3190 Eva:    28345 CPU:  0.859E+03 F: 8.6790 Pen:  4.2351
+ The best chi values: 2.10805
+ j:   4 T: 0.729E+01 Suc:  3190 Eva:    40407 CPU:  0.122E+04 F: 8.6790 Pen:  4.2351
+ The best chi values: 2.10805
+ j:   5 T: 0.656E+01 Suc:  3190 Eva:    52890 CPU:  0.158E+04 F: 8.6790 Pen:  4.2351
+ The best chi values: 2.10805
+ j:   6 T: 0.590E+01 Suc:  3190 Eva:    68622 CPU:  0.204E+04 F: 8.6790 Pen:  4.2351
+ The best chi values: 2.10805
+ j:   7 T: 0.531E+01 Suc:  3190 Eva:    85643 CPU:  0.255E+04 F: 8.6790 Pen:  4.2351
+ The best chi values: 2.10805
+ j:   8 T: 0.478E+01 Suc:  3190 Eva:   101594 CPU:  0.302E+04 F: 6.3558 Pen:  1.3791
+ The best chi values: 2.23084
+ j:   9 T: 0.430E+01 Suc:  3190 Eva:   122521 CPU:  0.364E+04 F: 6.3558 Pen:  1.3791
+ The best chi values: 2.23084
+ j:  10 T: 0.387E+01 Suc:  3190 Eva:   142179 CPU:  0.422E+04 F: 6.3558 Pen:  1.3791
+ The best chi values: 2.23084
+ j:  11 T: 0.349E+01 Suc:  3190 Eva:   164138 CPU:  0.486E+04 F: 6.3558 Pen:  1.3791
+ The best chi values: 2.23084
+ j:  12 T: 0.314E+01 Suc:  3190 Eva:   190386 CPU:  0.564E+04 F: 6.3558 Pen:  1.3791
+ The best chi values: 2.23084
+ j:  13 T: 0.282E+01 Suc:  2908 Eva:   222286 CPU:  0.661E+04 F: 6.3558 Pen:  1.3791
+ The best chi values: 2.23084
+ j:  14 T: 0.254E+01 Suc:  2400 Eva:   254186 CPU:  0.761E+04 F: 4.6309 Pen:  3.1261
+ The best chi values: 1.22671
+ j:  15 T: 0.229E+01 Suc:  2961 Eva:   286086 CPU:  0.858E+04 F: 4.2997 Pen:  1.9738
+ The best chi values: 1.52509
+ j:  16 T: 0.206E+01 Suc:  3172 Eva:   317986 CPU:  0.953E+04 F: 3.6085 Pen:  1.1657
+ The best chi values: 1.56293
+ j:  17 T: 0.185E+01 Suc:  1816 Eva:   349886 CPU:  0.105E+05 F: 3.6085 Pen:  1.1657
+ The best chi values: 1.56293
+ j:  18 T: 0.167E+01 Suc:  2182 Eva:   381786 CPU:  0.114E+05 F: 3.6085 Pen:  1.1657
+ The best chi values: 1.56293
+ j:  19 T: 0.150E+01 Suc:  2102 Eva:   413686 CPU:  0.124E+05 F: 3.6085 Pen:  1.1657
+ The best chi values: 1.56293
+ j:  20 T: 0.135E+01 Suc:  2206 Eva:   445586 CPU:  0.134E+05 F: 3.6085 Pen:  1.1657
+ The best chi values: 1.56293
+ j:  21 T: 0.122E+01 Suc:  2149 Eva:   477486 CPU:  0.143E+05 F: 3.6085 Pen:  1.1657
+ The best chi values: 1.56293
+ j:  22 T: 0.109E+01 Suc:  1904 Eva:   509386 CPU:  0.153E+05 F: 3.6085 Pen:  1.1657
+ The best chi values: 1.56293
+ j:  23 T: 0.985E+00 Suc:  1486 Eva:   541286 CPU:  0.163E+05 F: 3.6085 Pen:  1.1657
+ The best chi values: 1.56293
+ j:  24 T: 0.886E+00 Suc:  1007 Eva:   573186 CPU:  0.172E+05 F: 3.6085 Pen:  1.1657
+ The best chi values: 1.56293
+ j:  25 T: 0.798E+00 Suc:  1054 Eva:   605086 CPU:  0.182E+05 F: 3.5030 Pen:  1.5612
+ The best chi values: 1.39347
+ j:  26 T: 0.718E+00 Suc:  1063 Eva:   636986 CPU:  0.192E+05 F: 3.1203 Pen:  1.1553
+ The best chi values: 1.40181
+ j:  27 T: 0.646E+00 Suc:  1012 Eva:   668886 CPU:  0.202E+05 F: 2.9954 Pen:  1.2571
+ The best chi values: 1.31842
+ j:  28 T: 0.581E+00 Suc:   994 Eva:   700786 CPU:  0.212E+05 F: 2.9954 Pen:  1.2571
+ The best chi values: 1.31842
+ j:  29 T: 0.523E+00 Suc:   486 Eva:   732686 CPU:  0.222E+05 F: 2.9954 Pen:  1.2571
+ The best chi values: 1.31842
+ j:  30 T: 0.471E+00 Suc:   263 Eva:   764586 CPU:  0.232E+05 F: 2.9954 Pen:  1.2571
+ The best chi values: 1.31842
+ j:  31 T: 0.424E+00 Suc:   311 Eva:   796486 CPU:  0.242E+05 F: 2.9954 Pen:  1.2571
+ The best chi values: 1.31842
+ j:  32 T: 0.382E+00 Suc:   407 Eva:   828386 CPU:  0.252E+05 F: 2.5750 Pen:  1.2946
+ The best chi values: 1.13153
+ j:  33 T: 0.343E+00 Suc:   623 Eva:   860286 CPU:  0.261E+05 F: 1.8581 Pen:  0.5471
+ The best chi values: 1.14499
+ j:  34 T: 0.309E+00 Suc:   462 Eva:   892186 CPU:  0.271E+05 F: 1.6933 Pen:  0.5820
+ The best chi values: 1.05417
+ j:  35 T: 0.278E+00 Suc:   147 Eva:   924086 CPU:  0.281E+05 F: 1.6933 Pen:  0.5820
+ The best chi values: 1.05417
+ j:  36 T: 0.250E+00 Suc:   165 Eva:   955986 CPU:  0.290E+05 F: 1.6933 Pen:  0.5820
+ The best chi values: 1.05417
+ j:  37 T: 0.225E+00 Suc:   131 Eva:   987886 CPU:  0.299E+05 F: 1.6933 Pen:  0.5820
+ The best chi values: 1.05417
+ j:  38 T: 0.203E+00 Suc:   102 Eva:  1019786 CPU:  0.309E+05 F: 1.6933 Pen:  0.5820
+ The best chi values: 1.05417
+ j:  39 T: 0.182E+00 Suc:   120 Eva:  1051686 CPU:  0.318E+05 F: 1.6933 Pen:  0.5820
+ The best chi values: 1.05417
+ j:  40 T: 0.164E+00 Suc:    10 Eva:  1083586 CPU:  0.328E+05 F: 1.6933 Pen:  0.5820
+ The best chi values: 1.05417
+
+
+     ===== CORAL05  finished at   12-May-2012   09:51:18

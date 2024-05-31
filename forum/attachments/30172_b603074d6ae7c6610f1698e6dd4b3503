@@ -1,0 +1,54 @@
+*******  ------------------------------------------------------  *******
+*******     GAJOE - version 2.1 - (r14885)                       *******
+*******     Copyright (c) ATSAS Team                             *******
+*******     EMBL, Hamburg Outstation, 2007 - 2015                *******
+*******                                                          *******
+*******     For doubts/questions please visit SAXIER forum:      *******
+*******     http://www.saxier.org/forum/viewforum.php?f=10       *******
+*******                                                          *******
+*******     In case of bugs please refer to:                     *******
+*******     G. Tria, D.I. Svergun, EMBL BioSAXS group            *******
+*******     atsas@embl-hamburg.de                                *******
+*******  ------------------------------------------------------  *******
+
+ Experimental data file name ............................ : dimerAA9 - shanum.dat
+ -------------------------------------------
+ -- Pool(s)
+ Intensities file name .................................. : ranch_int.csv
+ SIZE_list file name .................................... : ranch_size.csv
+ ---
+ -------------------------------------------
+ -- Standard Mode
+ Maximum number of curves per ensemble (min. 1, max. 50)  : 20
+ Minimum number of curves per ensemble (min. 1) ......... : 5
+ Constant subtraction allowed? .......................... : Y
+ Curve repetition in the ensemble allowed? .............. : Y
+ Number of cycles of the genetic algorithm to run (min. 1): 100
+ -------------------------------------------
+ -- Number of theoretical curves :        10000
+ -------------------------------------------
+ Start:  Fri Sep 22 10:46:30 2023
+ End:    Fri Sep 22 11:00:34 2023
+ -------------------------------------------
+ -- Chi^2 :  2.253
+ -------------------------------------------
+ -- Rflex (random) / Rsigma: ~ 81.12% (~ 86.41%) / 1.01
+ -------------------------------------------
+ -- Constant subtracted :  0.000
+ -------------------------------------------
+ -- Files created:
+ Fit to the experimental data (in 1/angstrom) ........... : profiles_001_1.fit
+ Radius of gyration distribution (in angstrom) .......... : Rg_distr_001_1.txt
+ Max Dimensions distribution (in angstrom) .............. : Size_distr_001_1.txt
+ Ca(N)-Ca(C) distances distribution (in angstrom) ....... : CaCa_distr_001_1.txt
+ Volume distribution (in angstrom) ...................... : Volume_distr_001_1.txt
+ -------------------------------------------
+ -- PDB models in the folder "GA001/curve_1/pdb":
+  #  Filename                 Rg       Dmax     Fraction        
+
+  1) ranch02017.cif         56.50     168.30    ~0.36 ( 5/14)
+  2) ranch02352.cif         43.20     141.80    ~0.36 ( 5/14)
+  3) ranch05920.cif         34.10     109.40    ~0.21 ( 3/14)
+  4) ranch07223.cif         45.60     138.60    ~0.07 ( 1/14)
+
+ Final ensemble :           46.17     144.09

@@ -1,0 +1,5 @@
+  'Au'   1                             !! No smearing
+  'Au.fit'                                          !! Output fits
+  Au
+   100                                                 !! Number of points
+'Au.dat'    1.00       15.28       0.00     0.00      1.000    0.0    1.00    0

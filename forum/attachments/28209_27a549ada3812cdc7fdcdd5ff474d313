@@ -1,0 +1,48 @@
+import os
+
+import numpy as np
+
+def evaluate_eom_rsigma(base_folder):
+    rg_data = np.loadtxt(os.path.join(base_folder, 'Rg_distr_001_1.txt'),
+        skiprows=5, unpack=True)
+    dmax_data = np.loadtxt(os.path.join(base_folder, 'Size_distr_001_1.txt'),
+        skiprows=5, unpack=True)
+    vol_data = np.loadtxt(os.path.join(base_folder, 'Volume_distr_001_1.txt'),
+        skiprows=5, unpack=True)
+    ca_data = np.loadtxt(os.path.join(base_folder, 'CaCa_distr_001_1.txt'),
+        skiprows=5, unpack=True)
+
+
+    rg_pool = rg_data[0]*rg_data[1]
+    rg_eom = rg_data[0]*rg_data[2]
+
+    dmax_pool = dmax_data[0]*dmax_data[1]
+    dmax_eom = dmax_data[0]*dmax_data[2]
+
+    vol_pool = vol_data[0]*vol_data[1]
+    vol_eom = vol_data[0]*vol_data[2]
+
+    ca_pool = ca_data[0]*ca_data[1]
+    ca_eom = ca_data[0]*ca_data[2]
+
+
+    rg_r_sigma = rg_eom.std()/rg_pool.std()
+    dmax_r_sigma = dmax_eom.std()/dmax_pool.std()
+    vol_r_sigma = vol_eom.std()/vol_pool.std()
+    ca_r_sigma = ca_eom.std()/ca_pool.std()
+
+    r_sigma = np.mean([rg_r_sigma, dmax_r_sigma, vol_r_sigma, ca_r_sigma])
+
+    print('For results in {} folder:'.format(base_folder))
+    print('Rg R_sigma: {}'.format(round(rg_r_sigma,2)))
+    print('Dmax R_sigma: {}'.format(round(dmax_r_sigma,2)))
+    print('Volume R_sigma: {}'.format(round(vol_r_sigma,2)))
+    print('C alpha R_sigma: {}'.format(round(ca_r_sigma,2)))
+    print('Average R_sigma: {}'.format(round(r_sigma, 2)))
+
+
+base_folders = ['test/GA001/curve_1']
+
+for folder in base_folders:
+    evaluate_eom_rsigma(folder)
+    print('\n\n')

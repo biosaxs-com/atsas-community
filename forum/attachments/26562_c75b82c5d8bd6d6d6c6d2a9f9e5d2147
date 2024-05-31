@@ -1,0 +1,60 @@
+*******  ------------------------------------------------------  *******
+*******     GAJOE - version 2.0                                  *******
+*******     Copyright (c) ATSAS Team                             *******
+*******     EMBL, Hamburg Outstation, 2007 - 2014                *******
+*******                                                          *******
+*******     For doubts/questions please visit SAXIER forum:      *******
+*******     http://www.saxier.org/forum/viewforum.php?f=10       *******
+*******                                                          *******
+*******     In case of bugs please refer to:                     *******
+*******     G. Tria, D.I. Svergun, EMBL BioSAXS group            *******
+*******     atsas@embl-hamburg.de                                *******
+*******  ------------------------------------------------------  *******
+
+ Experimental data file name ............................ : cat32-1.dat
+ -------------------------------------------
+ -- Pool(s)
+ Intensities file name .................................. : junweb.int
+ RANCH log file name .................................... : ./Ranchweb.log
+ SIZE_list file name .................................... : Size_listweb.txt
+ ---
+ -------------------------------------------
+ -- Standard Mode
+ Maximum number of curves per ensemble (min. 1, max. 50)  : 20
+ Minimum number of curves per ensemble (min. 1) ......... : 5
+ Constant subtraction allowed? .......................... : Y
+ Curve repetition in the ensemble allowed? .............. : Y
+ Number of times you want the genetic algorithm repeated (min. 1): 100
+ -------------------------------------------
+ -- Number of theoretical curves :        10000
+ -------------------------------------------
+ Start:  Sun Jun  1 00:46:49 2014
+ End:    Sun Jun  1 01:31:39 2014
+ -------------------------------------------
+ -- Files created:
+ Fit to the experimental data ........................... : profiles_001_1.fit
+ Radius of gyration distribution ........................ : Rg_distr_001_1.dat
+ Max Dimensions distribution ............................ : Size_distr_001_1.dat
+ -------------------------------------------
+ -- Files in the pdb folder:
+ Filename                 Rg     Dmax     Times             
+
+ 00572web.pdb           37.36   129.44      1
+ 00714web.pdb           38.12   133.64      1
+ 01309web.pdb           32.12   108.53      1
+ 04998web.pdb           31.58   100.57      1
+ 05020web.pdb           38.01   132.87      1
+ 05494web.pdb           39.50   140.78      1
+ 06846web.pdb           34.69   123.81      1
+ 07485web.pdb           29.96   100.76      1
+ 08883web.pdb           33.35   111.83      1
+ 09175web.pdb           36.29   127.79      1
+ 09886web.pdb           34.02   120.67      1
+
+ Average values:        35.00   120.97     11
+ -------------------------------------------
+ Chi-value:     NaN
+ 
+ -------------------------------------------
+ N.B. Please check the filename associated to each model in the file RanchXXX.log
+ -------------------------------------------

@@ -1,0 +1,79 @@
+Z:\Kuba-Work\SAXS\SAXS-EMBL-120909\Kuba-processing\AUTOMERGE\PL>automerge --resu
+lts-txt results.txt p*.dat --output PL-AM.dat
+WARNING  Filename File doesn't contain '.dat' extension - may be cropped.
+Automerge may not handle it correctly if it is cropped.
+ERROR    Error parsing results.txt line 1
+Traceback (most recent call last):
+  File "parse_results_txt.pyo", line 81, in read_results_txt
+  File "parse_results_txt.pyo", line 57, in parse_row
+ValueError: ('Problem with results.txt record', [], [u'File', u'Rg', u'stdev', u
+'I(0)', u'stdev', u'Guinier', u'points', u'Quality'], u'File              Rg  st
+dev  I(0)    stdev  Guinier points   Quality\r\n')
+
+ERROR    Error parsing results.txt line 2
+Traceback (most recent call last):
+  File "parse_results_txt.pyo", line 81, in read_results_txt
+  File "parse_results_txt.pyo", line 57, in parse_row
+ValueError: ('Problem with results.txt record', [], [u'pln_081.dat', 5.009999999
+9999998, u'31%', 45.5, u'2%', u'23-', u'69', u'(', u'47)', u'54%', u'Aggregated.
+'], u'pln_081.dat       5.01  31%  45.5       2%   23- 69 ( 47)    54% Aggregate
+d. \r\n')
+
+ERROR    Error parsing results.txt line 3
+Traceback (most recent call last):
+  File "parse_results_txt.pyo", line 81, in read_results_txt
+  File "parse_results_txt.pyo", line 57, in parse_row
+ValueError: ('Problem with results.txt record', [], [u'pln_083.dat', 5.190000000
+0000004, u'8%', 44.600000000000001, u'1%', u'25-', u'66', u'(', u'42)', u'71%',
+u'Aggregated.'], u'pln_083.dat       5.19   8%  44.6       1%   25- 66 ( 42)
+71% Aggregated. \r\n')
+
+ERROR    Error parsing results.txt line 4
+Traceback (most recent call last):
+  File "parse_results_txt.pyo", line 81, in read_results_txt
+  File "parse_results_txt.pyo", line 57, in parse_row
+ValueError: ('Problem with results.txt record', [], [u'plo_086.dat', 4.980000000
+0000004, u'17%', 46.799999999999997, u'1%', u'21-', u'70', u'(', u'50)', u'68%']
+, u'plo_086.dat       4.98  17%  46.8       1%   21- 70 ( 50)    68% \r\n')
+
+ERROR    Error parsing results.txt line 5
+Traceback (most recent call last):
+  File "parse_results_txt.pyo", line 81, in read_results_txt
+  File "parse_results_txt.pyo", line 57, in parse_row
+ValueError: ('Problem with results.txt record', [], [u'plo_094.dat', 4.969999999
+9999998, u'2%', 42.5, u'0%', u'27-', u'70', u'(', u'44)', u'80%'], u'plo_094.dat
+       4.97   2%  42.5       0%   27- 70 ( 44)    80% \r\n')
+
+ERROR    Error parsing results.txt line 6
+Traceback (most recent call last):
+  File "parse_results_txt.pyo", line 81, in read_results_txt
+  File "parse_results_txt.pyo", line 57, in parse_row
+ValueError: ('Problem with results.txt record', [], [u'plo_134.dat', 5.240000000
+0000002, u'3%', 35.600000000000001, u'1%', u'27-', u'62', u'(', u'36)', u'73%',
+u'Aggregated.'], u'plo_134.dat       5.24   3%  35.6       1%   27- 62 ( 36)
+73% Aggregated. \r\n')
+
+Traceback (most recent call last):
+  File "automerge.py", line 2577, in <module>
+  File "automerge.py", line 2366, in _cli_main
+  File "automerge.py", line 2432, in _main
+  File "parse_results_txt.pyo", line 89, in read_results_txt
+ValueError: ('Parsing aborted after 6 errors were found:', [ValueError('Problem
+with results.txt record', [], [u'File', u'Rg', u'stdev', u'I(0)', u'stdev', u'Gu
+inier', u'points', u'Quality'], u'File              Rg  stdev  I(0)    stdev  Gu
+inier points   Quality\r\n'), ValueError('Problem with results.txt record', [],
+[u'pln_081.dat', 5.0099999999999998, u'31%', 45.5, u'2%', u'23-', u'69', u'(', u
+'47)', u'54%', u'Aggregated.'], u'pln_081.dat       5.01  31%  45.5       2%   2
+3- 69 ( 47)    54% Aggregated. \r\n'), ValueError('Problem with results.txt reco
+rd', [], [u'pln_083.dat', 5.1900000000000004, u'8%', 44.600000000000001, u'1%',
+u'25-', u'66', u'(', u'42)', u'71%', u'Aggregated.'], u'pln_083.dat       5.19
+ 8%  44.6       1%   25- 66 ( 42)    71% Aggregated. \r\n'), ValueError('Problem
+ with results.txt record', [], [u'plo_086.dat', 4.9800000000000004, u'17%', 46.7
+99999999999997, u'1%', u'21-', u'70', u'(', u'50)', u'68%'], u'plo_086.dat
+ 4.98  17%  46.8       1%   21- 70 ( 50)    68% \r\n'), ValueError('Problem with
+ results.txt record', [], [u'plo_094.dat', 4.9699999999999998, u'2%', 42.5, u'0%
+', u'27-', u'70', u'(', u'44)', u'80%'], u'plo_094.dat       4.97   2%  42.5
+   0%   27- 70 ( 44)    80% \r\n'), ValueError('Problem with results.txt record'
+, [], [u'plo_134.dat', 5.2400000000000002, u'3%', 35.600000000000001, u'1%', u'2
+7-', u'62', u'(', u'36)', u'73%', u'Aggregated.'], u'plo_134.dat       5.24   3%
+  35.6       1%   27- 62 ( 36)    73% Aggregated. \r\n')])

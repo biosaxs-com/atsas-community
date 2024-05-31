@@ -1,0 +1,66 @@
+  ***   Rigid body modelling of multidomain proteins     *** 
+  ***   against multiple scattering curves.              *** 
+  ***   Symmetry can be taken into account.              *** 
+  ***   Linkers are represented as interconnected dummy  *** 
+  ***   residues chains attached to the approriate       *** 
+  ***   Ca atoms in rigid domains. Models with overlaps  *** 
+  ***   and improper linkers conformations are penalized *** 
+  ***   Please reference: M.V. Petoukhov & D.I. Svergun  *** 
+  ***   Biophys. J. 89 (2005), 1237-1250.                *** 
+  ***   Version 8.1 (r3709)                              *** 
+  ***   Copyright (c) ATSAS Team                         *** 
+  ***   EMBL, Hamburg Outstation, 2002-2009              *** 
+
+   ====== BUNCH08  started on           23-Apr-2014   13:20:48
+
+ Computation mode (User or Expert) ...... <         User >: 
+ Log file name .......................... <         .log >: test.log
+ Project identificator .................................. : test3_b
+ Enter project description .............. : Test3 bunch 3 all seperate rigid bodies
+ Random sequence initialized from ....................... : 132058
+ Initial structure ...................... <         .pdb >: test3_bunch3.pdb
+  LOADAM --W- : rAtom not assigned
+ Number of atoms read ................................... : 213
+ Center of the initial structure :     0.0004  -0.0005   0.0003
+ Maximum radius ......................................... : 56.98
+Averaged formfactors of DRs used
+ DR formfactor multiplier ............................... : 1.000
+ Symmetry: P1...19 or Pn2 (n=1,..,12) ... <           P1 >: 
+ Angles penalty ......................................... : 7.051
+ Dihedrals penalty ...................................... : 0.5814
+ Angles penalty weight .................................. : 10.00
+ Dihedrals penalty weight ............................... : 1.000
+ Cross penalty .......................................... : 2.593e-2
+ Cross penalty weight ................................... : 100.0
+ Extended loops penalty ................................. : 0.0
+ Extended loops penalty weight .......................... : 1.000
+ Distances penalty ...................................... : 0.5135
+ Distances penalty weight ............................... : 10.00
+ Shift penalty .......................................... : 3.923e-5
+ Shift penalty weight ................................... : 1.000
+ File name, contacts conditions, CR for none <         .cnd >: 
+ Input total number of scattering curves  <            1 >: 
+ Input first & last residues in 1-st 
+ construct ................. <            1,         213 >: 
+ Enter file name, 1-st experimental data  <         .dat >: test3_primus2_trunc780.dat
+ Number of experimental points found .................... : 780
+ Angular units in the input file :   
+ 4*pi*sin(theta)/lambda [1/angstrom] (1)
+ 4*pi*sin(theta)/lambda [1/nm      ] (2)
+ 2*   sin(theta)/lambda [1/angstrom] (3)
+ 2*   sin(theta)/lambda [1/nm      ] (4)  <            1 >: 
+ Fitting range in fractions of Smax ..... <        1.000 >: 
+ ESTRG -W- : Nrg =   0 estimated,   5  taken
+
+Program received signal SIGSEGV: Segmentation fault - invalid memory reference.
+
+Backtrace for this error:
+#0  0x480C9D in _gfortran_random_seed_i8
+#1  0x46DE66 in __libc_csu_init
+#2  0x2AF072C7041F
+#3  0x42B19F in r2c_expres_
+#4  0x42C8B4 in r02r2c1_
+#5  0x450117 in i05wrc_
+#6  0x439D49 in outdnum_
+#7  0x40EA3D in probcadist1_
+Segmentation fault

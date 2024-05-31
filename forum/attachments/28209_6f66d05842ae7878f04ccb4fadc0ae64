@@ -1,0 +1,41 @@
+This line intentionally left blank
+PRINTER C [      postscr     ]  Printer type
+FORFAC  C [                  ]  Form factor file (valid for JOB=2)
+EXPERT  C [     none         ]  File containing expert parameters
+INPUT1  C [        t_dat.dat        ]  Input file name (first file)
+INPUT2  C [       none       ]  Input file name (second file)
+NSKIP1  I [       0         ]  Number of initial points to skip
+NSKIP2  I [        0         ]  Number of final points to skip
+OUTPUT  C [       t_out.out         ]  Output file
+ISCALE  I [        1         ]  Angular scale of input data
+PLOINP  C [       n          ]  Plotting flag: input data (Y/N)
+PLORES  C [       n          ]  Plotting flag: results    (Y/N)
+EVAERR  C [       y          ]  Error flags: calculate errors   (Y/N)
+PLOERR  C [       n          ]  Plotting flag: p(r) with errors (Y/N)
+PLOALPH C [       n          ]  Plotting flag: alpha distribution (Y/N)
+LKERN   C [       n          ]  Kernel file status (Y/N)
+JOBTYP  I [       0          ]  Type of system (0/1/2/3/4/5/6)
+RMIN    R [                 ]  Rmin for evaluating p(r)
+RMAX    R [        40        ]  Rmax for evaluating p(r)
+LZRMIN  C [      Y          ]  Zero condition at r=RMIN (Y/N)
+LZRMAX  C [      Y          ]  Zero condition at r=RMAX (Y/N)
+KERNEL  C [       kern.bin   ]  Kernel-storage file
+DEVIAT  R [      0.0         ]  Default input errors level
+IDET    I [       0          ]  Experimental set up (0/1/2)
+FWHM1   R [       0.0        ]  FWHM for 1st run
+FWHM2   R [                  ]  FWHM for 2nd run
+AH1     R [                  ]  Slit-height parameter AH (first  run)
+LH1     R [                  ]  Slit-height parameter LH (first  run)
+AW1     R [                  ]  Slit-width  parameter AW (first  run)
+LW1     R [                  ]  Slit-width  parameter LW (first  run)
+AH2     R [                  ]  Slit-height parameter AH (second run)
+LH2     R [                  ]  Slit-height parameter LH (second run)
+AW2     R [                  ]  Slit-width  parameter AW (second run)
+LW2     R [                  ]  Slit-width  parameter LW (second run)
+SPOT1   C [                  ]  Beam profile file (first run)
+SPOT2   C [                  ]  Beam profile file (second run)
+ALPHA   R [      0.0         ]  Initial ALPHA
+NREAL   R [       101        ]  Number of points in real space
+COEF    R [                  ]
+RAD56   R [                  ]  Radius/thickness (valid for JOB=5,6)
+NEXTJOB C [        n         ]

@@ -1,0 +1,75 @@
+***  ------------------------------------------------  ***
+***    GAJOE - version 2.0                             ***
+***    Copyright (c) ATSAS Team                        ***
+***    EMBL, Hamburg Outstation, 2007 - 2013           ***
+***                                                    ***
+***    For doubts/questions please visit SAXIER forum: ***
+***    http://www.saxier.org/forum/viewforum.php?f=10  ***
+***                                                    ***
+***    In case of bugs please refer to:                ***
+***    G. Tria, D.I. Svergun, EMBL BioSAXS group       ***
+***    atsas@embl-hamburg.de                           ***
+***  ------------------------------------------------  ***
+
+ Input the experimental data file name .................. : cat32-1.dat
+ -------------------------------------------
+ -- Pool(s)
+ Input the name of the intensities file ................. : juneom_cat32-1.int
+ Input the name of the RANCH logfile .................... : ./Rancheom_cat32-1.log
+ Input the name of the SIZE_list file ................... : Size_listeom_cat32-1.txt
+ ---
+ -------------------------------------------
+ -- Standard Mode
+ Enter minimum number of curves per ensemble (min. 1, max. 20): 1
+ Constant subtraction allowed? .......................... : Y
+ Enter number of times you want the process repeated (min. 1): 100
+ -------------------------------------------
+ -- Number of theoretical curves :        10000
+ -------------------------------------------
+ Start:  Fri May 30 21:25:54 2014
+ End:    Fri May 30 23:13:28 2014
+ -------------------------------------------
+ -- Files created:
+ Fit to the experimental data ........................... : profiles_001_1.fit
+ Radius of gyration distribution ........................ : Rg_distr_001_1.dat
+ Max Dimensions distribution ............................ : Size_distr_001_1.dat
+ -------------------------------------------
+ -- Files in the pdb folder:
+ Filename                 Rg     Dmax     Times             
+
+ 00255eom_cat32-1.pdb   37.71   129.08      1
+ 00360eom_cat32-1.pdb   31.94   103.76      1
+ 00669eom_cat32-1.pdb   41.04   139.26      1
+ 00769eom_cat32-1.pdb   34.68   119.86      1
+ 01846eom_cat32-1.pdb   36.28   126.98      1
+ 02112eom_cat32-1.pdb   36.93   130.30      1
+ 02657eom_cat32-1.pdb   31.13    98.07      1
+ 02773eom_cat32-1.pdb   34.25   117.45      1
+ 02945eom_cat32-1.pdb   33.17   114.57      1
+ 03267eom_cat32-1.pdb   37.17   134.01      1
+ 03466eom_cat32-1.pdb   32.29   113.03      1
+ 03566eom_cat32-1.pdb   31.93   103.11      1
+ 03670eom_cat32-1.pdb   40.76   135.91      1
+ 03881eom_cat32-1.pdb   39.11   134.30      1
+ 04067eom_cat32-1.pdb   33.78   114.31      1
+ 04842eom_cat32-1.pdb   37.83   129.36      1
+ 05063eom_cat32-1.pdb   36.04   125.41      1
+ 06057eom_cat32-1.pdb   31.80   114.03      1
+ 06454eom_cat32-1.pdb   37.36   131.35      1
+ 07051eom_cat32-1.pdb   34.13   117.95      1
+ 07427eom_cat32-1.pdb   39.37   132.83      1
+ 07487eom_cat32-1.pdb   34.94   113.29      1
+ 08230eom_cat32-1.pdb   39.29   132.37      1
+ 08469eom_cat32-1.pdb   32.87   105.02      1
+ 08657eom_cat32-1.pdb   30.88   105.86      1
+ 08764eom_cat32-1.pdb   35.44   124.44      1
+ 09007eom_cat32-1.pdb   39.93   132.89      1
+ 09139eom_cat32-1.pdb   38.53   129.65      1
+ 09150eom_cat32-1.pdb   33.67   113.38      1
+ 09335eom_cat32-1.pdb   35.18   121.33      1
+ 09543eom_cat32-1.pdb   36.44   126.85      2
+ 09816eom_cat32-1.pdb   36.84   124.79      1
+
+ Average values:        35.73   121.87     33
+ -------------------------------------------
+ Chi-value:     NaN

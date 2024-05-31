@@ -1,0 +1,58 @@
+   C R Y S O L    Version 2.8.3 -- 12/08/15
+ 
+ 
+ -- Program  started  at   21-Feb-2018   16:06:44--
+ 
+ --------  Real space resolution and grid  -------- 
+ 
+  Maximum order of harmonics ............................ : 15
+  Order of Fibonacci grid ............................... : 17
+  Total number of directions ............................ : 2585
+ 
+ ------------  Reciprocal space grid  -------------
+ 
+   in s = 4*pi*sin(theta)/lambda [1/angstrom] 
+  Maximum scattering angle .............................. : 0.5000
+  Number of angular points .............................. : 51
+Explicit hydrogen/deuterium used
+ 
+ --- Structural parameters (sizes in angstroms) --- 
+ 
+ PDB file name .......................................... : 2vb1.pdb
+  Number of atoms read .................................. : 2030
+  Number of skipped rotamers ............................ : 700
+  Number of discarded waters ............................ : 170
+ Geometric Center:   -1.759   14.680   24.191
+  Number of carbons read ................................ : 621
+  Number of nitrogens read .............................. : 202
+  Number of oxygens read ................................ : 220
+  Number of sulfur atoms read ........................... : 10
+  Number of hydrogen atoms read ......................... : 977
+ Center of the excess electron density:  0.231 -0.187  0.735
+ Electron   Rg   :  13.99       Envelope   Rg      :  14.24    
+ Shape      Rg   :  13.98       Envelope  volume   : 0.1980E+05
+ Shell    volume : 0.1215E+05   Envelope  surface  :  3404.    
+ Shell      Rg   :  19.23       Envelope  radius   :  27.35    
+ Shell    width  :  3.000       Envelope  diameter :  50.67    
+ Molecular Weight: 0.1511E+05   Dry volume         : 0.1832E+05
+ Displaced volume: 0.1794E+05   Average atomic rad.:  1.283    
+ Number of residuals :     129
+ 
+ -- No data fitting, parameters entered manually --
+ 
+ Solvent density ........................................ : 0.3340
+ Contrast of the solvation shell ........................ : 3.000e-2
+ Average atomic radius .................................. : 1.283
+ Excluded Volume ........................................ : 1.794e+4
+ Average atomic volume .................................. : 8.837
+ Radius of gyration from atomic structure ............... : 14.99
+ Average electron density ............................... : 0.4479
+  
+ ----------------  Output files  ------------------
+  
+ Coefficients   saved to file 2vb100.flm
+ CRYSOL data    saved to file 2vb100.sav
+ Intensities    saved to file 2vb100.int
+ Net amplitudes saved to file 2vb100.alm
+ 
+   C R Y S O L    Version 2.8.3 -- 12/08/15 ----  terminated at   21-Feb-2018   16:07:24--

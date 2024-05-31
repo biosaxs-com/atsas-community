@@ -1,0 +1,12 @@
+E	!!Expert mode
+cylinder1	!!Project name
+A23M1_gnom400	!!Input data file
+1	!!Units
+1.0	!!portion of the curve to fit
+C	!!Search volume
+P1	!!No symmetry
+118.0	!!Outer radius of cylinder
+0.0	!!Inner radius of cylinder
+400	!! Height of cylinder
+U	!!Expected anysometry
+

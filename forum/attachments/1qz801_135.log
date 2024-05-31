@@ -1,0 +1,52 @@
+   C R Y S O L    Version 2.6  -- 26/01/05 
+ 
+ 
+ -- Program  started  at   20-Feb-2009   09:49:03--
+ 
+ --------  Real space resolution and grid  -------- 
+ 
+  Maximum order of harmonics ............................ : 15
+  Order of Fibonacci grid ............................... : 17
+  Total number of directions ............................ : 2585
+ 
+ ------------  Reciprocal space grid  -------------
+ 
+   in s = 4*pi*sin(theta)/lambda [1/angstrom] 
+  Maximum scattering angle .............................. : 1.000
+  Number of angular points .............................. : 200
+ 
+ --- Structural parameters (sizes in angstroms) --- 
+ 
+ PDB file name .......................................... : 1QZ8.pdb
+  Number of atoms read .................................. : 1699
+ Geometric Center:   -2.550   64.738   84.959
+ Center of the excess electron density:  0.146 -0.160 -0.176
+ Electron   Rg   :  19.79       Envelope   Rg      :  19.76    
+ Shape      Rg   :  19.79       Envelope  volume   : 0.3597E+05
+ Shell    volume : 0.1633E+05   Envelope  surface  :  4719.    
+ Shell      Rg   :  25.03       Envelope  radius   :  35.19    
+ Shell    width  :  3.000       Envelope  diameter :  69.99    
+ Molecular Weight: 0.2419E+05   Dry volume         : 0.2932E+05
+ Displaced volume: 0.3031E+05   Average atomic rad.:  1.621    
+ Number of residuals :     221
+ 
+ -- No data fitting, parameters entered manually --
+ 
+ Solvent density ........................................ : 0.3340
+ Contrast of the solvation shell ........................ : 3.000e-2
+ Average atomic radius .................................. : 1.621
+ Excluded Volume ........................................ : 3.031e+4
+ Average atomic volume .................................. : 17.84
+ Radius of gyration from atomic structure
+ Rg ( Atoms - Excluded volume + Shell ) ................. : 20.73
+ Rg from the slope of net intensity ..................... : 21.29
+ Average electron density ............................... : 0.4267
+  
+ ----------------  Output files  ------------------
+  
+ Coefficients   saved to file 1QZ801.flm
+ CRYSOL data    saved to file 1QZ801.sav
+ Intensities    saved to file 1QZ801.int
+ Net amplitudes saved to file 1QZ801.alm
+ 
+   C R Y S O L    Version 2.6  -- 26/01/05  ----  terminated at   20-Feb-2009   09:49:49--

@@ -1,0 +1,66 @@
+  C R Y S O L    Version 2.8.3  -- 04/10/12
+ 
+ 
+ -- Program  started  at   17-Nov-2016   15:25:04--
+ 
+ --------  Real space resolution and grid  -------- 
+ 
+  Maximum order of harmonics ............................ : 15
+  Order of Fibonacci grid ............................... : 17
+  Total number of directions ............................ : 2585
+ 
+ ------------  Reciprocal space grid  -------------
+ 
+   in s = 4*pi*sin(theta)/lambda [1/angstrom] 
+  Maximum scattering angle .............................. : 0.5000
+  Number of angular points .............................. : 51
+ 
+ --- Structural parameters (sizes in angstroms) --- 
+ 
+ PDB file name .......................................... : dimer_model.pdb
+  Number of atoms read .................................. : 1112
+ Geometric Center:   25.110   -0.249  -12.356
+  Number of carbons read ................................ : 686
+  Number of nitrogens read .............................. : 206
+  Number of oxygens read ................................ : 220
+ Center of the excess electron density: -0.000  0.285 -0.000
+ Electron   Rg   :  16.47       Envelope   Rg      :  16.14    
+ Shape      Rg   :  16.48       Envelope  volume   : 0.2169E+05
+ Shell    volume : 0.1227E+05   Envelope  surface  :  3454.    
+ Shell      Rg   :  20.84       Envelope  radius   :  28.54    
+ Shell    width  :  3.000       Envelope  diameter :  56.00    
+ Molecular Weight: 0.1580E+05   Dry volume         : 0.1915E+05
+ Displaced volume: 0.1971E+05   Average atomic rad.:  1.618    
+ Number of residuals :     156
+ 
+ ------  Experimental Curve and fitting ----------- 
+ 
+ Data file name ......................................... : dimer_edited.dat
+  Maximum angle in the data file ........................ : 0.6139
+  Number of experimental points ......................... : 1072
+  Angular units multiplied by ........................... : 1.000
+  Number of experimental points used .................... : 870
+  Number of points after regriding ...................... : 201
+ Electron density of the solvent, e/A**3 ................ : 0.3340
+  Number of experimental points used .................... : 200
+ 
+ -------  Search limits ---------------   ---  Fitting parameters -------
+  DroMin/Max   Ra(Mn/Mx)  ExVol(Min/max) Semax| Dro   Ra     Vol    Chi^2 Hydra
+ 0.000 0.075   1.40 1.80  18235.  21192. 0.498|0.075 1.400  21192.******* 0.572
+  
+ --------  Radii of gyration  [angstroms] ----------
+  
+ Radius of Gyration from atomic structure
+ Rg ( Atoms - Excluded volume + Shell ) ................. : 18.42
+ Rg from the slope of net intensity ..................... : 19.29
+ Average electron density ............................... : 0.3994
+  
+ ----------------  Output files  ------------------
+  
+ Coefficients   saved to file dimer_model00.flm
+ CRYSOL data    saved to file dimer_model00.sav
+ Data fit       saved to file dimer_model00.fit
+ Intensities    saved to file dimer_model00.int
+ Net amplitudes saved to file dimer_model00.alm
+ 
+  C R Y S O L    Version 2.8.3  -- 04/10/12 ----  terminated at   17-Nov-2016   15:26:15--
