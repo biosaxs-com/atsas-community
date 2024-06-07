@@ -43,7 +43,7 @@ a rejection notice is sent to this address.
 > licenses. 
 
 ### Commercial Licenses
-Users not affiliated with a research or educational institute, please contact <atsas@biosaxs.com>
+Users not affiliated with a research or educational institute, please contact <info@biosaxs.com>
 to request an offer for a commercial license rom BIOSAXS GmbH.
 
 
