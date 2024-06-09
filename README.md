@@ -26,7 +26,7 @@ Discuss with other users and developers. Report issues and share Tips&Tricks in 
 ### Installer Packages
 Installer packages for the latest release can be found at [BIOSAXS GmbH](https://www.biosaxs.com/download),
 as well as here at ATSAS-Community, in the [Releases](https://github.com/biosaxs-com/atsas-community/releases)
-section.
+section. Installation documentation may be found [here](https://biosaxs-com.github.io/atsas/4.0.0/install/).
 
 > [!IMPORTANT]
 > As of ATSAS-4.0, every installation of ATSAS requires a personalised license file!
