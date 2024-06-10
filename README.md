@@ -21,7 +21,9 @@ Discuss with other users and developers. Report issues and share Tips&Tricks in 
 
 ## Releases
 ### ATSAS-4.0.0
-...
+ATSAS-4.0.0 has been released on June 10th, 2024. See the
+[What's New in 4.0.0](https://biosaxs-com.github.io/atsas/4.0.0/) for an overview of new features and
+general updates.
 
 ### Installer Packages
 Installer packages for the latest release can be found at [BIOSAXS GmbH](https://www.biosaxs.com/download),
