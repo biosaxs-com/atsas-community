@@ -34,7 +34,7 @@ section. Installation documentation may be found [here](https://biosaxs-com.gith
 > As of ATSAS-4.0, every installation of ATSAS requires a personalised license file!
 
 ### Academic Licenses
-Users of ATSAS that are affiliated with a research or educational institute can request an academic
+Users of ATSAS that are affiliated with a research or educational institute can request a free academic
 license over at [BIOSAXS GmbH](https://www.biosaxs.com/download). All that is needed is a working
 email address at a research or educational institute. If eligible, the license file is sent within
 ten minutes after the request was submitted to the email address provided. If not considered eligible,
