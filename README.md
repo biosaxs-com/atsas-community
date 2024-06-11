@@ -36,13 +36,13 @@ section. Installation documentation may be found [here](https://biosaxs-com.gith
 ### Academic Licenses
 Users of ATSAS that are affiliated with a research or educational institute can request a free academic
 license over at [BIOSAXS GmbH](https://www.biosaxs.com/download). All that is needed is a working
-email address at a research or educational institute. If eligible, the license file is sent within
-ten minutes after the request was submitted to the email address provided. If not considered eligible,
-a rejection notice is sent to this address.
+email address at a research or educational institute. If eligible, the license file is sent to the
+email address provided within ten minutes after the request was submitted. If the mail is not considered
+eligible, a notice is sent to this address.
 
 > [!NOTE]
-> Alumni addresses provided by some academic institutions are not considered eligible for academic
-> licenses. 
+> Alumni emails provided by some academic institutions may not be eligible for academic licenses.
+> Alumni are asked to contact info@biosaxs.com to clarify the status.
 
 ### Commercial Licenses
 Users not affiliated with a research or educational institute, please contact <info@biosaxs.com>
