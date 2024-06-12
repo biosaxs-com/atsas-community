@@ -46,7 +46,7 @@ eligible, a notice is sent to this address.
 
 ### Commercial Licenses
 Users not affiliated with a research or educational institute, please contact <info@biosaxs.com>
-to request an offer for a commercial license rom BIOSAXS GmbH.
+to request an offer for a commercial license from BIOSAXS GmbH.
 
 
 ## Manuals
