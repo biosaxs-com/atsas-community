@@ -13,14 +13,19 @@ Discuss with other users and developers. Report issues and share Tips&Tricks in 
  - [Wiki](#wiki)
 
 ## News
+ - May 2025: Release of ATSAS-4.1.0
+ - May 2025: Publication: [New features in ATSAS-4, a program suite for small-angle scattering data analysis](https://doi.org/10.1107/S1600576725002481)
  - November 2024: An overview of ATSAS-4.0 will be presented at SAS2024
 [![SAS 2024](https://www.sas2024.tw/site/userdata/1535.png)](https://www.sas2024.tw)
-
  - September 2024: Release of ATSAS-4.0.1
  - June 2024: Release of ATSAS-4.0.0
 
 
 ## Releases
+### ATSAS-4.1.0
+ATSAS-4.1.0 has been released on May 5th, 2025. See the
+[What's New in 4.1.0](https://biosaxs-com.github.io/atsas/4.1.0/) for an overview of changes.
+
 ### ATSAS-4.0.1
 ATSAS-4.0.1 has been released on September 20th, 2024. See the
 [What's New in 4.0.1](https://biosaxs-com.github.io/atsas/4.0.1/) for an overview of changes.
