@@ -13,6 +13,7 @@ Discuss with other users and developers. Report issues and share Tips&Tricks in 
  - [Wiki](#wiki)
 
 ## News
+ - June 2025: Release of ATSAS-4.1.1
  - May 2025: Release of ATSAS-4.1.0
  - May 2025: Publication: [New features in ATSAS-4, a program suite for small-angle scattering data analysis](https://doi.org/10.1107/S1600576725002481)
  - November 2024: An overview of ATSAS-4.0 will be presented at SAS2024
@@ -22,6 +23,10 @@ Discuss with other users and developers. Report issues and share Tips&Tricks in 
 
 
 ## Releases
+### ATSAS-4.1.1
+ATSAS-4.1.0 has been released on June 27th, 2025. See the
+[What's New in 4.1.1](https://biosaxs-com.github.io/atsas/4.1.1/) for an overview of changes.
+
 ### ATSAS-4.1.0
 ATSAS-4.1.0 has been released on May 5th, 2025. See the
 [What's New in 4.1.0](https://biosaxs-com.github.io/atsas/4.1.0/) for an overview of changes.
@@ -38,7 +43,7 @@ general updates.
 ### Installer Packages
 Installer packages for the latest release can be found at [BIOSAXS GmbH](https://www.biosaxs.com/download),
 as well as here at ATSAS-Community, in the [Releases](https://github.com/biosaxs-com/atsas-community/releases)
-section. Installation documentation may be found [here](https://biosaxs-com.github.io/atsas/4.0.0/install/).
+section. Installation documentation may be found [here](https://biosaxs-com.github.io/atsas/4.1.1/install/).
 
 > [!IMPORTANT]
 > As of ATSAS-4.0, every installation of ATSAS requires a personalised license file!
@@ -60,7 +65,7 @@ to request an offer for a commercial license from BIOSAXS GmbH.
 
 
 ## Manuals
-Extensively revised and updated manuals are now available [at a new location](https://biosaxs-com.github.io/atsas/4.0.0/manuals/).
+Extensively revised and updated manuals are now available [at a new location](https://biosaxs-com.github.io/atsas/4.1.1/manuals/).
 
 That said, not all manuals could be finished in time for the 4.0 release. However, they will be
 added as soon as possible and further updated over time.
