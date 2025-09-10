@@ -43,7 +43,7 @@ general updates.
 ### Installer Packages
 Installer packages for the latest release can be found at [BIOSAXS GmbH](https://www.biosaxs.com/download),
 as well as here at ATSAS-Community, in the [Releases](https://github.com/biosaxs-com/atsas-community/releases)
-section. Installation documentation may be found [here](https://biosaxs-com.github.io/atsas/4.1.1/install/).
+section. Installation documentation may be found [here](https://biosaxs-com.github.io/atsas/latest/install/).
 
 > [!IMPORTANT]
 > As of ATSAS-4.0, every installation of ATSAS requires a personalised license file!
@@ -65,7 +65,7 @@ to request an offer for a commercial license from BIOSAXS GmbH.
 
 
 ## Manuals
-Extensively revised and updated manuals are now available [at a new location](https://biosaxs-com.github.io/atsas/4.1.1/manuals/).
+Extensively revised and updated manuals are now available [at a new location](https://biosaxs-com.github.io/atsas/latest/manuals/).
 
 That said, not all manuals could be finished in time for the 4.0 release. However, they will be
 added as soon as possible and further updated over time.
@@ -107,3 +107,4 @@ ATSAS-Community also provides a user-editable [Wiki](https://github.com/biosaxs-
 Feel free to create pages for any of the ATSAS applications and provide whichever information you
 consider important to share. For example: Tips&Tricks, relevant publications, use cases, but also
 limitations of certain applications.
+
