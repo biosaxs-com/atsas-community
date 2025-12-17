@@ -13,6 +13,7 @@ Discuss with other users and developers. Report issues and share Tips&Tricks in 
  - [Wiki](#wiki)
 
 ## News
+ - December 2025: Release of ATSAS-4.1.3
  - September 2025: Release of ATSAS-4.1.2
  - June 2025: Release of ATSAS-4.1.1
  - May 2025: Release of ATSAS-4.1.0
@@ -24,9 +25,14 @@ Discuss with other users and developers. Report issues and share Tips&Tricks in 
 
 
 ## Releases
+### ATSAS-4.1.3
+ATSAS-4.1.3 has been released on December 17th, 2025. See the
+[What's New in 4.1.3](https://biosaxs-com.github.io/atsas/4.1.3/) for an overview of changes.
+
 ### ATSAS-4.1.2
 ATSAS-4.1.2 has been released on September 26th, 2025. See the
 [What's New in 4.1.2](https://biosaxs-com.github.io/atsas/4.1.2/) for an overview of changes.
+
 
 ### ATSAS-4.1.1
 ATSAS-4.1.1 has been released on June 27th, 2025. See the
@@ -112,6 +118,7 @@ ATSAS-Community also provides a user-editable [Wiki](https://github.com/biosaxs-
 Feel free to create pages for any of the ATSAS applications and provide whichever information you
 consider important to share. For example: Tips&Tricks, relevant publications, use cases, but also
 limitations of certain applications.
+
 
 
 
