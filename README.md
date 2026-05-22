@@ -13,6 +13,7 @@ Discuss with other users and developers. Report issues and share Tips&Tricks in 
  - [Wiki](#wiki)
 
 ## News
+ - May 2026: Release of ATSAS-4.1.4
  - December 2025: Release of ATSAS-4.1.3
  - September 2025: Release of ATSAS-4.1.2
  - June 2025: Release of ATSAS-4.1.1
@@ -25,6 +26,13 @@ Discuss with other users and developers. Report issues and share Tips&Tricks in 
 
 
 ## Releases
+### ATSAS-4.1.4
+ATSAS-4.1.4 has been released on May 22nd, 2026. See the
+[What's New in 4.1.4](https://biosaxs-com.github.io/atsas/4.1.4/) for an overview of changes.
+
+> [!IMPORTANT]
+> With the release of ATSAS-4.1.4, we will discontinue support for Intel-based Mac systems. This version will be the last one providing packages for these devices. Future releases will target Apple Silicon devices only. There are no changes for Windows or Linux users.
+
 ### ATSAS-4.1.3
 ATSAS-4.1.3 has been released on December 17th, 2025. See the
 [What's New in 4.1.3](https://biosaxs-com.github.io/atsas/4.1.3/) for an overview of changes.
@@ -32,7 +40,6 @@ ATSAS-4.1.3 has been released on December 17th, 2025. See the
 ### ATSAS-4.1.2
 ATSAS-4.1.2 has been released on September 26th, 2025. See the
 [What's New in 4.1.2](https://biosaxs-com.github.io/atsas/4.1.2/) for an overview of changes.
-
 
 ### ATSAS-4.1.1
 ATSAS-4.1.1 has been released on June 27th, 2025. See the
